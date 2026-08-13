@@ -220,7 +220,7 @@ export const posts: Post[] = [
   },
   date: '13. August 2026',
   readTime: '7 Min.',
-  image: 'https://images.pexels.com/photos/5739154/pexels-photo-5739154.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  image: 'https://images.pexels.com/photos/37980449/pexels-photo-37980449.jpeg',
   imageAlt: 'Spieler hält sich nach einem Padel-Match den schmerzenden Ellenbogen',
   keyTakeaways: [
     'Der Ellenbogen ist laut einer systematischen Review aus dem Jahr 2023 die mit Abstand häufigste Verletzungsstelle im Padel',
