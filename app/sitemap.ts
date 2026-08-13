@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { rackets } from '@/data/rackets';
 import { posts } from '@/data/posts';
+import { bestlists } from '@/data/bestlists';
 
 const BASE_URL = 'https://padel-pilot.de';
 
@@ -19,6 +20,12 @@ const racketRoutes: MetadataRoute.Sitemap = rackets.map((racket) => ({
   priority: 0.7,
 }));
 
+const bestlistRoutes: MetadataRoute.Sitemap = bestlists.map((bestlist) => ({
+  url: `${BASE_URL}/bestenliste/${bestlist.slug}`,
+  changeFrequency: 'monthly',
+  priority: 0.8,
+}));
+
 const postRoutes: MetadataRoute.Sitemap = posts.map((post) => ({
   url: `${BASE_URL}/ratgeber/${post.slug}`,
   changeFrequency: 'monthly',
@@ -26,5 +33,5 @@ const postRoutes: MetadataRoute.Sitemap = posts.map((post) => ({
 }));
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [...staticRoutes, ...racketRoutes, ...postRoutes];
+  return [...staticRoutes, ...bestlistRoutes, ...racketRoutes, ...postRoutes];
 }

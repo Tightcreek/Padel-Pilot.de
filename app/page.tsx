@@ -280,7 +280,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-background">
         <div className="mx-auto max-w-7xl container-px py-12">
-          <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
+          <div className="grid grid-cols-2 gap-8 md:grid-cols-5">
             <div className="col-span-2 md:col-span-1">
               <div className="flex items-center gap-2.5">
                 <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-neon text-neon-foreground">
@@ -303,6 +303,17 @@ export default function Home() {
                 <li><Link href="#tests" className="text-muted-foreground hover:text-foreground">Bestenliste</Link></li>
                 <li><Link href="#tests" className="text-muted-foreground hover:text-foreground">Neu-Tests</Link></li>
                 <li><Link href="#tests" className="text-muted-foreground hover:text-foreground">Marken-Vergleich</Link></li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                Beliebte Bestenlisten
+              </h3>
+              <ul className="mt-3 space-y-2 text-sm">
+                <li><Link href="/bestenliste/beste-padelschlaeger-anfaenger" className="text-muted-foreground hover:text-foreground">Für Anfänger</Link></li>
+                <li><Link href="/bestenliste/beste-padelschlaeger-unter-200-euro" className="text-muted-foreground hover:text-foreground">Unter 200 €</Link></li>
+                <li><Link href="/bestenliste/beste-padelschlaeger-kontrolle" className="text-muted-foreground hover:text-foreground">Kontrolle &amp; Präzision</Link></li>
               </ul>
             </div>
 
