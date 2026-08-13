@@ -97,7 +97,7 @@ export const posts: Post[] = [
     },
     date: '3. August 2026',
     readTime: '5 Min.',
-    image: 'https://images.pexels.com/photos/5739154/pexels-photo-5739154.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    image: 'https://images.pexels.com/photos/33226055/pexels-photo-33226055.jpeg',
     imageAlt: 'Spezielle Sportschuhe und Schläger auf dem Court',
     keyTakeaways: [
       'Normale Laufschuhe sind auf dem Court tabu, da ihnen die nötige Seitenstabilität fehlt',
