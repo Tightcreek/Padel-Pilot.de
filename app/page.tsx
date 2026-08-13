@@ -71,9 +71,9 @@ export default function Home() {
                 </h1>
 
                 <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground animate-fade-up [animation-delay:80ms]">
-                  Vom ersten Schläger-Kauf bis zum ersten Match: Wir haben 47 Modelle
+                  Vom ersten Schläger-Kauf bis zum ersten Match: Wir haben die beliebtesten Modelle
                   über 180 Stunden auf dem Court getestet. Hier ist alles, was du
-                  wissen musst — ohne Marketing-Blabla.
+                  wissen musst. Ohne Marketing-Blabla.
                 </p>
 
                 <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center animate-fade-up [animation-delay:160ms]">
