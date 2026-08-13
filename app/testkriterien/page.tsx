@@ -3,7 +3,7 @@ import Link from 'next/link';
 import {
   ArrowRight,
   ClipboardCheck,
-  Heart,
+  CheckCircle2,
   ShieldCheck,
   Target,
   Hand,
@@ -13,14 +13,14 @@ import {
 import { Header } from '@/components/header';
 
 export const metadata: Metadata = {
-  title: 'So testen wir — Testkriterien & Methodik | Padel-Pilot.de',
+  title: 'Wie wir testen: Transparente Kriterien & Methodik | Padel-Pilot.de',
   description:
-    'Transparenz statt Datenblatt: Wie wir Padel-Schläger in der Praxis testen, unser 10-Punkte-System funktioniert und warum Affiliate-Links unsere Testnote nicht beeinflussen.',
+    'Echte Praxistests auf dem Court statt Datenblätter: So bewerten wir Padel-Schläger nach unserem 10-Punkte-System für Power, Kontrolle und Handling.',
   alternates: { canonical: '/testkriterien' },
   openGraph: {
-    title: 'So testen wir — Transparenz, echte Courts, ehrliche Meinungen | Padel-Pilot.de',
+    title: 'Wie wir testen: Transparenz, echte Courts und ehrliche Urteile | Padel-Pilot.de',
     description:
-      'Praxis-Test, 10-Punkte-System, vollständige Unabhängigkeit: So entstehen unsere Padel-Schläger-Tests.',
+      'Echte Praxistests, klares 10-Punkte-System und vollständige Unabhängigkeit. So entstehen unsere Padel-Schläger-Testberichte.',
     type: 'article',
     locale: 'de_DE',
   },
@@ -29,35 +29,35 @@ export const metadata: Metadata = {
 const pillars = [
   {
     icon: Hand,
-    title: 'Praxis-Test',
+    title: 'Echte Praxistests',
     description:
-      'Wir stehen selbst auf dem Court. Kein Schläger wird nur nach Datenblatt beurteilt — jeder Test umfasst reale Spielstunden in unterschiedlichen Niveaustufen, Schlag- und Spielsituationen.',
+      'Wir stehen jede Woche selbst auf dem Court. Kein Schläger wird allein nach den Angaben des Herstellers beurteilt. Jeder Testbericht basiert auf mehreren Spielstunden in echten Match- und Trainingssituationen.',
     points: [
-      'Mehrere Test-Sessions pro Schläger',
-      'Einsatz im Match und Training',
-      'Feedback von Spielern unterschiedlicher Niveaustufen',
+      'Mindestens 4 bis 6 Spielstunden pro Testmodell',
+      'Einsatz bei Ballwechseln am Netz, an der Glaswand und beim Aufschlag',
+      'Vergleichende Bewertung durch Spieler unterschiedlicher Spielstärken',
     ],
   },
   {
     icon: Target,
     title: 'Das 10-Punkte-System',
     description:
-      'Jeder Schläger wird in drei Kernkategorien bewertet, die zu einer gewichteten Gesamtnote führen. So bleibt der Vergleich objektiv und nachvollziehbar.',
+      'Damit unsere Urteile transparent und vergleichbar bleiben, bewerten wir jedes Racket in drei zentralen Hauptkategorien. Aus der Gewichtung dieser Noten berechnet sich die finale Gesamtnote.',
     points: [
-      'Power: Smash-Kraft, Ballbeschleunigung, Druckspiel',
-      'Kontrolle: Präzision, Ballgefühl, Platzierung',
-      'Handling: Manövrierbarkeit, Komfort, Vibrationsdämpfung',
+      'Power: Schlagkraft bei Smashes, Beschleunigung und Durchsetzungsfähigkeit',
+      'Kontrolle: Präzision bei Lobs, Chiquitas und Ballgefühl am Glaselement',
+      'Handling: Wendigkeit am Netz, Gewichtsverteilung und Vibrationsdämpfung',
     ],
   },
   {
     icon: ShieldCheck,
-    title: 'Unabhängigkeit',
+    title: '100 % Unabhängigkeit',
     description:
-      'Wir finanzieren uns über Affiliate-Links (u. a. Amazon PartnerNet). Diese haben jedoch keinen Einfluss auf die Testnote — ein schlechter Schläger bekommt auch dann eine ehrliche Kritik, wenn er über einen Partnerlink gekauft wird.',
+      'Unsere Arbeit finanziert sich über Partner-Links zu etablierten Shops. Diese Provision hat jedoch keinerlei Einfluss auf unsere Bewertungen. Wenn ein Schläger Schwächen zeigt, sprechen wir diese im Testbericht offen an.',
     points: [
-      'Keine Bezahlung für positive Bewertungen',
-      'Testergebnisse werden vor Partner-Integration erstellt',
-      'Schlechte Noten werden nicht verschwiegen',
+      'Keine bezahlten Gefälligkeitsurteile oder gekauften Testergebnisse',
+      'Die Notenvergabe erfolgt vor der Einbindung von Shop-Links',
+      'Kritische Schwachpunkte werden transparent hervorgehoben',
     ],
   },
 ];
@@ -68,27 +68,46 @@ const scoreBreakdown = [
     label: 'Power',
     weight: '35 %',
     description:
-      'Wie viel Druck lässt sich im Smash und Volley erzeugen? Wie schnell beschleunigt der Ball?',
+      'Wie viel Ballgeschwindigkeit und Druck erzeugt der Schläger bei Angriffsschlägen am Netz und Smashes aus dem Rückfeld?',
   },
   {
     icon: Target,
     label: 'Kontrolle',
     weight: '35 %',
     description:
-      'Präzision bei Bande, Stoppbällen und defensiven Schlägen. Wie gut lässt sich der Ball lenken?',
+      'Wie präzise lassen sich Bälle platzieren? Bietet der Schläger eine hohe Fehlertoleranz bei defensiven Schlägen an der Glaswand?',
   },
   {
     icon: Sparkles,
-    label: 'Handling',
+    label: 'Handling & Komfort',
     weight: '30 %',
     description:
-      'Gewicht, Balance, Schwung und Vibrationsdämpfung. Wie ermüdungsfrei und komfortabel spielt sich der Schläger?',
+      'Wie schnell lässt sich das Racket in Reaktionsduellen ausrichten? Dämpft der Kern Stöße wirksam ab, um Armschmerzen vorzubeugen?',
   },
 ];
 
 export default function TestkriterienPage() {
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'AboutPage',
+    name: 'Testkriterien und Methodik von Padel-Pilot.de',
+    description:
+      'Erfahre, wie Padel-Pilot Schläger unabhängig auf dem Court auf Power, Kontrolle und Handling prüft.',
+    publisher: {
+      '@type': 'Organization',
+      name: 'Padel-Pilot',
+      url: 'https://padel-pilot.de',
+    },
+  };
+
   return (
     <div className="min-h-screen bg-background">
+      {/* Schema.org für Google E-E-A-T */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       <Header />
 
       <main>
@@ -98,7 +117,7 @@ export default function TestkriterienPage() {
           <div className="mx-auto max-w-4xl container-px py-16 text-center lg:py-24">
             <div className="inline-flex items-center gap-2 rounded-full border border-border bg-secondary/60 px-3 py-1.5 text-xs font-medium text-muted-foreground">
               <ClipboardCheck className="h-3.5 w-3.5 text-neon-600 dark:text-neon-400" />
-              Methodik &amp; Transparenz
+              Methodik und Transparenz
             </div>
 
             <h1 className="mt-6 font-display text-4xl font-bold leading-[1.08] tracking-tight text-balance sm:text-5xl lg:text-6xl">
@@ -107,18 +126,16 @@ export default function TestkriterienPage() {
                 <span className="relative z-10">Transparenz</span>
                 <span className="absolute inset-x-0 bottom-1.5 -z-0 h-3 bg-neon/70 sm:bottom-2 sm:h-4" />
               </span>
-              , echte Courts, ehrliche Meinungen.
+              , echte Courts und ehrliche Meinungen.
             </h1>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-              Wir schreiben keine Datenblätter ab. Wir stehen auf dem Platz,
-              spielen jeden Schläger selbst und bewerten ihn nach einem
-              klaren 10-Punkte-System — unabhängig davon, wo er gekauft wird.
+              Wir schreiben keine Marketingtexte der Hersteller ab. Wir stehen selbst auf dem Court, testen jeden Padel-Schläger intensiv in realen Match-Situationen und bewerten ihn nach einem klaren, nachvollziehbaren 10-Punkte-System.
             </p>
           </div>
         </section>
 
-        {/* Three pillars */}
+        {/* Die 3 Hauptsäulen */}
         <section className="border-b border-border">
           <div className="mx-auto max-w-6xl container-px py-16 lg:py-24">
             <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
@@ -148,7 +165,7 @@ export default function TestkriterienPage() {
                           key={point}
                           className="flex items-start gap-2.5 text-sm text-muted-foreground"
                         >
-                          <Heart
+                          <CheckCircle2
                             className="mt-0.5 h-4 w-4 shrink-0 text-neon-600 dark:text-neon-400"
                             strokeWidth={2}
                           />
@@ -163,7 +180,7 @@ export default function TestkriterienPage() {
           </div>
         </section>
 
-        {/* Score breakdown */}
+        {/* Notensystem im Detail */}
         <section className="border-b border-border bg-secondary/30">
           <div className="mx-auto max-w-5xl container-px py-16 lg:py-24">
             <div className="text-center">
@@ -171,8 +188,7 @@ export default function TestkriterienPage() {
                 Das 10-Punkte-System im Detail
               </h2>
               <p className="mx-auto mt-4 max-w-2xl text-base leading-relaxed text-muted-foreground">
-                Jede Kategorie wird mit 0 bis 10 Punkten bewertet. Die
-                Gesamtnote ergibt sich aus der Gewichtung der drei Säulen.
+                Jedes Testmodell wird in drei Disziplinen bewertet. Die Gesamtnote ergibt sich aus der klaren Gewichtung dieser Bewertungskriterien.
               </p>
             </div>
 
@@ -215,17 +231,16 @@ export default function TestkriterienPage() {
         <section>
           <div className="mx-auto max-w-4xl container-px py-16 text-center lg:py-24">
             <h2 className="font-display text-2xl font-bold tracking-tight sm:text-3xl">
-              Sieh dir die Ergebnisse an
+              Finde jetzt den passenden Schläger für dein Spiel
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-muted-foreground">
-              Unsere Tests fließen direkt in die Bestenliste ein. Vergleiche
-              die Noten und finde den Schläger, der zu deinem Spiel passt.
+              Sämtliche Praxistests fließen direkt in unsere aktuellen Testberichte und Bestenlisten ein. Vergleiche die Noten und triff eine fundierte Kaufentscheidung.
             </p>
             <Link
               href="/#tests"
               className="group mt-8 inline-flex items-center gap-2 rounded-full bg-neon px-6 py-3 text-sm font-semibold text-neon-foreground transition-all hover:bg-neon-600 hover:shadow-lg"
             >
-              Zur Bestenliste
+              Zu allen Testberichten
               <ArrowRight
                 className="h-4 w-4 transition-transform group-hover:translate-x-0.5"
                 strokeWidth={2.5}
