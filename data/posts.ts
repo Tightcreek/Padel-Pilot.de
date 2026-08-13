@@ -33,7 +33,7 @@ export const posts: Post[] = [
     },
     date: '12. Juli 2026',
     readTime: '7 Min.',
-    image: 'https://images.pexels.com/photos/38155778/pexels-photo-38155778.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    image: 'https://images.pexels.com/photos/32474981/pexels-photo-32474981.jpeg',
     imageAlt: 'Moderne Padel-Courts mit blauem Boden und Glaswänden',
     keyTakeaways: [
       'Padel wird immer im Doppel auf einem 10 mal 20 Meter großen Court gespielt',
@@ -158,7 +158,7 @@ export const posts: Post[] = [
     },
     date: '21. Juli 2026',
     readTime: '6 Min.',
-    image: 'https://images.pexels.com/photos/8007133/pexels-photo-8007133.jpeg?auto=compress&cs=tinysrgb&w=1000',
+    image: 'https://images.pexels.com/photos/37980449/pexels-photo-37980449.jpeg',
     imageAlt: 'Padel-Spieler bereitet einen Überkopfschlag am Netz vor',
     keyTakeaways: [
       'Die Bandeja ist ein defensiver Überkopfschlag, der dir hilft, die wichtige Netzposition zu halten',
@@ -220,7 +220,7 @@ export const posts: Post[] = [
   },
   date: '13. August 2026',
   readTime: '7 Min.',
-  image: 'https://images.pexels.com/photos/37980449/pexels-photo-37980449.jpeg',
+  image: 'https://images.pexels.com/photos/1103829/pexels-photo-1103829.jpeg',
   imageAlt: 'Spieler hält sich nach einem Padel-Match den schmerzenden Ellenbogen',
   keyTakeaways: [
     'Der Ellenbogen ist laut einer systematischen Review aus dem Jahr 2023 die mit Abstand häufigste Verletzungsstelle im Padel',
