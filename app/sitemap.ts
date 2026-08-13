@@ -1,0 +1,30 @@
+import type { MetadataRoute } from 'next';
+import { rackets } from '@/data/rackets';
+import { posts } from '@/data/posts';
+
+const BASE_URL = 'https://padel-pilot.de';
+
+const staticRoutes: MetadataRoute.Sitemap = [
+  { url: BASE_URL, changeFrequency: 'weekly', priority: 1 },
+  { url: `${BASE_URL}/kaufberatung`, changeFrequency: 'monthly', priority: 0.9 },
+  { url: `${BASE_URL}/ratgeber`, changeFrequency: 'weekly', priority: 0.8 },
+  { url: `${BASE_URL}/testkriterien`, changeFrequency: 'yearly', priority: 0.4 },
+  { url: `${BASE_URL}/impressum`, changeFrequency: 'yearly', priority: 0.3 },
+  { url: `${BASE_URL}/datenschutz`, changeFrequency: 'yearly', priority: 0.3 },
+];
+
+const racketRoutes: MetadataRoute.Sitemap = rackets.map((racket) => ({
+  url: `${BASE_URL}/schlaeger/${racket.slug}`,
+  changeFrequency: 'monthly',
+  priority: 0.7,
+}));
+
+const postRoutes: MetadataRoute.Sitemap = posts.map((post) => ({
+  url: `${BASE_URL}/ratgeber/${post.slug}`,
+  changeFrequency: 'monthly',
+  priority: 0.6,
+}));
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  return [...staticRoutes, ...racketRoutes, ...postRoutes];
+}
