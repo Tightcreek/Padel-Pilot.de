@@ -154,7 +154,7 @@ export default function Home() {
                 </p>
               </div>
               <Link
-                href="#tests"
+                href="/bestenliste"
                 className="group inline-flex items-center gap-1.5 self-start text-sm font-semibold sm:self-auto"
               >
                 Alle Tests ansehen
@@ -300,7 +300,7 @@ export default function Home() {
                 Tests
               </h3>
               <ul className="mt-3 space-y-2 text-sm">
-                <li><Link href="#tests" className="text-muted-foreground hover:text-foreground">Bestenliste</Link></li>
+                <li><Link href="/bestenliste" className="text-muted-foreground hover:text-foreground">Bestenliste</Link></li>
                 <li><Link href="#tests" className="text-muted-foreground hover:text-foreground">Neu-Tests</Link></li>
                 <li><Link href="#tests" className="text-muted-foreground hover:text-foreground">Marken-Vergleich</Link></li>
               </ul>
