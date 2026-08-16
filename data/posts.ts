@@ -220,7 +220,7 @@ export const posts: Post[] = [
     },
     date: '16. August 2026',
     readTime: '8 Min.',
-    image: 'https://images.pexels.com/photos/32896996/pexels-photo-32896996.jpeg',
+    image: 'https://images.pexels.com/photos/6180620/pexels-photo-6180620.jpeg',
     imageAlt: 'Padel-Ausrüstung mit Schläger, Bällen und Schuhen auf dem Court ausgebreitet',
     keyTakeaways: [
       'Ein solides Einsteiger-Set aus Schläger, Schuhen, Bällen und Zubehör kostet realistisch zwischen 196 und 287 Euro',
@@ -238,6 +238,36 @@ export const posts: Post[] = [
       '<h2>5. Die Schlägertasche: Sinnvoll, aber nicht dringend</h2><p>Eine spezielle Padel-Tasche ist am Anfang kein Muss. Solange du nur einen Schläger transportierst, tut es notfalls auch ein normaler Rucksack. Sobald du aber regelmäßiger spielst oder mehrere Schläger und Zubehör transportieren willst, lohnt sich eine einfache Basic-Tasche ab 25 bis 40 Euro. Sie schützt den Schläger vor Kratzern und Feuchtigkeit und hält meist auch Schuhe und Wechselkleidung getrennt vom restlichen Gepäck.</p>',
       '<h2>Realistische Budget-Übersicht für dein erstes Set</h2><ul><li><strong>Schläger:</strong> 99 bis 139 Euro</li><li><strong>Schuhe:</strong> 60 bis 90 Euro</li><li><strong>Bälle (eine Dose):</strong> 8 bis 12 Euro</li><li><strong>Overgrip (2er Pack):</strong> 4 bis 6 Euro</li><li><strong>Tasche (Basic):</strong> 25 bis 40 Euro</li></ul><p>Damit landest du bei einer minimalen Investition von etwa 196 Euro, wenn du überall die günstigere Option wählst. Wer etwas mehr Komfort und Langlebigkeit will, landet bei rund 287 Euro. Beide Budgets sind absolut realistisch für ein solides Einsteiger-Set, mit dem du mehrere Jahre Freude hast.</p>',
       '<h2>Fazit: Starte einfach, rüste später gezielt nach</h2><p>Du musst am ersten Tag nicht die komplette Liste abarbeiten. Leih dir zunächst Material aus, um sicherzugehen, dass Padel dauerhaft dein Sport wird. Sobald das feststeht, investierst du zuerst in einen passenden Schläger und gute Schuhe, das sind die beiden Anschaffungen mit dem größten Effekt auf Spielgefühl und Sicherheit. Overgrip, Bälle und Tasche kannst du dir nach und nach dazuholen, ganz ohne Druck.</p>',
+    ],
+  },
+  {
+    slug: 'padel-court-in-deiner-naehe-finden',
+    title: 'Padel-Court in deiner Nähe finden: Die besten Anlaufstellen',
+    excerpt:
+      'Wo kann ich in Deutschland Padel spielen? Wir zeigen dir die offiziellen Anlaufstellen von Verband und Vereinen, damit du schnell und unkompliziert deinen ersten Court findest.',
+    category: 'Einstieg',
+    author: {
+      name: 'Redaktion Padel-Pilot',
+      role: 'Padel-Redaktion',
+      bio: 'Wir testen und erklären Padel seit 2024. Unser Ziel: kompakt, verständlich und ohne Marketing-Blabla, damit du schneller auf dem Court stehst.',
+    },
+    date: '16. August 2026',
+    readTime: '5 Min.',
+    image: 'https://images.pexels.com/photos/32474981/pexels-photo-32474981.jpeg',
+    imageAlt: 'Padel-Anlage mit mehreren Courts von oben fotografiert',
+    keyTakeaways: [
+      'Der Deutsche Padel Verband (DPV) ist die offizielle Dachorganisation für Padel in Deutschland',
+      'Der Deutsche Tennis Bund betreibt mit MyPadel eine eigene, offizielle Plattform inklusive Court-Finder',
+      'Padel wächst in Deutschland aktuell extrem schnell, die Zahl der Anlagen steigt jährlich deutlich',
+      'Viele Tennisvereine bieten inzwischen zusätzlich Padel-Courts an, ein Anruf beim Verein in deiner Nähe lohnt sich oft',
+    ],
+    content: [
+      'Padel ist in Deutschland gerade der am schnellsten wachsende Racketsport, und fast jede Woche eröffnen neue Anlagen. Die gute Nachricht: Du musst dafür nicht mühsam selbst recherchieren. Es gibt mittlerweile offizielle Anlaufstellen, über die du deinen nächstgelegenen Court zuverlässig findest.',
+      '<h2>Der Deutsche Padel Verband (DPV)</h2><p>Der <a href="https://www.dpv-padel.de" target="_blank" rel="noopener noreferrer">Deutsche Padel Verband</a> ist die offizielle Dachorganisation für Padel-Tennis in Deutschland. Der 2010 gegründete Verband organisiert unter anderem die Deutsche Padel Liga sowie die German Padel Series und war maßgeblich an der Gründung von Padel Europe beteiligt. Auf der Verbandsseite findest du außerdem Informationen zu Turnieren, Ranglisten und offiziellen Wettbewerben, falls du irgendwann auch am Ligabetrieb teilnehmen möchtest.</p>',
+      '<h2>MyPadel: Die offizielle Plattform des Deutschen Tennis Bundes</h2><p>Seit März 2022 ist der Deutsche Tennis Bund vom Deutschen Olympischen Sportbund offiziell als zuständiger Spitzensportverband für Padel anerkannt. Im September 2025 hat der DTB mit <a href="https://www.mypadel.de" target="_blank" rel="noopener noreferrer">MyPadel</a> eine eigene digitale Plattform gestartet, die alle Informationen für Spieler, Vereine und Interessierte an einem Ort bündelt.</p><p>Das Herzstück für deine Suche ist der integrierte Padelplatzfinder. Damit findest du sortiert nach Region und Postleitzahl schnell heraus, wo in deiner Nähe gespielt werden kann, unabhängig davon, ob du Anfänger oder bereits fortgeschritten bist.</p>',
+      '<h2>Frag auch bei deinem lokalen Tennisverein nach</h2><p>Da Padel organisatorisch eng mit dem Tennisverband verknüpft ist, haben in den letzten Jahren viele klassische Tennisvereine zusätzlich eigene Padel-Courts gebaut. Es lohnt sich daher, auch bei Vereinen in deiner Umgebung anzurufen oder auf deren Webseite zu schauen, selbst wenn dort primär von Tennis die Rede ist. Oft bekommst du als Nicht-Mitglied gegen eine Platzgebühr trotzdem Zugang, und viele Vereine bieten für Einsteiger spezielle Schnupperstunden an.</p>',
+      '<h2>Wie schnell wächst das Angebot gerade?</h2><p>Die Anzahl der Padel-Anlagen in Deutschland steigt aktuell mit einer sehr hohen jährlichen Wachstumsrate. Was das für dich bedeutet: Selbst wenn heute noch kein Court in deiner unmittelbaren Nähe existiert, ist die Wahrscheinlichkeit hoch, dass sich das in den kommenden Monaten ändert. Es lohnt sich, die offiziellen Plattformen gelegentlich erneut zu prüfen, gerade wenn du außerhalb einer Großstadt wohnst.</p>',
+      '<h2>Fazit: Zwei offizielle Anlaufstellen reichen für den Start</h2><p>Für die reine Court-Suche ist der Padelplatzfinder auf MyPadel dein direktester Weg. Der Deutsche Padel Verband lohnt sich zusätzlich, sobald du mehr über Turniere, Ligen oder den organisierten Wettkampfbetrieb erfahren möchten. Sobald du deinen Court gefunden hast, fehlt dir nur noch die passende Ausrüstung, dazu findest du in unserem Ratgeber alles Wichtige.</p>',
     ],
   },
 ];
