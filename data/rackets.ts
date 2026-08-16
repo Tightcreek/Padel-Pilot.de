@@ -565,6 +565,58 @@ export const rackets: Racket[] = [
       ],
     },
   },
+  {
+    id: '11',
+    brand: 'Wilson',
+    name: 'Bela V3',
+    badge: 'BelastegúIns Signature-Allrounder',
+    shape: 'Tropfenform',
+    weight: '365g',
+    level: 'Fortgeschritten',
+    score: 8.5,
+    price: '175 €',
+    priceValue: 175,
+    affiliateUrl: 'https://amzn.to/466blWE',
+    image: 'https://contents.mediadecathlon.com/p2948887/k$b992ae2609aebbfc82dfa90466b43197/picture.jpg',
+    imageAlt: 'Wilson Bela V3 Padel-Schläger im Praxistest auf dem Court',
+    slug: 'wilson-bela-v3-2025',
+    teaser:
+      'Der Bela V3 ist Wilsons Signature-Schläger in Zusammenarbeit mit Padel-Legende Fernando Belastegúín. Die Tropfenform mit V-Bridge-Halskonstruktion und der charakteristischen Spin2-Textur verspricht kraftvolle Angriffsschläge bei gleichzeitig solider Kontrolle. Im Testbericht erfährst du, wie sich Wilsons Flaggschiff gegen die etablierte Konkurrenz schlägt.',
+    pros: [
+      'Kraftvolle Schlagabgabe dank Power-Foam-Kern und 3K-Carbon-Oberfläche',
+      'Starker, gut dosierbarer Spin durch die charakteristische Spin2-Textur',
+      'V-Bridge-Halskonstruktion sorgt für spürbar mehr Stabilität bei harten Schlägen',
+      'Duo-Grid-Lochmuster erhöht die Fehlertoleranz auch außerhalb des Sweet Spots',
+      'Bewährte Belastegúín-Signature-Qualität von einer der größten Marken im Racketsport',
+    ],
+    cons: [
+      'Anspruchsvoll in der Defensive, verlangt bereits gefestigte Grundtechnik',
+      'Eher für fortgeschrittene Spieler konzipiert, für Einsteiger zu direkt und unverzeihend',
+    ],
+    detailRatings: [
+      { label: 'Power', value: 8.3 },
+      { label: 'Kontrolle', value: 8.2 },
+      { label: 'Handling', value: 7.8 },
+    ],
+    review: {
+      intro: [
+        'Mit dem Bela V3 bringt Wilson die nächste Generation seines bekanntesten Signature-Schlägers auf den Platz, entwickelt in enger Zusammenarbeit mit der argentinischen Padel-Legende Fernando Belastegúín. Die Tropfenform mit ihrer neuen V-Bridge-Halskonstruktion soll dabei genau die Balance zwischen Offensivstärke und Führbarkeit treffen, die viele fortgeschrittene Angriffsspieler suchen.',
+        'Wir haben den Schläger über mehrere Wochen im direkten Vergleich zu unseren bisherigen Tropfenform-Testsiegern gespielt, mit besonderem Fokus darauf, wie sich die neue Rahmenkonstruktion und die charakteristische Spin2-Textur in der Praxis gegenüber der etablierten Konkurrenz behaupten.',
+      ],
+      feel: [
+        'Schon beim ersten Ballkontakt spürt man den festen, aber nicht unangenehm harten Aufprall, den der Power-Foam-Kern erzeugt. Die raue 3K-Carbon-Oberfläche mit ihrer Spin2-Textur greift den Ball hervorragend, besonders bei Aufschlägen und Vibora-Schlägen macht sich das im deutlich spürbaren Spin bemerkbar.',
+        'Die neue V-Bridge-Halskonstruktion sorgt für ein spürbar stabileres Gefühl bei harten Schmetterbällen als bei vielen Modellen der Vorgängergeneration. Das Duo-Grid-Lochmuster hilft zusätzlich dabei, auch leicht dezentrale Treffer noch kontrolliert zu verarbeiten, ohne dass der Ball komplett verspringt.',
+      ],
+      powerVsControl: [
+        'Power: Der Bela V3 liefert solide Durchschlagskraft, vor allem bei Überkopfschlägen und Angriffsvolleys am Netz. Die Kraftentfaltung liegt spürbar über reinen Kontrollschlägern, bleibt aber hinter den kopflastigsten Diamant-Modellen in unserem Vergleich zurück.',
+        'Kontrolle: Hier zeigt sich der Schläger überraschend zugänglich für seine Offensiv-Ausrichtung. Die Kombination aus Duo-Grid-Lochmuster und der ausgewogenen Balance macht Lobs und defensive Blocks deutlich berechenbarer, als man bei einem reinen Angriffsschläger erwarten würde.',
+      ],
+      verdict: [
+        'Der Wilson Bela V3 ist ein solider, gut verarbeiteter Allround-Schläger für fortgeschrittene Angriffsspieler, die Wert auf eine bewährte Signature-Qualität legen. Die V-Bridge-Konstruktion und das Duo-Grid-Lochmuster machen ihn zugänglicher als viele reine Power-Diamanten.',
+        'Wer bereits eine gefestigte Grundtechnik mitbringt und einen ausgewogenen Tropfenform-Schläger sucht, bekommt hier eine ernstzunehmende Alternative zu den etablierten Marken. Einsteiger sollten aufgrund der direkten Ballabgabe eher zu verzeihenderen Modellen greifen.',
+      ],
+    },
+  },
 ];
 
 export function getRacketBySlug(slug: string): Racket | undefined {
