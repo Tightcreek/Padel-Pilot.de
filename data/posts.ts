@@ -220,7 +220,7 @@ export const posts: Post[] = [
     },
     date: '16. August 2026',
     readTime: '8 Min.',
-    image: 'https://images.pexels.com/photos/6180620/pexels-photo-6180620.jpeg',
+    image: 'https://images.pexels.com/photos/32896996/pexels-photo-32896996.jpeg',
     imageAlt: 'Padel-Ausrüstung mit Schläger, Bällen und Schuhen auf dem Court ausgebreitet',
     keyTakeaways: [
       'Ein solides Einsteiger-Set aus Schläger, Schuhen, Bällen und Zubehör kostet realistisch zwischen 196 und 287 Euro',
