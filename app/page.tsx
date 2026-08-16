@@ -18,8 +18,8 @@ import { rackets } from '@/data/rackets';
 import { posts } from '@/data/posts';
 
 const heroStats = [
-  { value: '47', label: 'Schläger getestet' },
-  { value: '12', label: 'Marken verglichen' },
+  { value: rackets.length.toString(), label: 'Schläger getestet' },
+  { value: new Set(rackets.map((r) => r.brand)).size.toString(), label: 'Marken verglichen' },
   { value: '180h', label: 'Spielpraxis' },
 ];
 
@@ -41,7 +41,7 @@ const guideSteps = [
   },
 ];
 
-
+const topPicks = [...rackets].sort((a, b) => b.score - a.score).slice(0, 3);
 
 export default function Home() {
   return (
@@ -163,7 +163,7 @@ export default function Home() {
             </div>
 
             <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
-              {rackets.map((racket, i) => (
+              {topPicks.map((racket, i) => (
                 <div
                   key={racket.id}
                   className="animate-fade-up"
