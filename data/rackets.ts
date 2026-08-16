@@ -513,6 +513,58 @@ export const rackets: Racket[] = [
       ],
     },
   },
+  {
+    id: '10',
+    brand: 'Nox',
+    name: 'ML10 Pro Cup',
+    badge: 'Meistgespielter Kontroll-Klassiker',
+    shape: 'Rund',
+    weight: '365g',
+    level: 'Fortgeschritten',
+    score: 9.0,
+    price: '125 €',
+    priceValue: 125,
+    affiliateUrl: 'https://amzn.to/4zn38L9',
+    image: 'https://contents.mediadecathlon.com/p3095256/k$8ccb6ba416b324a1574491a675b9752b/picture.jpg?format=auto&f=550x550',
+    imageAlt: 'Nox ML10 Pro Cup Padel-Schläger im Praxistest auf dem Court',
+    slug: 'nox-ml10-pro-cup-2026',
+    teaser:
+      'Der ML10 Pro Cup ist seit über einem Jahrzehnt eine Institution im Padel-Sport. In Zusammenarbeit mit Padel-Legende Miguel Lamperti entwickelt, dominiert die runde Kopfform mit riesigem Sweet Spot bis heute die Kontroll-Kategorie. Im Testbericht erfährst du, warum dieser Klassiker auch 2026 zu den meistgespielten Schlägern der Welt zählt.',
+    pros: [
+      'Riesiger, extrem fehlerverzeihender Sweet Spot dank runder Kopfform',
+      'Sehr armschonend durch die weiche Glasfaser-Oberfläche und den HR3-EVA-Kern',
+      'Legendäres Handling in der Defensive, ideal für schnelle Reflexe am Netz',
+      'Austauschbares Smartstrap-System für individuelle Anpassung und einfache Pflege',
+      'Hervorragendes Preis-Leistungs-Verhältnis für einen etablierten Kontroll-Schläger',
+    ],
+    cons: [
+      'Fehlende Durchschlagskraft für Spieler, die primär auf harte Smashes setzen',
+      'Glattere Oberfläche bietet spürbar weniger Spin-Grip als die Rough-Surface-Variante',
+    ],
+    detailRatings: [
+      { label: 'Power', value: 7.0 },
+      { label: 'Kontrolle', value: 9.8 },
+      { label: 'Handling', value: 9.0 },
+    ],
+    review: {
+      intro: [
+        'Der ML10 Pro Cup ist mehr als nur ein Padel-Schläger, er ist eine echte Institution. Entwickelt in Zusammenarbeit mit der Padel-Legende Miguel Lamperti, dominiert dieses Modell seit über einem Jahrzehnt die Kontroll-Kategorie und gilt bis heute als einer der meistgespielten Schläger überhaupt, weit über den Amateur-Bereich hinaus.',
+        'Wir haben den Klassiker über mehrere Wochen im direkten Vergleich zu unseren bisherigen Kontroll-Testsiegern gespielt, mit besonderem Fokus darauf, ob die runde Kopfform auch nach so langer Marktpräsenz noch mit modernen Schlägern mithalten kann.',
+      ],
+      feel: [
+        'Schon beim ersten Ballkontakt fällt die außergewöhnlich weiche Glasfaser-Oberfläche auf. In Kombination mit dem HR3-EVA-Kern fühlt sich der Schläger deutlich sanfter an als die meisten Carbon-lastigen Modelle in unserem Vergleich, was sich vor allem bei langen Trainingseinheiten im Unterarm bemerkbar macht.',
+        'Am Netz zeigt sich, warum der ML10 Pro Cup als defensives Referenzmodell gilt. Schnelle Reflexvolleys und Blocks gelingen mit bemerkenswerter Ruhe, der riesige Sweet Spot fängt auch unsauber getroffene Bälle zuverlässig ab, ohne dass die Energie komplett verloren geht.',
+      ],
+      powerVsControl: [
+        'Power: Hier zeigt sich der einzige echte Kompromiss des Schlägers. Wer auf kompromisslose Smash-Power setzt, muss beim ML10 Pro Cup deutlich mehr Eigenleistung einbringen als bei kopflastigen Diamant-Modellen aus unserem Vergleich.',
+        'Kontrolle: Das ist die unangefochtene Stärke dieses Klassikers. Lobs, Chiquitas und defensive Blocks lassen sich mit einer Präzision platzieren, die auch modernen Kontrollschlägern nur selten gelingt. Der große Sweet Spot verzeiht dabei erstaunlich viel.',
+      ],
+      verdict: [
+        'Der Nox ML10 Pro Cup beweist eindrucksvoll, warum er auch nach vielen Jahren noch zu den meistgespielten Schlägern der Welt gehört. Für kontrollorientierte Spieler und alle, die Wert auf einen armschonenden, verzeihenden Spielstil legen, bleibt er eine der stärksten Empfehlungen in unserem gesamten Testfeld.',
+        'Wer primär Power und Durchschlagskraft sucht, sollte eher zu einem der diamantförmigen Modelle aus unserem Vergleich greifen. Für alle anderen ist der ML10 Pro Cup ein zeitloser, verlässlicher Begleiter.',
+      ],
+    },
+  },
 ];
 
 export function getRacketBySlug(slug: string): Racket | undefined {
