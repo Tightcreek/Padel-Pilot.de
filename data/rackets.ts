@@ -460,6 +460,59 @@ export const rackets: Racket[] = [
       ],
     },
   },
+  {
+    id: '9',
+    brand: 'Nox',
+    name: 'AT10 Genius 18K Alum',
+    badge: 'Signature-Schläger von Agustín Tapia',
+    shape: 'Tropfenform',
+    weight: '370g',
+    level: 'Profi',
+    score: 9.0,
+    price: '259 €',
+    priceValue: 259,
+    affiliateUrl: 'https://amzn.to/4gfJKXR',
+    image:
+      'https://contents.mediadecathlon.com/m25289368/k$d37f8b3386ae6c09315a5fe68239a5a4/picture.jpg',
+    imageAlt: 'Nox AT10 Genius 18K Alum Padel-Schläger im Praxistest auf dem Court',
+    slug: 'nox-at10-genius-18k-2026',
+    teaser:
+      'Der AT10 Genius 18K Alum ist der Signature-Schläger von Agustín Tapia, aktuell einer der besten Spieler der Welt. Die Tropfenform mit aluminisierter 18K-Carbon-Oberfläche verspricht eine seltene Balance aus Power und Kontrolle. Im Testbericht erfährst du, ob der Allrounder auch auf Amateur-Courts hält, was er auf der Profi-Tour zeigt.',
+    pros: [
+      'Sehr ausgewogenes Verhältnis aus Power und Kontrolle dank Tropfenform mit mittlerer Balance',
+      'Aluminisierte 18K-Carbon-Oberfläche mit Exclusive Spin Textur liefert kräftigen, gut dosierbaren Spin',
+      'MLD Black EVA Kern gibt komfortables, aber direktes Feedback ohne harte Vibrationen im Arm',
+      'Signature-Modell des amtierenden Weltklassespielers Agustín Tapia, konstant weiterentwickelt',
+    ],
+    cons: [
+      'Mit rund 370 Gramm kein Leichtgewicht, bei langen Matches spürbar für ungeübte Unterarme',
+      'Preislich im oberen Segment, günstigere Vorjahresmodelle bieten teils ähnliche Werte',
+      'Für reine Einsteiger eher ungeeignet, das Racket verlangt schon eine gefestigte Grundtechnik',
+    ],
+    detailRatings: [
+      { label: 'Power', value: 8.7 },
+      { label: 'Kontrolle', value: 8.8 },
+      { label: 'Handling', value: 8.5 },
+    ],
+    review: {
+      intro: [
+        'Kaum ein Schläger wird aktuell so oft gesucht wie der AT10 Genius, und das aus gutem Grund. Agustín Tapia zählt zu den dominantesten Spielern der Welt, und Nox hat mit dem 18K Alum eine Tropfenform gebaut, die genau das verspricht, was viele Spieler suchen, eine Waffe, die weder reiner Power-Diamant noch reiner Kontroll-Rundkopf ist.',
+        'Wir haben den Schläger über mehrere Wochen im Vergleich zu unseren bisherigen Testsiegern in der Tropfenform-Kategorie gespielt, mit besonderem Fokus darauf, wie sich das Profi-Image auf einem Amateur- und Fortgeschrittenen-Court tatsächlich anfühlt.',
+      ],
+      feel: [
+        'Der erste Eindruck ist die spürbar hochwertige Verarbeitung. Die raue, aluminisierte Carbon-Oberfläche greift den Ball beim ersten Kontakt sofort griffig, ohne dass man dafür extremen Krafteinsatz braucht. Der MLD Black EVA Kern fängt harte Bälle sauber ab und gibt sie mit einem satten, aber nicht unangenehm harten Klang wieder frei.',
+        'Am Netz merkt man das Gewicht des Schlägers zunächst, gerade bei sehr schnellen Reflexvolleys. Nach ein paar Trainingseinheiten pendelt sich das Handling aber gut ein, die mittlere Balance sorgt dafür, dass der Schläger weder kopf- noch grifflastig wirkt.',
+      ],
+      powerVsControl: [
+        'Power: Bei Smashes und Viboras liefert der AT10 Genius spürbar mehr Wucht als klassische Kontrollschläger. Die Tropfenform mit ihrem etwas höher angesetzten Sweet Spot begünstigt druckvolle Angriffsschläge, ohne dabei komplett auf Fehlertoleranz zu verzichten.',
+        'Kontrolle: Genau hier liegt die eigentliche Stärke. Chiquitas und Lobs lassen sich überraschend fein dosieren für einen Schläger, der auf der Profi-Tour für harte Angriffsschläge bekannt ist. Das macht ihn zu einem der wenigen Modelle, die beide Spielstile glaubwürdig bedienen.',
+      ],
+      verdict: [
+        'Der Nox AT10 Genius 18K Alum ist ein sehr ausgewogener Tropfenform-Schläger, der dem Signature-Anspruch von Agustín Tapia gerecht wird, ohne dabei nur für Profis spielbar zu sein. Fortgeschrittene mit gefestigter Technik bekommen ein Racket, das Power und Kontrolle glaubwürdig verbindet.',
+        'Wer noch am Anfang steht oder ein reines Leichtgewicht sucht, findet in unserem Vergleich verzeihendere und günstigere Alternativen. Für alle anderen gehört der AT10 Genius zu den spannendsten Allroundern seiner Preisklasse.',
+      ],
+    },
+  },
 ];
 
 export function getRacketBySlug(slug: string): Racket | undefined {
