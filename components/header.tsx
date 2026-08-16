@@ -7,7 +7,7 @@ import { Compass, Menu, Moon, Sun, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const navLinks = [
-  { label: 'Schläger-Tests', href: '#tests' },
+  { label: 'Schläger-Tests', href: '/bestenliste' },
   { label: 'Kaufberatung', href: '/kaufberatung' },
   { label: 'Ratgeber', href: '/ratgeber' },
 ];
