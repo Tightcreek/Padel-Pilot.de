@@ -116,16 +116,16 @@ export const balls: Ball[] = [
     ],
     review: {
       intro: [
-        'PLATZHALTER: Einleitung zum eigenen Testkontext, wie und wo der Ball bei uns getestet wurde.',
+        'Der Pro S ist die schnellere HEAD-Option im Vergleich zum Padel Pro und eignet sich für alle, die einen lebendigeren Ball bevorzugen. Wichtig zu wissen: Die Informationslage zu diesem Ball stützt sich eher auf offizielle Angaben und News-Berichte als auf ausführliche Produktseiten, wie es bei etablierteren Modellen der Fall ist.',
       ],
       feel: [
-        'PLATZHALTER: Eigener Praxiseindruck zum Spielgefühl, Sprunghöhe und Kontrolle beim Vibora- und Smash-Spiel.',
+        'Am besten lässt sich der Pro S als der schnellere Bruder in der HEAD-Padel-Pro-Familie einordnen. Wer ein turnierähnliches Spielgefühl mit spürbar mehr Tempo sucht, findet hier die passende Wahl innerhalb der HEAD-Reihe.',
       ],
       durability: [
-        'PLATZHALTER: Eigene Beobachtungen zur Haltbarkeit über mehrere Trainingseinheiten und Matches.',
+        'Geeignet für schnellere Matches, ein turnierartiges Spielgefühl und für Spieler, die HEADs lebendigere Option bevorzugen. Empfohlenes Niveau: fortgeschritten bis Profi, da das hohe Tempo entsprechende Erfahrung voraussetzt.',
       ],
       verdict: [
-        'PLATZHALTER: Abschließende eigene Kaufempfehlung und Zielgruppe.',
+        'Wie gut sich ein Ball wirklich schlägt, hängt immer von Tempo, Absprungverhalten und davon ab, wie stabil sich das Spielgefühl über die gewohnten Sessions hält. Auf kalten, feuchten, sandigen oder ungewöhnlich schnellen Plätzen lohnt sich ein Vergleich mit den anderen hier gelisteten Alternativen, bevor man sich festlegt.',
       ],
     },
   },
