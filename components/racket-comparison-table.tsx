@@ -1,6 +1,9 @@
+'use client';
+
+import * as React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, ArrowUpDown } from 'lucide-react';
 import type { Racket } from '@/data/rackets';
 
 interface RacketComparisonTableProps {
@@ -13,7 +16,31 @@ const levelStyles: Record<Racket['level'], string> = {
   Profi: 'text-rose-700 dark:text-rose-400',
 };
 
+type SortKey = 'score' | 'priceValue';
+type SortDirection = 'asc' | 'desc';
+
 export function RacketComparisonTable({ rackets }: RacketComparisonTableProps) {
+  const [sortKey, setSortKey] = React.useState<SortKey>('score');
+  const [sortDirection, setSortDirection] = React.useState<SortDirection>('desc');
+
+  const sortedRackets = React.useMemo(() => {
+    const copy = [...rackets];
+    copy.sort((a, b) => {
+      const diff = a[sortKey] - b[sortKey];
+      return sortDirection === 'asc' ? diff : -diff;
+    });
+    return copy;
+  }, [rackets, sortKey, sortDirection]);
+
+  function handleSort(key: SortKey) {
+    if (key === sortKey) {
+      setSortDirection((prev) => (prev === 'asc' ? 'desc' : 'asc'));
+    } else {
+      setSortKey(key);
+      setSortDirection('desc');
+    }
+  }
+
   return (
     <div className="overflow-x-auto rounded-2xl border border-border bg-card shadow-sm [scrollbar-width:thin]">
       <table className="w-full min-w-[760px] border-collapse text-left">
@@ -31,11 +58,25 @@ export function RacketComparisonTable({ rackets }: RacketComparisonTableProps) {
             <th scope="col" className="px-4 py-4 text-xs font-semibold uppercase tracking-wider text-muted-foreground sm:px-5">
               Niveau
             </th>
-            <th scope="col" className="px-4 py-4 text-xs font-semibold uppercase tracking-wider text-muted-foreground sm:px-5">
-              Score
+            <th scope="col" className="px-4 py-4 sm:px-5">
+              <button
+                type="button"
+                onClick={() => handleSort('score')}
+                className="inline-flex items-center gap-1 text-xs font-semibold uppercase tracking-wider text-muted-foreground transition-colors hover:text-foreground"
+              >
+                Score
+                <ArrowUpDown className="h-3 w-3" strokeWidth={2.5} />
+              </button>
             </th>
-            <th scope="col" className="px-4 py-4 text-xs font-semibold uppercase tracking-wider text-muted-foreground sm:px-5">
-              Preis
+            <th scope="col" className="px-4 py-4 sm:px-5">
+              <button
+                type="button"
+                onClick={() => handleSort('priceValue')}
+                className="inline-flex items-center gap-1 text-xs font-semibold uppercase tracking-wider text-muted-foreground transition-colors hover:text-foreground"
+              >
+                Preis
+                <ArrowUpDown className="h-3 w-3" strokeWidth={2.5} />
+              </button>
             </th>
             <th scope="col" className="px-4 py-4 text-xs font-semibold uppercase tracking-wider text-muted-foreground sm:px-5">
               Aktion
@@ -43,10 +84,10 @@ export function RacketComparisonTable({ rackets }: RacketComparisonTableProps) {
           </tr>
         </thead>
         <tbody>
-          {rackets.map((racket, i) => (
+          {sortedRackets.map((racket, i) => (
             <tr
               key={racket.id}
-              className={`border-b border-border transition-colors hover:bg-secondary/30 ${i === rackets.length - 1 ? 'border-b-0' : ''}`}
+              className={`border-b border-border transition-colors hover:bg-secondary/30 ${i === sortedRackets.length - 1 ? 'border-b-0' : ''}`}
             >
               {/* Sticky model column */}
               <td className="sticky left-0 z-10 bg-card px-4 py-4 sm:px-5">
@@ -96,13 +137,15 @@ export function RacketComparisonTable({ rackets }: RacketComparisonTableProps) {
                 <span className="font-display text-base font-bold">{racket.price}</span>
               </td>
               <td className="px-4 py-4 sm:px-5">
-                <button
-                  type="button"
+                <a
+                  href={racket.affiliateUrl}
+                  target="_blank"
+                  rel="noopener noreferrer sponsored"
                   className="group/btn inline-flex items-center gap-1.5 whitespace-nowrap rounded-lg bg-neon px-3.5 py-2 text-xs font-semibold text-neon-foreground shadow-sm transition-all hover:shadow-md hover:shadow-neon/30 active:scale-95"
                 >
                   Preis prüfen
                   <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover/btn:translate-x-0.5" strokeWidth={2.5} />
-                </button>
+                </a>
               </td>
             </tr>
           ))}
