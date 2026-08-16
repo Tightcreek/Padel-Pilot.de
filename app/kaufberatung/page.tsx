@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 const trustBadges = [
   { icon: ShieldCheck, label: 'Unabhängig getestet' },
   { icon: Clock, label: '180h Spielpraxis' },
-  { icon: Eye, label: '47 Modelle verglichen' },
+  { icon: Eye, label: `${rackets.length} Modelle verglichen` },
 ];
 
 export default function KaufberatungPage() {
@@ -218,18 +218,18 @@ export default function KaufberatungPage() {
             <div>
               <h3 className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Tests</h3>
               <ul className="mt-3 space-y-2 text-sm">
-                <li><Link href="/#tests" className="text-muted-foreground hover:text-foreground">Bestenliste</Link></li>
+                <li><Link href="/bestenliste" className="text-muted-foreground hover:text-foreground">Bestenliste</Link></li>
                 <li><Link href="/kaufberatung" className="text-muted-foreground hover:text-foreground">Kaufberatung</Link></li>
-                <li><Link href="/#ratgeber" className="text-muted-foreground hover:text-foreground">Ratgeber</Link></li>
+                <li><Link href="/ratgeber" className="text-muted-foreground hover:text-foreground">Ratgeber</Link></li>
               </ul>
             </div>
 
             <div>
               <h3 className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Ratgeber</h3>
               <ul className="mt-3 space-y-2 text-sm">
-                <li><Link href="/#kaufberatung" className="text-muted-foreground hover:text-foreground">Kaufberatung</Link></li>
-                <li><Link href="/#ratgeber" className="text-muted-foreground hover:text-foreground">Schläger-Formen</Link></li>
-                <li><Link href="/#ratgeber" className="text-muted-foreground hover:text-foreground">Gewicht &amp; Balance</Link></li>
+                <li><Link href="/kaufberatung" className="text-muted-foreground hover:text-foreground">Kaufberatung</Link></li>
+                <li><Link href="/ratgeber" className="text-muted-foreground hover:text-foreground">Schläger-Formen</Link></li>
+                <li><Link href="/ratgeber" className="text-muted-foreground hover:text-foreground">Gewicht &amp; Balance</Link></li>
               </ul>
             </div>
 
