@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ArrowLeft, ArrowRight, CalendarDays, CheckCircle2, Clock, Info, ShoppingBag, Sparkles, User } from 'lucide-react';
+import { ArrowLeft, ArrowRight, CalendarDays, CheckCircle2, Clock, Compass, Info, ShoppingBag, Sparkles, User } from 'lucide-react';
 import { Header } from '@/components/header';
 import { getPostBySlug, posts } from '@/data/posts';
 import { getRacketById, type Racket } from '@/data/rackets';
@@ -46,9 +46,36 @@ export async function generateMetadata({
   };
 }
 
+function buildArticleJsonLd(post: NonNullable<ReturnType<typeof getPostBySlug>>) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.title,
+    description: post.excerpt,
+    image: post.image,
+    datePublished: post.date,
+    dateModified: post.date,
+    author: {
+      '@type': 'Person',
+      name: post.author.name,
+      description: post.author.bio,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Padel-Pilot.de',
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://www.padel-pilot.de/ratgeber/${post.slug}`,
+    },
+  };
+}
+
 export default function PostPage({ params }: { params: { slug: string } }) {
   const post = getPostBySlug(params.slug);
   if (!post) notFound();
+
+  const jsonLd = buildArticleJsonLd(post);
 
   const meta = [
     { icon: User, label: post.author.name },
@@ -71,6 +98,10 @@ export default function PostPage({ params }: { params: { slug: string } }) {
 
   return (
     <div className="min-h-screen bg-background">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Header />
 
       <main>
@@ -157,7 +188,7 @@ export default function PostPage({ params }: { params: { slug: string } }) {
                     <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-neon-600 dark:text-neon-400" strokeWidth={2} />
                     <span>{takeaway}</span>
                   </li>
-        ))}
+                ))}
               </ul>
             </aside>
 
@@ -368,6 +399,49 @@ export default function PostPage({ params }: { params: { slug: string } }) {
       {/* Footer */}
       <footer className="bg-background">
         <div className="mx-auto max-w-7xl container-px py-12">
+          <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
+            <div className="col-span-2 md:col-span-1">
+              <div className="flex items-center gap-2.5">
+                <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-neon text-neon-foreground">
+                  <Compass className="h-4 w-4" strokeWidth={2.5} />
+                </span>
+                <span className="font-display text-base font-bold">
+                  Padel-Pilot<span className="text-neon-600 dark:text-neon-400">.de</span>
+                </span>
+              </div>
+              <p className="mt-3 max-w-xs text-sm text-muted-foreground">
+                Unabhängige Padel-Schläger-Tests und Kaufberatung.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Tests</h3>
+              <ul className="mt-3 space-y-2 text-sm">
+                <li><Link href="/bestenliste" className="text-muted-foreground hover:text-foreground">Bestenliste</Link></li>
+                <li><Link href="/kaufberatung" className="text-muted-foreground hover:text-foreground">Kaufberatung</Link></li>
+                <li><Link href="/ratgeber" className="text-muted-foreground hover:text-foreground">Ratgeber</Link></li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Ratgeber</h3>
+              <ul className="mt-3 space-y-2 text-sm">
+                <li><Link href="/ratgeber" className="text-muted-foreground hover:text-foreground">Alle Artikel</Link></li>
+                <li><Link href="/ratgeber/padel-regeln-fuer-anfaenger" className="text-muted-foreground hover:text-foreground">Padel Regeln</Link></li>
+                <li><Link href="/ratgeber/welche-schuhe-brauche-ich-fuer-padel" className="text-muted-foreground hover:text-foreground">Padel-Schuhe</Link></li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Rechtliches</h3>
+              <ul className="mt-3 space-y-2 text-sm">
+                <li><Link href="/impressum" className="text-muted-foreground hover:text-foreground">Impressum</Link></li>
+                <li><Link href="/datenschutz" className="text-muted-foreground hover:text-foreground">Datenschutz</Link></li>
+                <li><Link href="/testkriterien" className="text-muted-foreground hover:text-foreground">Wie wir testen</Link></li>
+              </ul>
+            </div>
+          </div>
+
           <div className="mt-10 flex flex-col gap-2 border-t border-border pt-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
             <p>© 2026 Padel-Pilot.de. Alle Rechte vorbehalten.</p>
             <p>Wir nutzen Affiliate-Links. Der Preis bleibt für dich gleich.</p>
