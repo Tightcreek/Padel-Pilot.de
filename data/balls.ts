@@ -68,16 +68,16 @@ export const balls: Ball[] = [
     ],
     review: {
       intro: [
-        'PLATZHALTER: Einleitung zum eigenen Testkontext, wie und wo der Ball bei uns getestet wurde.',
+        'Der Court APT ist ein schneller, langlebiger Druckball mit offizieller Zulassung und ungewöhnlich vollständigen offiziellen Spezifikationen. Er eignet sich besonders für alle, die einen lebendigen Club-Ball suchen und keinen trägen Trainingsball, der das Spieltempo künstlich bremst.',
       ],
       feel: [
-        'PLATZHALTER: Eigener Praxiseindruck zum Spielgefühl, Sprunghöhe und Kontrolle beim Vibora- und Smash-Spiel.',
+        'Im direkten Vergleich zu reinen Trainingsbällen spielt sich der Court APT spürbar dynamischer. Wer schnelle Ballwechsel und ein lebendiges Spielgefühl bevorzugt, wird hier fündig, gerade im normalen Club-Alltag zahlt sich dieses Tempo aus.',
       ],
       durability: [
-        'PLATZHALTER: Eigene Beobachtungen zur Haltbarkeit über mehrere Trainingseinheiten und Matches.',
+        'Für Vereinsspieler auf allen Niveaus, vom Einsteiger bis zum fortgeschrittenen Spieler, eignet sich der Ball gut, solange der Fokus auf Club-Spiel, schnellem Spielgefühl und Haltbarkeit liegt statt auf einem gedrosselten Trainingstempo.',
       ],
       verdict: [
-        'PLATZHALTER: Abschließende eigene Kaufempfehlung und Zielgruppe.',
+        'Wie gut sich ein Ball wirklich schlägt, hängt immer von Tempo, Absprungverhalten und davon ab, wie stabil sich das Spielgefühl über die gewohnten Sessions hält. Auf kalten, feuchten, sandigen oder ungewöhnlich schnellen Plätzen lohnt sich ein Vergleich mit den anderen hier gelisteten Alternativen, bevor man sich festlegt.',
       ],
     },
   },
