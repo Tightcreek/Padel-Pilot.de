@@ -21,7 +21,10 @@ export const metadata: Metadata = {
   title: 'Padel-Pilot.de — Padel-Schläger im Test & Vergleich 2026',
   description:
     'Unabhängige Padel-Schläger-Tests, Kaufberatung und Ratgeber. Wir vergleichen Form, Gewicht, Balance und Preis-Leistung der besten Modelle 2026.',
-  metadataBase: new URL('https://padel-pilot.de'),
+  metadataBase: new URL('https://www.padel-pilot.de'),
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     title: 'Padel-Pilot.de — Padel-Schläger im Test & Vergleich 2026',
     description:

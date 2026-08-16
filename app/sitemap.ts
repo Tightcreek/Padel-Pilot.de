@@ -3,7 +3,7 @@ import { rackets } from '@/data/rackets';
 import { posts } from '@/data/posts';
 import { bestlists } from '@/data/bestlists';
 
-const BASE_URL = 'https://padel-pilot.de';
+const BASE_URL = 'https://www.padel-pilot.de';
 
 const staticRoutes: MetadataRoute.Sitemap = [
   { url: BASE_URL, changeFrequency: 'weekly', priority: 1 },
