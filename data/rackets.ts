@@ -469,8 +469,8 @@ export const rackets: Racket[] = [
     weight: '370g',
     level: 'Profi',
     score: 9.0,
-    price: '259 €',
-    priceValue: 259,
+    price: '169 €',
+    priceValue: 169,
     affiliateUrl: 'https://amzn.to/4gfJKXR',
     image:
       'https://contents.mediadecathlon.com/m25289368/k$d37f8b3386ae6c09315a5fe68239a5a4/picture.jpg',
