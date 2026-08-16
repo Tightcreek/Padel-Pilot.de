@@ -8,6 +8,7 @@ import { cn } from '@/lib/utils';
 
 const navLinks = [
   { label: 'Schläger-Tests', href: '/bestenliste' },
+  { label: 'Bälle-Tests', href: '/baelle' },
   { label: 'Kaufberatung', href: '/kaufberatung' },
   { label: 'Ratgeber', href: '/ratgeber' },
 ];
