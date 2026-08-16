@@ -46,7 +46,7 @@ export const balls: Ball[] = [
     price: '9 €',
     priceValue: 9,
     affiliateUrl: 'https://amzn.to/4qjZT33',
-    image: 'https://PLACEHOLDER-EIGENES-FOTO/babolat-court-apt.jpg',
+    image: 'https://contents.mediadecathlon.com/p2237809/k$ca10fe6e4e258fd15beb8180089a35e0/picture.jpg',
     imageAlt: 'Babolat Court APT Padelbälle in der Dose auf dem Court',
     slug: 'babolat-court-apt',
     teaser:
@@ -93,7 +93,7 @@ export const balls: Ball[] = [
     price: '10 €',
     priceValue: 10,
     affiliateUrl: 'https://amzn.to/4hyxdkF',
-    image: 'https://PLACEHOLDER-EIGENES-FOTO/head-pro-s.jpg',
+    image: 'https://contents.mediadecathlon.com/p2773647/k$6b7e1328f338fb64f40d96ab7aec2974/picture.jpg',
     imageAlt: 'Head Pro S Padelbälle, offizieller Ball der World Padel Tour',
     slug: 'head-pro-s',
     teaser:
@@ -141,7 +141,7 @@ export const balls: Ball[] = [
     price: '6 €',
     priceValue: 6,
     affiliateUrl: 'https://amzn.to/3UCK8s7',
-    image: 'https://PLACEHOLDER-EIGENES-FOTO/kuikma-pb990-speed.jpg',
+    image: 'https://contents.mediadecathlon.com/p3114672/k$84407111f9979d1a4f1eda720671cf5a/picture.jpg',
     imageAlt: 'Kuikma PB 990 Speed Padelbälle von Decathlon',
     slug: 'kuikma-pb-990-speed',
     teaser:
