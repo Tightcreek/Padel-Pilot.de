@@ -62,8 +62,8 @@ export default function KaufberatungPage() {
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">
               Wir haben die aktuellen Modelle getestet. Finde den perfekten
-              Schläger für dein Spielniveau — ohne Marketing-Blabla, mit
-              transparenten Scores und echten Spielerfahrungen.
+              Schläger für dein Spielniveau, mit transparenten Scores, echten
+              Spielerfahrungen und ohne Marketing-Blabla.
             </p>
 
             {/* Trust badges */}
@@ -118,7 +118,7 @@ export default function KaufberatungPage() {
                 Warum diese Schläger in unserer Liste stehen
               </h2>
               <p className="mt-2 max-w-2xl text-sm text-muted-foreground">
-                Detaillierte Begründung für jede Empfehlung — damit du
+                Detaillierte Begründung für jede Empfehlung, damit du
                 einschätzen kannst, welcher Schläger zu deinem Spiel passt.
               </p>
             </div>
