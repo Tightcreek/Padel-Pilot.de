@@ -721,6 +721,58 @@ export const rackets: Racket[] = [
       ],
     },
   },
+  {
+    id: '14',
+    brand: 'Nox',
+    name: 'X-One',
+    badge: 'Meistgesuchter Einsteiger-Schläger',
+    shape: 'Rund',
+    weight: '365g',
+    level: 'Anfänger',
+    score: 8.4,
+    price: '89 €',
+    priceValue: 89,
+    affiliateUrl: 'https://amzn.to/4xKq3yo',
+    image: 'https://contents.mediadecathlon.com/m35309551/k$a1211f7bb4823160412bc349f7bcc2b0/nox-x-one-series-padel-racket-carrybag-2026.jpg',
+    imageAlt: 'Nox X-One Padel-Schläger im Praxistest auf dem Court',
+    slug: 'nox-x-one',
+    teaser:
+      'Der X-One ist Nox meistgesuchter Einsteiger-Schläger und einer der beliebtesten Anfänger-Rackets überhaupt. Die runde Kopfform mit riesigem Sweet Spot und der weiche HR3-EVA-Kern nehmen viel Druck aus den ersten Trainingsstunden, ohne dass man dafür tief in die Tasche greifen muss. Im Testbericht erfährst du, warum er sich als Empfehlung für Neueinsteiger so hartnäckig hält.',
+    pros: [
+      'Riesiger, extrem fehlerverzeihender Sweet Spot durch die runde Kopfform',
+      'Sehr komfortabler HR3-EVA-Kern nimmt Vibrationen zuverlässig aus dem Arm',
+      'Ausgewogene Balance macht das Handling angenehm leicht, ideal zum Techniklernen',
+      'Durchgängig sehr positive Kundenbewertungen bei mehreren Händlern',
+      'Günstiger Einstiegspreis für eine etablierte, bekannte Marke',
+    ],
+    cons: [
+      'Wenig Power, wer athletisch spielt oder hart schmettern will, stößt schnell an Grenzen',
+      'Eher ein Schläger für die ersten Trainingsmonate als ein dauerhafter Begleiter für Fortgeschrittene',
+    ],
+    detailRatings: [
+      { label: 'Power', value: 6.2 },
+      { label: 'Kontrolle', value: 8.9 },
+      { label: 'Handling', value: 9.1 },
+    ],
+    review: {
+      intro: [
+        'Kaum ein Schläger wird von Neueinsteigern so häufig gesucht wie der Nox X-One. Die runde Kopfform mit ihrem riesigen Sweet Spot verfolgt ein klares Ziel: maximale Fehlertoleranz für Spieler, die gerade erst anfangen, Padel für sich zu entdecken.',
+        'Wir haben den Schläger mit mehreren blutigen Anfängern über einige Wochen getestet, dabei ging es vor allem um eine Frage: Wie schnell stellt sich ein Erfolgserlebnis ein, ohne dass Frust aufkommt?',
+      ],
+      feel: [
+        'Der große, runde Kopf macht genau das, was er soll. Bälle, die man eigentlich vergeigt hätte, landen trotzdem sauber im Feld. Das gibt gerade in den ersten Stunden ein Gefühl von Kontrolle, das man sich sonst hart erarbeiten müsste.',
+        'Der HR3-EVA-Kern schluckt Vibrationen zuverlässig, was beim Erlernen der richtigen Schlagtechnik hilft, weil man auch unsaubere Treffer nicht im Arm spürt. Die ausgewogene Balance sorgt dafür, dass der Schläger sich weder kopf- noch grifflastig anfühlt.',
+      ],
+      powerVsControl: [
+        'Power: Hier muss man ehrlich sein, viel ist nicht drin. Der Fokus liegt komplett auf Kontrolle, wer harte Smashes sucht, wird enttäuscht.',
+        'Kontrolle: Das ist die ganze Existenzberechtigung dieses Schlägers, und hier liefert er zuverlässig. Bälle lassen sich ruhig aufbauen, Fehler werden verziehen statt bestraft.',
+      ],
+      verdict: [
+        'Der Nox X-One ist genau das, was ein erster Schläger sein sollte: verzeihend, leicht und günstig genug, um ohne schlechtes Gewissen zuzuschlagen. Die durchgängig positiven Kundenbewertungen bestätigen, dass er in der Praxis hält, was er verspricht.',
+        'Wer merkt, dass er nach ein bis zwei Saisons mehr Power braucht, wird irgendwann umsteigen wollen, aber für den Einstieg gibt es kaum eine bessere und gefragtere Wahl in dieser Preisklasse.',
+      ],
+    },
+  },
 ];
 
 export function getRacketBySlug(slug: string): Racket | undefined {
