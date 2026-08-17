@@ -17,6 +17,7 @@ import { RacketCard } from '@/components/racket-card';
 import { RacketFinderQuiz } from '@/components/RacketFinderQuiz';
 import { rackets } from '@/data/rackets';
 import { posts } from '@/data/posts';
+import heroImage from '@/data/padel-hero-sunset.png';
 
 const heroStats = [
   { value: rackets.length.toString(), label: 'Schläger getestet' },
@@ -112,8 +113,8 @@ export default function Home() {
               <div className="lg:col-span-5 xl:col-span-6">
                 <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl border border-border bg-secondary animate-scale-in">
                   <Image
-                    src="https://images.pexels.com/photos/35248469/pexels-photo-35248469.jpeg?auto=compress&cs=tinysrgb&w=1000"
-                    alt="Padel-Spielerin beim Schlag auf blauem Indoor-Court"
+                    src={heroImage}
+                    alt="Padel-Spieler bei der Vorhand auf einem Outdoor-Court bei Sonnenuntergang"
                     fill
                     priority
                     sizes="(max-width: 1024px) 100vw, 50vw"
