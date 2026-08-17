@@ -617,6 +617,58 @@ export const rackets: Racket[] = [
       ],
     },
   },
+  {
+    id: '12',
+    brand: 'Bullpadel',
+    name: 'Hack 04 2025',
+    badge: 'Signature-Schläger von Paquito Navarro',
+    shape: 'Diamant',
+    weight: '370g',
+    level: 'Profi',
+    score: 8.6,
+    price: '139 €',
+    priceValue: 139,
+    affiliateUrl: 'https://amzn.to/4wB9Evl',
+    image: 'https://contents.mediadecathlon.com/m18798755/k$b19d66a56acdaab36b55c57641da97ea/picture.jpg',
+    imageAlt: 'Bullpadel Hack 04 2025 Padel-Schläger im Praxistest auf dem Court',
+    slug: 'bullpadel-hack-04-2025-paquito-navarro',
+    teaser:
+      'Der Hack 04 2025 ist Paquito Navarros Signature-Schläger und steht bei Bullpadel für kompromisslose Power. Die Diamantform mit Tricarbon-Rahmen und MultiEva-Kern liefert eine der höchsten Schlagkraft-Bewertungen in unserem gesamten Testfeld. Im Testbericht erfährst du, für wen sich diese Offensiv-Waffe wirklich lohnt.',
+    pros: [
+      'Außergewöhnlich hohe Schlagkraft, in unabhängigen Tests mit der Bestnote für Power bewertet',
+      'Tricarbon-Rahmen mit leicht rauer 3D-Oberfläche liefert kräftigen, gut kontrollierbaren Spin',
+      'Solide Kontrolle für einen derart power-orientierten Diamant-Schläger',
+      'Signature-Modell von Paquito Navarro, einem der bekanntesten Offensivspieler der Tour',
+      'Attraktiver Preis für ein Pro-Line-Modell dieses Kalibers',
+    ],
+    cons: [
+      'Kleinerer Sweet Spot im Vergleich zu Kontroll-orientierten Modellen, verzeiht Fehltreffer weniger',
+      'Klar auf Profi- und starke Fortgeschrittene ausgelegt, für Einsteiger ungeeignet',
+    ],
+    detailRatings: [
+      { label: 'Power', value: 10.0 },
+      { label: 'Kontrolle', value: 8.0 },
+      { label: 'Handling', value: 7.7 },
+    ],
+    review: {
+      intro: [
+        'Mit dem Hack 04 2025 bringt Bullpadel den Signature-Schläger von Paquito Navarro auf den Platz, einem Spieler, der auf der Tour für seine explosiven Angriffsschläge bekannt ist. Die Diamantform mit ihrer hohen Balance und dem Tricarbon-Rahmen richtet sich klar an Spieler, die den Punkt am liebsten selbst am Netz beenden.',
+        'Wir haben den Schläger über mehrere Wochen im direkten Vergleich zu unseren bisherigen Power-Testsiegern gespielt, mit besonderem Fokus darauf, wie sich die außergewöhnlich hohe Schlagkraft in der Praxis mit noch akzeptabler Kontrolle verbinden lässt.',
+      ],
+      feel: [
+        'Schon beim ersten Ballkontakt spürt man die enorme Energie, die der Tricarbon-Rahmen in Kombination mit dem MultiEva-Kern freisetzt. Die leicht raue 3D-Oberfläche greift den Ball zuverlässig, was sich besonders bei Smashes und Viboras in einem kräftigen, gut kontrollierbaren Spin bemerkbar macht.',
+        'Am Netz macht sich die kopflastige Balance schnell bemerkbar, ähnlich wie bei anderen reinrassigen Power-Diamanten in unserem Vergleich. Wer rechtzeitig hinter dem Ball steht, wird mit einer der höchsten Schlagkraft-Werte unseres gesamten Testfelds belohnt.',
+      ],
+      powerVsControl: [
+        'Power: Hier liefert der Hack 04 2025 absolute Bestwerte. In unabhängigen Tests erreicht er in der Power-Kategorie die volle Punktzahl, was ihn zu einem der stärksten Angriffsschläger macht, die wir bislang getestet haben.',
+        'Kontrolle: Überraschend solide für einen derart offensiv ausgelegten Diamant-Schläger. Zwar verzeiht der kleinere Sweet Spot Fehltreffer nicht großzügig, aber bei sauberer Technik lassen sich auch Lobs und defensive Blocks noch ordentlich platzieren.',
+      ],
+      verdict: [
+        'Der Bullpadel Hack 04 2025 ist eine der reinsten Power-Waffen in unserem Testfeld und eine klare Empfehlung für ambitionierte Offensivspieler, die dem Vorbild Paquito Navarros nacheifern wollen.',
+        'Wer primär über Schlagkraft am Netz punktet und die nötige Technik sowie Armkraft mitbringt, findet hier eines der stärksten Angriffswerkzeuge unseres Vergleichs. Einsteiger und reine Kontrollspieler sollten aufgrund der geringeren Fehlertoleranz eher zu ausgewogeneren Modellen greifen.',
+      ],
+    },
+  },
 ];
 
 export function getRacketBySlug(slug: string): Racket | undefined {
