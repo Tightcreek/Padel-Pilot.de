@@ -669,6 +669,58 @@ export const rackets: Racket[] = [
       ],
     },
   },
+  {
+    id: '13',
+    brand: 'Siux',
+    name: 'Valkiria Pro 2026',
+    badge: 'Signature-Schläger von Sofía Araújo',
+    shape: 'Tropfenform',
+    weight: '350g',
+    level: 'Profi',
+    score: 8.7,
+    price: '269 €',
+    priceValue: 269,
+    affiliateUrl: 'https://amzn.to/45tVcu7',
+    image: 'https://contents.mediadecathlon.com/m36339500/k$0f6bc3a0b9a41488c277cf79cab3d884/picture.jpg',
+    imageAlt: 'Siux Valkiria Pro 2026 Padel-Schläger im Praxistest auf dem Court',
+    slug: 'siux-valkiria-pro-2026',
+    teaser:
+      'Der Valkiria Pro 2026 ist Sofía Araújos Signature-Schläger und Siux erste Premium-Tropfenform in unserer Bestenliste. Aluminisiertes 24K-Carbon, ein EVA-Soft-Kern und eine ausgewogene mittlere Balance versprechen echte Vielseitigkeit zwischen Angriff und Verteidigung. Im Testbericht erfährst du, ob dieser Allrounder das Versprechen einlöst.',
+    pros: [
+      'Sehr leichtes Gewicht für eine ausgezeichnete Manövrierfähigkeit am Netz',
+      'Großzügiger, verzeihender Sweet Spot dank Tropfenform mit mittlerer Balance',
+      'Sauberer, direkter Ballabgang durch aluminisierte 24K-Carbon-Oberfläche',
+      'Rauer 3D-Matte-Finish liefert gut kontrollierbaren Spin bei Angriffsschlägen',
+      'Sehr ausgewogenes Profil, eignet sich für nahezu jeden Spielstil',
+    ],
+    cons: [
+      'Bei flachen, harten Schlägen etwas durchschnittlich im Vergleich zu reinen Power-Diamanten',
+      'Premium-Preis, der ihn preislich in eine ähnliche Liga wie etablierte Signature-Modelle bringt',
+    ],
+    detailRatings: [
+      { label: 'Power', value: 7.6 },
+      { label: 'Kontrolle', value: 8.6 },
+      { label: 'Handling', value: 8.8 },
+    ],
+    review: {
+      intro: [
+        'Mit dem Valkiria Pro 2026 bringt Siux den Signature-Schläger von Sofía Araújo auf den Platz und positioniert sich damit erstmals mit einem echten Premium-Modell in unserer Bestenliste. Die Tropfenform mit mittlerer Balance und aluminisiertem 24K-Carbon soll dabei genau die Vielseitigkeit liefern, die viele Allround-Spielerinnen und -Spieler suchen.',
+        'Wir haben den Schläger über mehrere Wochen im direkten Vergleich zu unseren bisherigen Tropfenform-Testsiegern gespielt, mit besonderem Fokus darauf, wie sich das geringe Gewicht und die ausgewogene Balance auf das Zusammenspiel zwischen Offensive und Defensive auswirken.',
+      ],
+      feel: [
+        'Schon beim ersten Ballkontakt fällt das angenehm geringe Gewicht auf, das dem Schläger eine spürbar leichtfüßige Note verleiht. Die aluminisierte 24K-Carbon-Oberfläche gibt ein klares, direktes Feedback, während der EVA-Soft-Kern für einen komfortablen, kontrollierten Ballabgang sorgt.',
+        'Am Netz zeigt sich die große Stärke des Valkiria Pro. Der Wechsel zwischen Bandeja und Vibora sowie schnelle Korrekturen mitten in der Bewegung gelingen fast mühelos, ein Vorteil, der sich direkt auf das geringe Gewicht und die mittlere Balance zurückführen lässt.',
+      ],
+      powerVsControl: [
+        'Power: Hier bewegt sich der Valkiria Pro im soliden Mittelfeld. Bei flachen, harten Schlägen fehlt im Vergleich zu reinen Power-Diamanten etwas die letzte Durchschlagskraft, was aber dem ausgewogenen Gesamtkonzept geschuldet ist.',
+        'Kontrolle: Das ist die klare Stärke des Schlägers. Der großzügige Sweet Spot verzeiht auch dezentrale Treffer gut, und die Kombination aus Tropfenform und mittlerer Balance ermöglicht präzise Lobs und defensive Blocks bei gleichzeitig sauberer Angriffsvorbereitung.',
+      ],
+      verdict: [
+        'Der Siux Valkiria Pro 2026 ist ein rundum ausgewogener Allround-Schläger, der sein Vielseitigkeits-Versprechen im Test überzeugend einlöst. Für Spielerinnen und Spieler, die weder auf pure Power noch auf reine Kontrolle festgelegt sein wollen, ist er eine der stärksten Empfehlungen in dieser Preisklasse.',
+        'Wer primär harte, flache Schläge und maximale Power sucht, findet in unserem Vergleich spezialisiertere Diamant-Modelle. Für alle anderen ist der Valkiria Pro ein technisch ausgereifter Allrounder mit erstklassiger Manövrierfähigkeit.',
+      ],
+    },
+  },
 ];
 
 export function getRacketBySlug(slug: string): Racket | undefined {
