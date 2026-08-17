@@ -64,12 +64,12 @@ export default function Home() {
                 </div>
 
                 <h1 className="mt-6 font-display text-5xl font-bold leading-[1.05] tracking-tight text-balance sm:text-6xl lg:text-7xl animate-fade-up">
-                  Der ultimative{' '}
+                  Vom Einsteiger- bis zum{' '}
+                  Profi-Schläger:{' '}
                   <span className="relative inline-block">
-                    <span className="relative z-10">Anfänger-Guide</span>
+                    <span className="relative z-10">Guide 2026</span>
                     <span className="absolute inset-x-0 bottom-1.5 -z-0 h-3 bg-neon/70 sm:bottom-2 sm:h-4" />
-                  </span>{' '}
-                  für Padel 2026
+                  </span>
                 </h1>
 
                 <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground animate-fade-up [animation-delay:80ms]">
