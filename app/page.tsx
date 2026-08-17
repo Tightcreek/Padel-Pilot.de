@@ -28,7 +28,7 @@ const guideSteps = [
   {
     icon: Target,
     title: 'Spiellevel bestimmen',
-    text: 'Anfänger, Fortgeschritten oder Profi — der Schläger muss zu deinem Können passen.',
+    text: 'Anfänger, Fortgeschritten oder Profi, der Schläger muss zu deinem Können passen.',
   },
   {
     icon: Ruler,
@@ -125,7 +125,7 @@ export default function Home() {
                       Im Test
                     </p>
                     <p className="mt-1 font-display text-lg font-bold leading-tight">
-                      Babolat Technical Viper — 9,2/10
+                      Babolat Technical Viper: 9,2/10
                     </p>
                   </div>
                 </div>
@@ -150,7 +150,7 @@ export default function Home() {
                   Unsere Top-Empfehlungen
                 </h2>
                 <p className="mt-3 max-w-2xl text-muted-foreground">
-                  Drei Schläger, die in jeder Kategorie überzeugt haben — vom
+                  Drei Schläger, die in jeder Kategorie überzeugt haben, vom
                   Preis-Leistungs-Sieger bis zum Pro-Modell.
                 </p>
               </div>
