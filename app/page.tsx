@@ -111,7 +111,7 @@ export default function Home() {
 
               {/* Right: editorial image */}
               <div className="lg:col-span-5 xl:col-span-6">
-                <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl border border-border bg-secondary animate-scale-in">
+                <div className="relative aspect-[3/4] w-full overflow-hidden rounded-2xl border border-border bg-secondary animate-scale-in">
                   <Image
                     src={heroImage}
                     alt="Padel-Spieler bei der Vorhand auf einem Outdoor-Court bei Sonnenuntergang"
@@ -119,6 +119,7 @@ export default function Home() {
                     priority
                     sizes="(max-width: 1024px) 100vw, 50vw"
                     className="object-cover"
+                    style={{ objectPosition: 'center 30%' }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
                   <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
