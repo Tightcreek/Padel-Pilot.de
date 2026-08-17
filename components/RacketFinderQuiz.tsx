@@ -57,7 +57,7 @@ interface ShapeOption {
 const shapeOptions: ShapeOption[] = [
   {
     label: 'Maximale Kontrolle & verzeihender Sweet Spot',
-    description: 'Großer Treffpunkt, viel Gefühl — ideal für sicheres Spiel.',
+    description: 'Großer Treffpunkt, viel Gefühl, ideal für sicheres Spiel.',
     icon: CheckCircle2,
     match: 'Rund',
   },
@@ -108,9 +108,9 @@ const priceOptions: PriceOption[] = [
 ];
 
 const stepMeta = [
-  { title: 'Wie gut spielst du Padel?', subtitle: 'Schritt 1 von 3 — dein Können', icon: Sparkles },
-  { title: 'Was ist dir bei deinem Schläger am wichtigsten?', subtitle: 'Schritt 2 von 3 — die Form', icon: Zap },
-  { title: 'Wie viel möchtest du investieren?', subtitle: 'Schritt 3 von 3 — dein Budget', icon: Wallet },
+  { title: 'Wie gut spielst du Padel?', subtitle: 'Schritt 1 von 3: dein Können', icon: Sparkles },
+  { title: 'Was ist dir bei deinem Schläger am wichtigsten?', subtitle: 'Schritt 2 von 3: die Form', icon: Zap },
+  { title: 'Wie viel möchtest du investieren?', subtitle: 'Schritt 3 von 3: dein Budget', icon: Wallet },
 ];
 
 interface ScoredRacket {
@@ -180,7 +180,7 @@ export function RacketFinderQuiz() {
             Finde deinen perfekten Schläger in 3 Schritten
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
-            Beantworte drei kurze Fragen — wir vergleichen deine Antworten mit
+            Beantworte drei kurze Fragen, wir vergleichen deine Antworten mit
             allen getesteten Modellen und zeigen dir die Schläger, die am besten
             zu dir passen.
           </p>
