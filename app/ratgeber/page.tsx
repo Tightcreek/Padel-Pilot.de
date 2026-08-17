@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Padel-Wissen & Ratgeber — Padel-Pilot.de',
     description:
-      'Regeln, Vergleiche und Ausrüstungs-Guides — verständlich erklärt von der Padel-Pilot-Redaktion.',
+      'Regeln, Vergleiche und Ausrüstungs-Guides, verständlich erklärt von der Padel-Pilot-Redaktion.',
     type: 'website',
     locale: 'de_DE',
   },
@@ -51,7 +51,7 @@ export default function RatgeberPage() {
             </h1>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">
-              Regeln, Vergleiche und Ausrüstungs-Guides — verständlich erklärt,
+              Regeln, Vergleiche und Ausrüstungs-Guides, verständlich erklärt,
               damit du schneller auf dem Court stehst und bessere Entscheidungen
               triffst.
             </p>
