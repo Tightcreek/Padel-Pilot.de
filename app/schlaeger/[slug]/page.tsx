@@ -34,7 +34,7 @@ export async function generateMetadata({
     };
   }
 
-  const title = `${racket.name} im Test: Unsere Erfahrungen — Padel-Pilot.de`;
+  const title = `${racket.brand} ${racket.name} Test 2026: Erfahrungen & Bewertung`;
   const description = racket.teaser;
 
   return {
