@@ -188,7 +188,7 @@ export const balls: Ball[] = [
     price: '8 €',
     priceValue: 8,
     affiliateUrl: 'https://amzn.to/4zGksuL',
-    image: 'https://contents.mediadecathlon.com/p2237809/k$ca10fe6e4e258fd15beb8180089a35e0/picture.jpg',
+    image: 'https://contents.mediadecathlon.com/m19992480/k$05f7ca9e316145a3e38c62e960408c9c/picture.jpg',
     imageAlt: 'Tretorn Serie+ Tour Padelbälle in der Dose auf dem Court',
     slug: 'tretorn-serie-plus-tour',
     teaser:
@@ -235,7 +235,7 @@ export const balls: Ball[] = [
     price: '7 €',
     priceValue: 7,
     affiliateUrl: 'https://amzn.to/4y3W98G',
-    image: 'https://contents.mediadecathlon.com/p2773647/k$6b7e1328f338fb64f40d96ab7aec2974/picture.jpg',
+    image: 'https://padelfreunde.de/cdn/shop/files/2_20078341-43fb-4719-b550-f7e16b059a90.png?crop=center&height=1900&v=1752848267&width=1900',
     imageAlt: 'Wilson Premier Padel Speed Bälle, offizieller Ball der Premier Padel Tour',
     slug: 'wilson-premier-padel-speed',
     teaser:
@@ -282,7 +282,7 @@ export const balls: Ball[] = [
     price: '6 €',
     priceValue: 6,
     affiliateUrl: 'https://amzn.to/4ccQPHD',
-    image: 'https://contents.mediadecathlon.com/p3114672/k$84407111f9979d1a4f1eda720671cf5a/picture.jpg',
+    image: 'https://contents.mediadecathlon.com/m19131460/k$6e04a078a23994650fab0c61b8018abf/picture.jpg',
     imageAlt: 'Bullpadel Next Pro Padelbälle in der Dose',
     slug: 'bullpadel-next-pro',
     teaser:
