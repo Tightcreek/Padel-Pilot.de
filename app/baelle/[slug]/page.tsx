@@ -34,7 +34,7 @@ export async function generateMetadata({
     };
   }
 
-  const title = `${ball.name} im Test: Unsere Erfahrungen — Padel-Pilot.de`;
+  const title = `${ball.brand} ${ball.name} Test 2026: Erfahrungen & Bewertung`;
   const description = ball.teaser;
 
   return {
@@ -142,11 +142,11 @@ export default function BallReviewPage({
           <div className="pointer-events-none absolute -left-32 -top-16 h-[420px] w-[420px] rounded-full bg-neon/10 blur-3xl" />
           <div className="mx-auto max-w-7xl container-px py-10 lg:py-16">
             <Link
-              href="/bestenliste"
+              href="/baelle"
               className="group inline-flex items-center gap-1.5 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
             >
               <ArrowLeft className="h-4 w-4 transition-transform group-hover:-translate-x-0.5" strokeWidth={2.5} />
-              Zurück zur Bestenliste
+              Zurück zur Bälle-Bestenliste
             </Link>
 
             <div className="mt-8 grid grid-cols-1 gap-10 lg:grid-cols-12 lg:gap-16">
