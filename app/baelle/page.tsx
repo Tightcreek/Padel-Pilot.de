@@ -125,6 +125,71 @@ export default function BaellePage() {
           </div>
         </section>
 
+        {/* Comparison table */}
+        <section className="border-b border-border">
+          <div className="mx-auto max-w-4xl container-px py-10 lg:py-14">
+            <h2 className="font-display text-xl font-bold tracking-tight sm:text-2xl">
+              Alle Bälle auf einen Blick
+            </h2>
+            <p className="mt-2 text-sm text-muted-foreground">
+              Sortiert nach Gesamtnote. Klicke auf ein Modell für die ausführliche Bewertung.
+            </p>
+
+            <div className="mt-6 overflow-x-auto rounded-2xl border border-border">
+              <table className="w-full min-w-[640px] text-left text-sm">
+                <thead>
+                  <tr className="border-b border-border bg-secondary/50">
+                    <th scope="col" className="px-4 py-3 font-semibold">Ball</th>
+                    <th scope="col" className="px-4 py-3 font-semibold">Typ</th>
+                    <th scope="col" className="px-4 py-3 font-semibold">Druck</th>
+                    <th scope="col" className="px-4 py-3 font-semibold">Level</th>
+                    <th scope="col" className="px-4 py-3 font-semibold text-right">Score</th>
+                    <th scope="col" className="px-4 py-3 font-semibold text-right">Preis</th>
+                    <th scope="col" className="px-4 py-3 font-semibold sr-only sm:not-sr-only">Details</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {rankedBalls.map((ball, idx) => (
+                    <tr
+                      key={ball.id}
+                      className={`border-b border-border/60 last:border-0 transition-colors hover:bg-secondary/40 ${
+                        idx === 0 ? 'bg-neon/5' : ''
+                      }`}
+                    >
+                      <td className="px-4 py-3">
+                        <a href={`#ball-${ball.slug}`} className="flex items-center gap-3 font-medium hover:text-neon-600 dark:hover:text-neon-400">
+                          {idx === 0 && (
+                            <Trophy className="h-4 w-4 shrink-0 text-neon-600 dark:text-neon-400" strokeWidth={2.5} fill="currentColor" />
+                          )}
+                          <span>
+                            <span className="block text-xs text-muted-foreground">{ball.brand}</span>
+                            {ball.name}
+                          </span>
+                        </a>
+                      </td>
+                      <td className="px-4 py-3 text-muted-foreground">{ball.type}</td>
+                      <td className="px-4 py-3 text-muted-foreground">{ball.pressure}</td>
+                      <td className="px-4 py-3 text-muted-foreground">{ball.level}</td>
+                      <td className="px-4 py-3 text-right font-display font-bold tabular-nums">
+                        {ball.score.toFixed(1)}
+                      </td>
+                      <td className="px-4 py-3 text-right font-medium">{ball.price}</td>
+                      <td className="px-4 py-3 text-right">
+                        <a
+                          href={`#ball-${ball.slug}`}
+                          className="hidden rounded-md border border-border px-3 py-1.5 text-xs font-semibold transition-colors hover:bg-secondary sm:inline-block"
+                        >
+                          Ansehen
+                        </a>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
         {/* Ranked list */}
         <section className="border-b border-border bg-secondary/30">
           <div className="mx-auto max-w-4xl container-px py-12 lg:py-16">
@@ -143,7 +208,8 @@ export default function BaellePage() {
                 return (
                   <article
                     key={ball.id}
-                    className={`group overflow-hidden rounded-2xl border bg-card shadow-sm transition-all duration-300 hover:shadow-lg animate-fade-up ${
+                    id={`ball-${ball.slug}`}
+                    className={`group scroll-mt-24 overflow-hidden rounded-2xl border bg-card shadow-sm transition-all duration-300 hover:shadow-lg animate-fade-up ${
                       isTop ? 'border-neon/50' : 'border-border hover:border-neon/30'
                     }`}
                     style={{ animationDelay: `${idx * 100}ms` }}
