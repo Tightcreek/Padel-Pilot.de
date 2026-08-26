@@ -180,7 +180,7 @@ export const balls: Ball[] = [
     id: '4',
     brand: 'Tretorn',
     name: 'Serie+ Tour',
-    badge: 'Bester Gesamtsieger im unabhängigen Labortest',
+    badge: 'Bester Gesamtsieger im Praxistest',
     type: 'Speed',
     pressure: 'Hoch',
     level: 'Fortgeschritten',
@@ -192,10 +192,10 @@ export const balls: Ball[] = [
     imageAlt: 'Tretorn Serie+ Tour Padelbälle in der Dose auf dem Court',
     slug: 'tretorn-serie-plus-tour',
     teaser:
-      'Der Serie+ Tour ist ausgestattet mit Tretorns TRI-TEC-Technologie und wurde in einem unabhängigen skandinavischen Labortest als bester Ball seines Testfelds ausgezeichnet. Der dünne Gummikern und der leichte Duraweave-Filz sorgen für ein außergewöhnlich konstantes Sprungverhalten über die gesamte Nutzungsdauer.',
+      'Der Serie+ Tour ist ausgestattet mit Tretorns TRI-TEC-Technologie und war in unserem Vergleich der Ball mit dem konstantesten Sprungverhalten. Der dünne Gummikern und der leichte Duraweave-Filz sorgen für ein außergewöhnlich gleichmäßiges Spielgefühl über die gesamte Nutzungsdauer.',
     pros: [
-      'Bestbewertung in einem unabhängigen Labortest mit zehn verglichenen Modellen',
-      'Sehr geringe Schwankung im Sprungverhalten zwischen erstem und letztem Testdurchgang',
+      'Beste Gesamtbewertung in unserem Vergleich mit sechs getesteten Bällen',
+      'Sehr geringe Schwankung im Sprungverhalten über die gesamte Testdauer',
       'Leichter Duraweave-Filz bleibt auch nach längerem Spiel formstabil',
       'Vom spanischen Padelverband zugelassen, entsprechend hohe Qualitätsstandards',
     ],
@@ -210,16 +210,16 @@ export const balls: Ball[] = [
     ],
     review: {
       intro: [
-        'Nachdem der Serie+ Tour in einem unabhängigen skandinavischen Labortest mit zehn verglichenen Padelbällen als Gesamtsieger hervorging, wollten wir wissen, ob sich dieses Ergebnis auch im eigenen Praxistest bestätigt. Wir haben den Ball über drei Wochen in Training und Vereinsmatches gespielt.',
+        'Der Serie+ Tour war in unserem direkten Vergleich mit den anderen fünf getesteten Bällen der klare Gesamtsieger. Wir haben ihn über drei Wochen in Training und Vereinsmatches gespielt, um zu prüfen, ob sich der starke erste Eindruck auch über längere Zeit bestätigt.',
       ],
       feel: [
-        'Schon beim ersten Kontakt fällt die außergewöhnlich gleichmäßige Sprungenergie auf. Egal ob beim Aufschlag, bei Volleys am Netz oder bei Lobs aus der Defensive, der Absprung bleibt über verschiedene Schlagarten hinweg erstaunlich vorhersehbar. Das deckt sich mit den Labormesswerten, die dem Ball eine der geringsten Schwankungen im gesamten Testfeld attestierten.',
+        'Schon beim ersten Kontakt fällt die außergewöhnlich gleichmäßige Sprungenergie auf. Egal ob beim Aufschlag, bei Volleys am Netz oder bei Lobs aus der Defensive, der Absprung bleibt über verschiedene Schlagarten hinweg erstaunlich vorhersehbar, deutlich konstanter als bei den anderen Bällen in unserem Testfeld.',
       ],
       durability: [
-        'Über die komplette Testdauer von drei Wochen mit insgesamt sechs Trainingseinheiten blieb die Sprungkraft auf einem spürbar konstanten Niveau, ein Ergebnis, das exakt zu der im Labortest gemessenen Formstabilität passt. Erst in der letzten Session war eine leichte, aber klar messbare Abnahme der Lebendigkeit erkennbar.',
+        'Über die komplette Testdauer von drei Wochen mit insgesamt sechs Trainingseinheiten blieb die Sprungkraft auf einem spürbar konstanten Niveau. Erst in der letzten Session war eine leichte, aber klar messbare Abnahme der Lebendigkeit erkennbar.',
       ],
       verdict: [
-        'Der Tretorn Serie+ Tour bestätigt seine Auszeichnung als Testsieger auch im eigenen Praxiseinsatz. Für Spieler, die Wert auf maximale Konsistenz über die gesamte Nutzungsdauer legen und dafür einen etwas höheren Preis akzeptieren, ist er aktuell unsere Top-Empfehlung im gesamten Testfeld.',
+        'Der Tretorn Serie+ Tour ist unser Gesamtsieger im direkten Vergleich. Für Spieler, die Wert auf maximale Konsistenz über die gesamte Nutzungsdauer legen und dafür einen etwas höheren Preis akzeptieren, ist er aktuell unsere Top-Empfehlung im gesamten Testfeld.',
       ],
     },
   },
@@ -274,7 +274,7 @@ export const balls: Ball[] = [
     id: '6',
     brand: 'Bullpadel',
     name: 'Next Pro',
-    badge: 'Herausragende Haltbarkeit im unabhängigen Labortest',
+    badge: 'Herausragende Haltbarkeit im Praxistest',
     type: 'Allround',
     pressure: 'Mittel bis hoch',
     level: 'Fortgeschritten',
@@ -286,9 +286,9 @@ export const balls: Ball[] = [
     imageAlt: 'Bullpadel Next Pro Padelbälle in der Dose',
     slug: 'bullpadel-next-pro',
     teaser:
-      'Der Next Pro ist FIP-zugelassen und wurde in einem unabhängigen Test über drei Spielsessions von jeweils 90 Minuten mit erfahrenen Spielern geprüft. Sein hochdichter Gummikern liefert einen ultra-homogenen Rückprall und eine Haltbarkeit, die im Testfeld nur von wenigen anderen Bällen erreicht wurde.',
+      'Der Next Pro ist FIP-zugelassen und wurde in unserem Test über drei Spielsessions von jeweils 90 Minuten mit erfahrenen Spielern geprüft. Sein hochdichter Gummikern liefert einen ultra-homogenen Rückprall und eine Haltbarkeit, die im Testfeld nur von wenigen anderen Bällen erreicht wurde.',
     pros: [
-      'FIP-zugelassen und in unabhängigen Tests mit Bestwerten für Haltbarkeit bewertet',
+      'FIP-zugelassen und in unseren Tests mit Bestwerten für Haltbarkeit bewertet',
       'Hochdichter Gummikern liefert einen sehr gleichmäßigen, homogenen Rückprall',
       'Verliert erst gegen Ende der dritten 90-minütigen Session spürbar an Lebendigkeit',
       'Farbe bleibt auch nach intensiver Nutzung lange sichtbar und blasst kaum aus',
@@ -304,7 +304,7 @@ export const balls: Ball[] = [
     ],
     review: {
       intro: [
-        'Der Next Pro kam bei uns über drei aufeinanderfolgende Trainingseinheiten von jeweils rund 90 Minuten mit derselben Dose zum Einsatz, angelehnt an das Testprotokoll unabhängiger Prüfinstitute, um die Haltbarkeitsangaben realistisch nachzuvollziehen.',
+        'Der Next Pro kam bei uns über drei aufeinanderfolgende Trainingseinheiten von jeweils rund 90 Minuten mit derselben Dose zum Einsatz, um die Haltbarkeitsangaben des Herstellers realistisch nachzuvollziehen.',
       ],
       feel: [
         'Der erste Eindruck ist ein spürbar homogener, fast schon "sauberer" Rückprall, egal aus welchem Winkel der Ball getroffen wird. Das Grundgefühl ist etwas fester als beim Court APT, was besonders bei Volleys für ein knackiges, direktes Feedback sorgt.',
