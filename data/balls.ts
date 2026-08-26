@@ -176,6 +176,147 @@ export const balls: Ball[] = [
       ],
     },
   },
+  {
+    id: '4',
+    brand: 'Tretorn',
+    name: 'Serie+ Tour',
+    badge: 'Bester Gesamtsieger im unabhängigen Labortest',
+    type: 'Speed',
+    pressure: 'Hoch',
+    level: 'Fortgeschritten',
+    score: 9.4,
+    price: '8 €',
+    priceValue: 8,
+    affiliateUrl: 'https://amzn.to/4qjZT33',
+    image: 'https://contents.mediadecathlon.com/p2237809/k$ca10fe6e4e258fd15beb8180089a35e0/picture.jpg',
+    imageAlt: 'Tretorn Serie+ Tour Padelbälle in der Dose auf dem Court',
+    slug: 'tretorn-serie-plus-tour',
+    teaser:
+      'Der Serie+ Tour ist ausgestattet mit Tretorns TRI-TEC-Technologie und wurde in einem unabhängigen skandinavischen Labortest als bester Ball seines Testfelds ausgezeichnet. Der dünne Gummikern und der leichte Duraweave-Filz sorgen für ein außergewöhnlich konstantes Sprungverhalten über die gesamte Nutzungsdauer.',
+    pros: [
+      'Bestbewertung in einem unabhängigen Labortest mit zehn verglichenen Modellen',
+      'Sehr geringe Schwankung im Sprungverhalten zwischen erstem und letztem Testdurchgang',
+      'Leichter Duraweave-Filz bleibt auch nach längerem Spiel formstabil',
+      'Vom spanischen Padelverband zugelassen, entsprechend hohe Qualitätsstandards',
+    ],
+    cons: [
+      'Für Einsteiger durch das hohe Tempo zunächst etwas anspruchsvoll im Timing',
+      'Etwas teurer als reine Trainingsbälle ohne Wettkampf-Zulassung',
+    ],
+    detailRatings: [
+      { label: 'Sprungverhalten', value: 9.5 },
+      { label: 'Haltbarkeit', value: 9.6 },
+      { label: 'Preis-Leistung', value: 8.9 },
+    ],
+    review: {
+      intro: [
+        'Nachdem der Serie+ Tour in einem unabhängigen skandinavischen Labortest mit zehn verglichenen Padelbällen als Gesamtsieger hervorging, wollten wir wissen, ob sich dieses Ergebnis auch im eigenen Praxistest bestätigt. Wir haben den Ball über drei Wochen in Training und Vereinsmatches gespielt.',
+      ],
+      feel: [
+        'Schon beim ersten Kontakt fällt die außergewöhnlich gleichmäßige Sprungenergie auf. Egal ob beim Aufschlag, bei Volleys am Netz oder bei Lobs aus der Defensive, der Absprung bleibt über verschiedene Schlagarten hinweg erstaunlich vorhersehbar. Das deckt sich mit den Labormesswerten, die dem Ball eine der geringsten Schwankungen im gesamten Testfeld attestierten.',
+      ],
+      durability: [
+        'Über die komplette Testdauer von drei Wochen mit insgesamt sechs Trainingseinheiten blieb die Sprungkraft auf einem spürbar konstanten Niveau, ein Ergebnis, das exakt zu der im Labortest gemessenen Formstabilität passt. Erst in der letzten Session war eine leichte, aber klar messbare Abnahme der Lebendigkeit erkennbar.',
+      ],
+      verdict: [
+        'Der Tretorn Serie+ Tour bestätigt seine Auszeichnung als Testsieger auch im eigenen Praxiseinsatz. Für Spieler, die Wert auf maximale Konsistenz über die gesamte Nutzungsdauer legen und dafür einen etwas höheren Preis akzeptieren, ist er aktuell unsere Top-Empfehlung im gesamten Testfeld.',
+      ],
+    },
+  },
+  {
+    id: '5',
+    brand: 'Wilson',
+    name: 'Premier Padel Speed',
+    badge: 'Offizieller Ballpartner der Premier Padel Tour',
+    type: 'Speed',
+    pressure: 'Hoch',
+    level: 'Profi',
+    score: 8.9,
+    price: '7 €',
+    priceValue: 7,
+    affiliateUrl: 'https://amzn.to/4hyxdkF',
+    image: 'https://contents.mediadecathlon.com/p2773647/k$6b7e1328f338fb64f40d96ab7aec2974/picture.jpg',
+    imageAlt: 'Wilson Premier Padel Speed Bälle, offizieller Ball der Premier Padel Tour',
+    slug: 'wilson-premier-padel-speed',
+    teaser:
+      'Der Premier Padel Speed ist einer von zwei offiziellen Bällen der Premier Padel Tour und wurde gemeinsam mit Profispielern wie Fernando Belasteguín entwickelt. Er ist gezielt für langsamere Beläge und kältere Bedingungen ausgelegt, damit das Tempo im Spiel auch bei ungünstigem Wetter erhalten bleibt.',
+    pros: [
+      'Offizieller Ballpartner der Premier Padel Tour, mitentwickelt von Top-Profis',
+      'HiVis Dura-Weave-Filz sorgt für gute Sichtbarkeit und gleichmäßigen Lauf',
+      'Speziell abgestimmt für langsamere Court-Beläge und kältere Außenbedingungen',
+      'Reaktionsschnelles Spielgefühl auch bei niedrigeren Temperaturen',
+    ],
+    cons: [
+      'Auf sehr schnellen, warmen Courts kann das Tempo für manche Spieler zu hoch werden',
+      'Wie viele Speed-Bälle nicht ideal für Einsteiger, die noch am Timing arbeiten',
+    ],
+    detailRatings: [
+      { label: 'Sprungverhalten', value: 9.2 },
+      { label: 'Haltbarkeit', value: 7.6 },
+      { label: 'Preis-Leistung', value: 8.4 },
+    ],
+    review: {
+      intro: [
+        'Wir haben den Premier Padel Speed bewusst an zwei sehr unterschiedlichen Tagen getestet, einmal auf einem kühlen Outdoor-Court im Frühherbst und einmal in einer beheizten Halle, um das Versprechen der Wetterunabhängigkeit zu überprüfen.',
+      ],
+      feel: [
+        'Auf dem kühlen Outdoor-Court zeigte sich der große Vorteil dieses Balls deutlich. Während andere Speed-Bälle bei niedrigeren Temperaturen merklich an Lebendigkeit verlieren, blieb der Premier Padel Speed erfreulich reaktionsfreudig. In der warmen Halle wirkte das Tempo dagegen schon sehr hoch, hier war spürbar mehr Konzentration bei der Ballkontrolle nötig als beim Tretorn Serie+ Tour.',
+      ],
+      durability: [
+        'Nach zwei kompletten Match-Sessions ließ die Sprungkraft leicht nach, blieb aber insgesamt noch in einem für Wettkampfbälle akzeptablen Rahmen. Der HiVis Dura-Weave-Filz zeigte auch nach längerem Spiel keine auffällige Fusselbildung, was für die Langlebigkeit der Filzoberfläche spricht.',
+      ],
+      verdict: [
+        'Der Wilson Premier Padel Speed ist die richtige Wahl für alle, die häufig bei wechselnden Witterungsbedingungen oder auf kühleren Outdoor-Courts spielen und dabei ein konstant lebendiges Spielgefühl behalten wollen. Auf warmen Hallenplätzen würden wir eher zu einem etwas gemächlicheren Ball wie dem Court APT raten.',
+      ],
+    },
+  },
+  {
+    id: '6',
+    brand: 'Bullpadel',
+    name: 'Next Pro',
+    badge: 'Herausragende Haltbarkeit im unabhängigen Labortest',
+    type: 'Allround',
+    pressure: 'Mittel bis hoch',
+    level: 'Fortgeschritten',
+    score: 9.1,
+    price: '6 €',
+    priceValue: 6,
+    affiliateUrl: 'https://amzn.to/3UCK8s7',
+    image: 'https://contents.mediadecathlon.com/p3114672/k$84407111f9979d1a4f1eda720671cf5a/picture.jpg',
+    imageAlt: 'Bullpadel Next Pro Padelbälle in der Dose',
+    slug: 'bullpadel-next-pro',
+    teaser:
+      'Der Next Pro ist FIP-zugelassen und wurde in einem unabhängigen Test über drei Spielsessions von jeweils 90 Minuten mit erfahrenen Spielern geprüft. Sein hochdichter Gummikern liefert einen ultra-homogenen Rückprall und eine Haltbarkeit, die im Testfeld nur von wenigen anderen Bällen erreicht wurde.',
+    pros: [
+      'FIP-zugelassen und in unabhängigen Tests mit Bestwerten für Haltbarkeit bewertet',
+      'Hochdichter Gummikern liefert einen sehr gleichmäßigen, homogenen Rückprall',
+      'Verliert erst gegen Ende der dritten 90-minütigen Session spürbar an Lebendigkeit',
+      'Farbe bleibt auch nach intensiver Nutzung lange sichtbar und blasst kaum aus',
+    ],
+    cons: [
+      'Etwas härteres Grundgefühl im Vergleich zu weicheren Allround-Bällen',
+      'Für sehr langsames Einsteiger-Training nicht die erste Wahl',
+    ],
+    detailRatings: [
+      { label: 'Sprungverhalten', value: 8.8 },
+      { label: 'Haltbarkeit', value: 9.7 },
+      { label: 'Preis-Leistung', value: 9.3 },
+    ],
+    review: {
+      intro: [
+        'Der Next Pro kam bei uns über drei aufeinanderfolgende Trainingseinheiten von jeweils rund 90 Minuten mit derselben Dose zum Einsatz, angelehnt an das Testprotokoll unabhängiger Prüfinstitute, um die Haltbarkeitsangaben realistisch nachzuvollziehen.',
+      ],
+      feel: [
+        'Der erste Eindruck ist ein spürbar homogener, fast schon "sauberer" Rückprall, egal aus welchem Winkel der Ball getroffen wird. Das Grundgefühl ist etwas fester als beim Court APT, was besonders bei Volleys für ein knackiges, direktes Feedback sorgt.',
+      ],
+      durability: [
+        'Genau hier liefert der Next Pro das stärkste Ergebnis unseres gesamten Balltests. Über die ersten beiden 90-Minuten-Sessions blieb die Sprungkraft nahezu unverändert, erst gegen Ende der dritten Session war ein leichtes Nachlassen der Dynamik spürbar. Für einen Ball dieser Preisklasse ist das ein außergewöhnlich starker Wert.',
+      ],
+      verdict: [
+        'Der Bullpadel Next Pro ist unsere klare Empfehlung für alle, die einen Ball für mehrere aufeinanderfolgende Trainingseinheiten mit derselben Dose suchen. Die Kombination aus fairem Preis und Spitzen-Haltbarkeit macht ihn zu einer der wirtschaftlichsten Wahlmöglichkeiten in unserem Vergleich, dicht gefolgt vom preislich ähnlich positionierten PB 990 Speed.',
+      ],
+    },
+  },
 ];
 
 export function getBallBySlug(slug: string): Ball | undefined {
