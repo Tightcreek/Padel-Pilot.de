@@ -152,6 +152,71 @@ export default function BestlistPage({
           </div>
         </section>
 
+        {/* Comparison table */}
+        {rankedRackets.length > 0 && (
+          <section className="border-b border-border">
+            <div className="mx-auto max-w-4xl container-px py-10 lg:py-14">
+              <h2 className="font-display text-xl font-bold tracking-tight sm:text-2xl">
+                Alle Schläger auf einen Blick
+              </h2>
+              <p className="mt-2 text-sm text-muted-foreground">
+                Sortiert nach Gesamtnote. Klicke auf ein Modell für die ausführliche Bewertung.
+              </p>
+
+              <div className="mt-6 overflow-x-auto rounded-2xl border border-border">
+                <table className="w-full min-w-[640px] text-left text-sm">
+                  <thead>
+                    <tr className="border-b border-border bg-secondary/50">
+                      <th scope="col" className="px-4 py-3 font-semibold">Schläger</th>
+                      <th scope="col" className="px-4 py-3 font-semibold">Form</th>
+                      <th scope="col" className="px-4 py-3 font-semibold">Level</th>
+                      <th scope="col" className="px-4 py-3 font-semibold text-right">Score</th>
+                      <th scope="col" className="px-4 py-3 font-semibold text-right">Preis</th>
+                      <th scope="col" className="px-4 py-3 font-semibold sr-only sm:not-sr-only">Details</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {rankedRackets.map((racket, idx) => (
+                      <tr
+                        key={racket.id}
+                        className={`border-b border-border/60 last:border-0 transition-colors hover:bg-secondary/40 ${
+                          idx === 0 ? 'bg-neon/5' : ''
+                        }`}
+                      >
+                        <td className="px-4 py-3">
+                          <a href={`#racket-${racket.slug}`} className="flex items-center gap-3 font-medium hover:text-neon-600 dark:hover:text-neon-400">
+                            {idx === 0 && (
+                              <Trophy className="h-4 w-4 shrink-0 text-neon-600 dark:text-neon-400" strokeWidth={2.5} fill="currentColor" />
+                            )}
+                            <span>
+                              <span className="block text-xs text-muted-foreground">{racket.brand}</span>
+                              {racket.name}
+                            </span>
+                          </a>
+                        </td>
+                        <td className="px-4 py-3 text-muted-foreground">{racket.shape}</td>
+                        <td className="px-4 py-3 text-muted-foreground">{racket.level}</td>
+                        <td className="px-4 py-3 text-right font-display font-bold tabular-nums">
+                          {racket.score.toFixed(1)}
+                        </td>
+                        <td className="px-4 py-3 text-right font-medium">{racket.price}</td>
+                        <td className="px-4 py-3 text-right">
+                          <a
+                            href={`#racket-${racket.slug}`}
+                            className="hidden rounded-md border border-border px-3 py-1.5 text-xs font-semibold transition-colors hover:bg-secondary sm:inline-block"
+                          >
+                            Ansehen
+                          </a>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* Ranked list */}
         <section className="border-b border-border bg-secondary/30">
           <div className="mx-auto max-w-4xl container-px py-12 lg:py-16">
@@ -175,7 +240,8 @@ export default function BestlistPage({
                   return (
                     <article
                       key={racket.id}
-                      className={`group overflow-hidden rounded-2xl border bg-card shadow-sm transition-all duration-300 hover:shadow-lg animate-fade-up ${
+                      id={`racket-${racket.slug}`}
+                      className={`group scroll-mt-24 overflow-hidden rounded-2xl border bg-card shadow-sm transition-all duration-300 hover:shadow-lg animate-fade-up ${
                         isTop ? 'border-neon/50' : 'border-border hover:border-neon/30'
                       }`}
                       style={{ animationDelay: `${idx * 100}ms` }}
