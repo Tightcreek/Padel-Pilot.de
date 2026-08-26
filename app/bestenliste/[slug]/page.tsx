@@ -56,6 +56,12 @@ export async function generateMetadata({
   };
 }
 
+function scoreColorClass(score: number) {
+  if (score >= 9.0) return 'text-emerald-600 dark:text-emerald-400';
+  if (score >= 8.0) return 'text-amber-600 dark:text-amber-400';
+  return 'text-foreground';
+}
+
 function buildItemListJsonLd(bestlist: ReturnType<typeof getBestlistBySlug>) {
   if (!bestlist) return null;
   const items = getRacketsForBestlist(bestlist);
@@ -196,7 +202,7 @@ export default function BestlistPage({
                         </td>
                         <td className="px-4 py-3 text-muted-foreground">{racket.shape}</td>
                         <td className="px-4 py-3 text-muted-foreground">{racket.level}</td>
-                        <td className="px-4 py-3 text-right font-display font-bold tabular-nums">
+                        <td className={`px-4 py-3 text-right font-display font-bold tabular-nums ${scoreColorClass(racket.score)}`}>
                           {racket.score.toFixed(1)}
                         </td>
                         <td className="px-4 py-3 text-right font-medium">{racket.price}</td>
@@ -327,7 +333,7 @@ export default function BestlistPage({
                                 <span className="block text-[11px] font-medium uppercase tracking-wider text-muted-foreground">
                                   Gesamtnote
                                 </span>
-                                <span className="font-display text-2xl font-bold tabular-nums">
+                                <span className={`font-display text-2xl font-bold tabular-nums ${scoreColorClass(racket.score)}`}>
                                   {racket.score.toFixed(1)}
                                   <span className="text-sm font-medium text-muted-foreground">/10</span>
                                 </span>
