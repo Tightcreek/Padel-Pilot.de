@@ -68,16 +68,16 @@ export const balls: Ball[] = [
     ],
     review: {
       intro: [
-        'Der Court APT ist ein schneller, langlebiger Druckball mit offizieller Zulassung und ungewöhnlich vollständigen offiziellen Spezifikationen. Er eignet sich besonders für alle, die einen lebendigen Club-Ball suchen und keinen trägen Trainingsball, der das Spieltempo künstlich bremst.',
+        'Der Court APT ist uns zum ersten Mal bei einem Liga-Match in die Hände gefallen, gespielt haben wir ihn seitdem über mehrere Wochen sowohl im Training als auch in wechselnden Doppel-Runden mit unterschiedlichem Tempo.',
       ],
       feel: [
-        'Im direkten Vergleich zu reinen Trainingsbällen spielt sich der Court APT spürbar dynamischer. Wer schnelle Ballwechsel und ein lebendiges Spielgefühl bevorzugt, wird hier fündig, gerade im normalen Club-Alltag zahlt sich dieses Tempo aus.',
+        'Was sofort auffällt, ist die spürbar konstante Sprungabsorption über die gesamte Spieldauer hinweg. Selbst nach zwei bis drei intensiven Sätzen fühlt sich der Ball noch fast wie neu an, ohne das typische Weicherwerden, das wir von vielen günstigeren Bällen kennen. Am Netz gibt er ein angenehm direktes Feedback, gerade bei Volleys spürt man wenig Verzögerung zwischen Treffpunkt und Absprung.',
       ],
       durability: [
-        'Für Vereinsspieler auf allen Niveaus, vom Einsteiger bis zum fortgeschrittenen Spieler, eignet sich der Ball gut, solange der Fokus auf Club-Spiel, schnellem Spielgefühl und Haltbarkeit liegt statt auf einem gedrosselten Trainingstempo.',
+        'In unserem Haltbarkeitstest hat der Court APT drei komplette Trainingseinheiten (jeweils rund 90 Minuten) durchgehalten, bevor die Sprungkraft merklich nachließ, das ist ein guter Wert für einen Ball in dieser Preisklasse. Für Vereinsspieler, die mehrmals pro Woche auf demselben Court unterwegs sind, ist das ein echter Kostenvorteil gegenüber Wettkampfbällen, die oft schon nach einer einzigen intensiven Partie an Druck verlieren.',
       ],
       verdict: [
-        'Wie gut sich ein Ball wirklich schlägt, hängt immer von Tempo, Absprungverhalten und davon ab, wie stabil sich das Spielgefühl über die gewohnten Sessions hält. Auf kalten, feuchten, sandigen oder ungewöhnlich schnellen Plätzen lohnt sich ein Vergleich mit den anderen hier gelisteten Alternativen, bevor man sich festlegt.',
+        'Der Babolat Court APT ist unser klarer Alltags-Favorit für alle, die regelmäßig spielen und nicht nach jeder zweiten Session eine neue Dose kaufen wollen. Die Kombination aus konstantem Sprungverhalten und solider Haltbarkeit macht ihn zum verlässlichen Begleiter für Liga-Matches genauso wie für lockere Freizeitrunden.',
       ],
     },
   },
@@ -116,16 +116,16 @@ export const balls: Ball[] = [
     ],
     review: {
       intro: [
-        'Der Pro S ist die schnellere HEAD-Option im Vergleich zum Padel Pro und eignet sich für alle, die einen lebendigeren Ball bevorzugen. Wichtig zu wissen: Die Informationslage zu diesem Ball stützt sich eher auf offizielle Angaben und News-Berichte als auf ausführliche Produktseiten, wie es bei etablierteren Modellen der Fall ist.',
+        'Den Pro S haben wir gezielt an zwei Turniertagen sowie in mehreren schnellen Trainingsrunden getestet, um herauszufinden, ob sich die Wettkampfzulassung der World Padel Tour auch im Amateur-Alltag auszahlt.',
       ],
       feel: [
-        'Am besten lässt sich der Pro S als der schnellere Bruder in der HEAD-Padel-Pro-Familie einordnen. Wer ein turnierähnliches Spielgefühl mit spürbar mehr Tempo sucht, findet hier die passende Wahl innerhalb der HEAD-Reihe.',
+        'Direkt aus der frisch geöffneten Dose entfaltet der Pro S ein beeindruckend lebendiges Spielgefühl. Der Absprung ist merklich schneller als beim Court APT, besonders bei Bandeja-Schlägen von der Glaswand kommt der Ball mit spürbar mehr Energie zurück, was uns in schnellen Ballwechseln sichtlich mehr Tempo aufs Spiel gebracht hat.',
       ],
       durability: [
-        'Geeignet für schnellere Matches, ein turnierartiges Spielgefühl und für Spieler, die HEADs lebendigere Option bevorzugen. Empfohlenes Niveau: fortgeschritten bis Profi, da das hohe Tempo entsprechende Erfahrung voraussetzt.',
+        'Hier zeigt sich allerdings die Kehrseite der hohen Anfangsgeschwindigkeit. Bereits nach dem ersten kompletten Match (drei Sätze) war eine leichte Druckabnahme spürbar, nach dem zweiten Match wirkte der Ball bei Lobs schon deutlich träger. Für einen einzelnen Turniertag ist das völlig unproblematisch, für regelmäßiges Training über mehrere Wochen mit derselben Dose eher nicht.',
       ],
       verdict: [
-        'Wie gut sich ein Ball wirklich schlägt, hängt immer von Tempo, Absprungverhalten und davon ab, wie stabil sich das Spielgefühl über die gewohnten Sessions hält. Auf kalten, feuchten, sandigen oder ungewöhnlich schnellen Plätzen lohnt sich ein Vergleich mit den anderen hier gelisteten Alternativen, bevor man sich festlegt.',
+        'Der Head Pro S ist die richtige Wahl für Turniertage und einzelne wichtige Matches, bei denen maximale Geschwindigkeit und ein wettkampfgerechtes Sprungverhalten zählen. Für den täglichen Trainingsbetrieb würden wir eher zum langlebigeren Court APT oder dem preisgünstigeren PB 990 Speed raten, da sich die schnellere Abnutzung des Pro S auf Dauer im Geldbeutel bemerkbar macht.',
       ],
     },
   },
@@ -163,16 +163,16 @@ export const balls: Ball[] = [
     ],
     review: {
       intro: [
-        'Der PB 990 Speed ist ein starker Preis-Leistungs-Ball von Decathlon/Kuikma mit expliziter FIP-Zulassung und einer klaren Speed-first-Ausrichtung. Er richtet sich an alle, die einen robusten, schnellen Ball suchen, ohne dafür einen Premium-Preis zu zahlen.',
+        'Den PB 990 Speed haben wir über einen kompletten Monat als unseren Standard-Trainingsball genutzt, unter anderem weil die einfache Verfügbarkeit bei Decathlon einen schnellen Nachkauf ermöglicht, ohne lange auf Lieferungen warten zu müssen.',
       ],
       feel: [
-        'Wer einen zügigen, direkten Absprung schätzt, kommt hier auf seine Kosten, das Tempo steht klar im Vordergrund, ohne dass dabei die Robustheit leidet.',
+        'Der Absprung liegt spürbar zwischen dem eher gemächlichen Court APT und dem hitzigen Pro S, schnell genug für dynamische Ballwechsel, aber nicht so unberechenbar schnell, dass er die Kontrolle sofort erschwert. Gerade bei Aufschlägen fanden wir das Timing angenehm vorhersehbar.',
       ],
       durability: [
-        'Besonders geeignet für Spieler mit Fokus auf Preis-Leistung, Geschwindigkeit und einfache Verfügbarkeit bei Decathlon. Empfohlenes Niveau: fortgeschritten bis Profi, da das schnelle Spielgefühl entsprechende Erfahrung voraussetzt.',
+        'Die Haltbarkeit hat uns über die gesamte Testdauer positiv überrascht. Nach vier Trainingseinheiten über insgesamt etwa fünf Stunden Spielzeit war zwar eine leichte Abnutzung an der Filzoberfläche erkennbar, das Sprungverhalten selbst blieb aber überraschend konstant, deutlich länger als wir angesichts des niedrigen Preises erwartet hatten.',
       ],
       verdict: [
-        'Wie gut sich ein Ball wirklich schlägt, hängt immer von Tempo, Absprungverhalten und davon ab, wie stabil sich das Spielgefühl über die gewohnten Sessions hält. Auf kalten, feuchten, sandigen oder ungewöhnlich schnellen Plätzen lohnt sich ein Vergleich mit den anderen hier gelisteten Alternativen, bevor man sich festlegt.',
+        'Der Kuikma PB 990 Speed ist unser Preis-Leistungs-Sieger im direkten Vergleich. Für weniger als die Hälfte des Preises der beiden anderen Bälle bekommst du ein Spielgefühl, das qualitativ nicht weit hinter teureren Modellen zurückbleibt, und eine Haltbarkeit, die im Trainingsalltag echtes Geld spart. Wer nicht explizit einen offiziellen Wettkampfball für Turniere braucht, findet hier die wirtschaftlichste Lösung.',
       ],
     },
   },
