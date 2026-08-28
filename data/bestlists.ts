@@ -74,6 +74,21 @@ export const bestlists: Bestlist[] = [
     ],
     filter: (r) => r.priceValue <= 100,
   },
+  {
+    slug: 'beste-padelschlaeger-fortgeschrittene',
+    h1: 'Die besten Padel-Schläger für Fortgeschrittene 2026 im Vergleich',
+    title: 'Beste Padel-Schläger für Fortgeschrittene',
+    metaTitle: 'Beste Padel-Schläger für Fortgeschrittene 2026 im Vergleich | Padel-Pilot.de',
+    metaDescription:
+      'Die besten Padel-Schläger für Fortgeschrittene 2026: Allround-Modelle mit ausgewogenem Verhältnis aus Power und Kontrolle. Unabhängig getestet und verglichen.',
+    filterLabel: 'Schläger für Fortgeschrittene',
+    intro: [
+      'Wer die Grundtechnik beherrscht und regelmäßig spielt, braucht einen Schläger, der mit dem eigenen Spiel mitwachsen kann. Fortgeschrittene profitieren meist von einem ausgewogenen Verhältnis aus Power und Kontrolle, statt sich schon auf ein reines Power- oder Kontroll-Extrem festzulegen.',
+      'In dieser Bestenliste zeigen wir dir die Modelle, die im Praxistest genau dieses Gleichgewicht am überzeugendsten umsetzen. Die meisten dieser Schläger setzen auf hochwertigere Carbon-Oberflächen und anspruchsvollere Kernkonstruktionen als reine Einsteigermodelle, verzeihen aber weiterhin einen Großteil kleinerer Trefffehler.',
+      'Achte bei der Wahl vor allem auf deinen bevorzugten Spielstil: Tropfenform-Schläger bieten die vielseitigste Basis, während runde Modelle weiterhin auf Kontrolle setzen und Diamantformen bereits deutlich mehr Schlagkraft verlangen und liefern.',
+    ],
+    filter: (r) => r.level.toLowerCase().includes('fortgeschritten'),
+  },
 ];
 
 export function getBestlistBySlug(slug: string): Bestlist | undefined {
