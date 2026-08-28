@@ -173,6 +173,7 @@ export default function KaufberatungPage() {
                       <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-2 text-xs text-muted-foreground">
                         <span className="font-medium">Form: <span className="text-foreground">{racket.shape}</span></span>
                         <span className="font-medium">Gewicht: <span className="text-foreground">{racket.weight}</span></span>
+                        <span className="font-medium">Härte: <span className="text-foreground capitalize">{racket.hardness}</span></span>
                         <span className="font-medium">Niveau: <span className="text-foreground">{racket.level}</span></span>
                         <span className="font-medium">Score: <span className="font-display font-bold text-foreground">{racket.score.toFixed(1)}/10</span></span>
                       </div>
