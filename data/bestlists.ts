@@ -89,6 +89,21 @@ export const bestlists: Bestlist[] = [
     ],
     filter: (r) => r.level.toLowerCase().includes('fortgeschritten'),
   },
+  {
+    slug: 'beste-padelschlaeger-power',
+    h1: 'Die besten Power-Schläger für Padel 2026 im Vergleich',
+    title: 'Beste Padel-Schläger mit viel Power',
+    metaTitle: 'Beste Power-Schläger für Padel 2026 im Vergleich | Padel-Pilot.de',
+    metaDescription:
+      'Die besten Power-Schläger für Padel 2026: Diamantform, maximale Schlagkraft, harte Smashes. Unabhängig getestet und verglichen für ambitionierte Offensivspieler.',
+    filterLabel: 'Power-Schläger (Form: Diamant)',
+    intro: [
+      'Wer seine Punkte am liebsten selbst am Netz beendet, statt lange Ballwechsel taktisch aufzubauen, braucht maximale Schlagkraft. Diamantförmige Schläger mit kopflastiger Balance liefern genau diesen Hebel, verlangen dabei aber auch eine bereits gefestigte Schlagtechnik.',
+      'In dieser Bestenliste zeigen wir dir die Modelle, die in unserem Test die höchsten Power-Werte erzielt haben. Diese Schläger zeichnen sich durch eine Diamantform mit hoch angesetztem Sweet Spot aus, was Smashes und Bandejas eine enorme Durchschlagskraft verleiht.',
+      'Der Kompromiss liegt in der Fehlertoleranz: Der kleinere, hoch angesetzte Sweet Spot verzeiht ungenaue Treffer deutlich weniger als runde oder Tropfenform-Modelle. Reine Power-Schläger eignen sich daher vor allem für Fortgeschrittene und Profis mit sauberer, konstanter Trefftechnik.',
+    ],
+    filter: (r) => r.shape.toLowerCase().includes('diamant'),
+  },
 ];
 
 export function getBestlistBySlug(slug: string): Bestlist | undefined {
