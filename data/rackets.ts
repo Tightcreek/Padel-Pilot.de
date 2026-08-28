@@ -824,6 +824,57 @@ export const rackets: Racket[] = [
       ],
     },
   },
+  {
+    id: '16',
+    brand: 'Dunlop',
+    name: 'Lumina',
+    badge: 'Bestes Preis-Leistungs-Verhältnis als Amazon-Exclusive',
+    shape: 'Tropfenform',
+    weight: '365g',
+    level: 'Anfänger',
+    score: 8.0,
+    price: '60 €',
+    priceValue: 60,
+    affiliateUrl: 'https://amzn.to/3UYK9a0',
+    image: 'https://contents.mediadecathlon.com/s1232760/k$b9bf18aa23ebe8de2f6a05c3c72179c2/2f1c3a93-ca2a-42ab-900e-fe69e2faa078.jpg',
+    imageAlt: 'Dunlop Lumina Padel-Schläger im Praxistest auf dem Court',
+    slug: 'dunlop-lumina',
+    teaser:
+      'Der Lumina ist Dunlops Amazon-Exclusive-Modell und verbindet einen echten Graphit-Rahmen mit einer Hybridform aus Tropfen und Rund. Das Ergebnis ist ein Schläger, der sich nirgends extrem hervortut, dafür aber in praktisch keiner Disziplin schwächelt. Im Testbericht erfährst du, warum er sich als sichere Bank für Einsteiger und Aufsteiger eignet, die mehr Schläger fürs Geld wollen.',
+    pros: [
+      'Sehr großer, fehlerverzeihender Sweet Spot dank Hybridform zwischen Tropfen und Rund',
+      'Echter Graphit-Rahmen sorgt für einen spürbar knackigeren Rückprall als reine Fiberglas-Modelle',
+      'Ausgezeichnetes Preis-Leistungs-Verhältnis, da als Amazon-Exclusive ohne Zwischenhändler-Aufschlag verkauft',
+      'Angenehm ausgewogenes, nicht kopflastiges Handling für ermüdungsfreies Spielen',
+    ],
+    cons: [
+      'Begrenztes Spin-Potenzial im Vergleich zu Schlägern mit rauerer 3D-Oberflächenstruktur',
+      'Bei maximalen Power-Schlägen fehlt gegenüber reinen Carbon-Flaggschiffen noch etwas Durchschlagskraft',
+    ],
+    detailRatings: [
+      { label: 'Power', value: 6.6 },
+      { label: 'Kontrolle', value: 8.3 },
+      { label: 'Handling', value: 8.6 },
+    ],
+    review: {
+      intro: [
+        'Der Lumina ist eines der wenigen Modelle in unserem Vergleich, das ausschließlich als Amazon-Exclusive verkauft wird, was sich direkt im Preis niederschlägt. Die Hybrid-Kopfform aus Tropfen und Rund verspricht dabei genau die Mischung aus Sweet Spot und Schlagkraft, die viele Einsteiger und Aufsteiger suchen.',
+        'Wir haben den Schläger über mehrere Wochen gespielt, mit besonderem Fokus darauf, ob sich das gute Preis-Leistungs-Versprechen auch in der Praxis bestätigt oder ob an entscheidender Stelle gespart wurde.',
+      ],
+      feel: [
+        'Schon beim ersten Ballkontakt überrascht der spürbar direktere, knackigere Rückprall im Vergleich zu reinen Fiberglas-Einsteigerschlägern. Der echte Graphit-Rahmen macht hier den Unterschied und sorgt für ein Feedback, das man in dieser Preisklasse nicht unbedingt erwartet.',
+        'Die Hybridform mit ihrem großzügigen Sweet Spot verzeiht auch dezentrale Treffer gut, ohne dass der Schläger dabei träge wirkt. Am Netz lässt er sich angenehm ausgewogen führen, was besonders beim Umstieg von einem reinen Kontrollschläger auf mehr Vielseitigkeit hilfreich ist.',
+      ],
+      powerVsControl: [
+        'Power: Der Lumina liefert mehr Durchschlagskraft, als man von einem Amazon-Exclusive-Modell dieser Preisklasse erwarten würde, kommt aber nicht ganz an die Schlagkraft ausgewiesener Carbon-Flaggschiffe heran.',
+        'Kontrolle: Der große Sweet Spot macht den Schläger insgesamt gut kontrollierbar, allerdings fällt das Spin-Potenzial durch die glattere Oberfläche etwas geringer aus als bei Modellen mit rauer 3D-Struktur.',
+      ],
+      verdict: [
+        'Der Dunlop Lumina ist genau das, was man von einem guten Preis-Leistungs-Tipp erwartet: ein Schläger, der sich nirgends extrem hervortut, aber auch in keiner Disziplin schwächelt. Für Einsteiger und Aufsteiger, die nicht gleich in ein teures Flaggschiff investieren wollen, ist er eine sichere Bank.',
+        'Wer gezielt nach maximaler Power oder starkem Spin sucht, findet in unserem Vergleich spezialisiertere Modelle. Für alle anderen bietet der Lumina ein rundes Gesamtpaket zu einem fairen Preis.',
+      ],
+    },
+  },
 ];
 
 export function getRacketBySlug(slug: string): Racket | undefined {
