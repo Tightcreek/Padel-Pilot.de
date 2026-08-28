@@ -315,6 +315,7 @@ export const rackets: Racket[] = [
   shape: 'Rund',
   weight: '355g',
   level: 'Anfänger',
+  hardness: 'weich',
   score: 8.3,
   price: '99 €',
   priceValue: 99,
