@@ -73,9 +73,13 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 flex flex-col gap-2 border-t border-border pt-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
-          <p>© 2026 Padel-Pilot.de. Alle Rechte vorbehalten.</p>
-          <p>Wir nutzen Affiliate-Links. Der Preis bleibt für dich gleich.</p>
+        <div className="mt-10 border-t border-border pt-6 text-xs text-muted-foreground">
+          <p>
+            Als Amazon-Partner verdiene ich an qualifizierten Verkäufen. Wir nutzen Affiliate-Links, unter anderem zu Amazon; der Preis bleibt für dich dabei immer gleich.
+          </p>
+          <div className="mt-2 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+            <p>© 2026 Padel-Pilot.de. Alle Rechte vorbehalten.</p>
+          </div>
         </div>
       </div>
     </footer>
