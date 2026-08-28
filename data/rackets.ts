@@ -773,6 +773,57 @@ export const rackets: Racket[] = [
       ],
     },
   },
+  {
+    id: '15',
+    brand: 'Head',
+    name: 'Evo Speed 2025',
+    badge: 'Leichtester Einsteiger-Schläger im Vergleich',
+    shape: 'Tropfenform',
+    weight: '350g',
+    level: 'Anfänger',
+    score: 8.2,
+    price: '75 €',
+    priceValue: 75,
+    affiliateUrl: 'https://amzn.to/4gB4ABc',
+    image: 'https://contents.mediadecathlon.com/m19417955/k$9e07641c27ffe6df6746a68f3920657d/picture.jpg',
+    imageAlt: 'Head Evo Speed 2025 Padel-Schläger im Praxistest auf dem Court',
+    slug: 'head-evo-speed-2025',
+    teaser:
+      'Der Evo Speed ist Heads meistgekaufter Einsteiger-Schläger und einer der leichtesten Padel-Schläger am Markt. Die übergroße Tropfenform mit Fiberglas-Oberfläche und weichem Power-Foam-Kern nimmt Anfängern viel Druck aus den ersten Trainingsstunden. Im Testbericht erfährst du, warum er zu den meistverkauften Anfänger-Schlägern überhaupt gehört.',
+    pros: [
+      'Extrem geringes Gewicht macht das Handling ausgesprochen leicht und ermüdungsfrei',
+      'Übergroßer Sweet Spot dank Tropfenform verzeiht auch unsaubere Treffer zuverlässig',
+      'Weicher Power-Foam-Kern dämpft Vibrationen spürbar gut für den Armkomfort',
+      'Sehr hohe Verkaufszahlen und durchgängig positive Kundenbewertungen bei mehreren Händlern',
+    ],
+    cons: [
+      'Fiberglas-Oberfläche liefert spürbar weniger Durchschlagskraft als Carbon-Modelle',
+      'Wenig Reserven für Spieler, die nach der Einstiegsphase schnell mehr Power suchen',
+    ],
+    detailRatings: [
+      { label: 'Power', value: 5.4 },
+      { label: 'Kontrolle', value: 8.7 },
+      { label: 'Handling', value: 9.2 },
+    ],
+    review: {
+      intro: [
+        'Kaum ein Schläger wird von Neueinsteigern so häufig gekauft wie der Head Evo Speed. Mit seiner übergroßen Tropfenform und einem der geringsten Gewichte am gesamten Markt verfolgt er ein klares Ziel: maximale Fehlertoleranz und ein müheloses Spielgefühl für Spieler, die gerade erst anfangen.',
+        'Wir haben den Schläger mit mehreren Anfängern über einige Wochen getestet, dabei ging es vor allem um eine Frage: Wie schnell stellt sich ein Erfolgserlebnis ein, ohne dass Frust aufkommt?',
+      ],
+      feel: [
+        'Der große, tropfenförmige Kopf macht genau das, was er soll. Bälle, die man eigentlich vergeigt hätte, landen trotzdem kontrolliert im Feld. Das extrem geringe Gewicht sorgt zusätzlich dafür, dass sich der Schläger nie schwer oder unhandlich anfühlt, selbst nach längeren Trainingseinheiten.',
+        'Der Power-Foam-Kern schluckt Vibrationen zuverlässig, was beim Erlernen der richtigen Schlagtechnik hilft, weil man auch unsaubere Treffer kaum im Arm spürt. Die Fiberglas-Fläche bleibt dabei angenehm komfortabel, wenn auch spürbar weicher im Ballkontakt als bei Carbon-Modellen.',
+      ],
+      powerVsControl: [
+        'Power: Der Evo Speed ist klar auf Komfort und Fehlertoleranz ausgelegt. Für harte Smashes fehlt im Vergleich zu Carbon-Modellen der letzte Punch.',
+        'Kontrolle: Die Kombination aus großem Sweet Spot, leichtem Gewicht und Tropfenform macht den Schläger für Anfänger gut kontrollierbar. Unsichere Treffer bleiben meist spielbar, auch wenn bei der Präzision noch Luft nach oben ist.',
+      ],
+      verdict: [
+        'Der Head Evo Speed ist genau das, was ein erster Schläger sein sollte: verzeihend, extrem leicht und günstig genug, um ohne schlechtes Gewissen zuzuschlagen. Die hohen Verkaufszahlen und die durchgängig positiven Bewertungen bestätigen, dass er in der Praxis hält, was er verspricht.',
+        'Wer nach den ersten Saisons mehr Power braucht, wird irgendwann zu einem Carbon-Modell wechseln wollen. Für den Einstieg gibt es aber kaum eine bekanntere und beliebtere Wahl in dieser Preisklasse.',
+      ],
+    },
+  },
 ];
 
 export function getRacketBySlug(slug: string): Racket | undefined {
