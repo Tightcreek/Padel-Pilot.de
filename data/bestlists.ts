@@ -59,6 +59,21 @@ export const bestlists: Bestlist[] = [
     ],
     filter: (r) => r.shape.toLowerCase().includes('rund'),
   },
+  {
+    slug: 'beste-padelschlaeger-unter-100-euro',
+    h1: 'Die besten Padel-Schläger unter 100 Euro 2026 im Test',
+    title: 'Padel-Schläger unter 100 Euro',
+    metaTitle: 'Beste Padel-Schläger unter 100 Euro 2026 im Test | Padel-Pilot.de',
+    metaDescription:
+      'Die besten Padel-Schläger unter 100 Euro 2026: Unabhängig getestet und verglichen. Top-Einsteigermodelle mit dem besten Preis-Leistungs-Verhältnis.',
+    filterLabel: 'Schläger bis 100 €',
+    intro: [
+      'Du musst für einen guten ersten oder zweiten Schläger nicht gleich 150 Euro oder mehr ausgeben. Auch unterhalb der 100-Euro-Marke gibt es solide Modelle, die in unserem Test durch großen Sweet Spot, geringes Gewicht und faire Verarbeitung überzeugen konnten.',
+      'In dieser Bestenliste haben wir alle getesteten Schläger mit einem aktuellen Marktpreis bis 100 Euro zusammengefasst. Die meisten Modelle in dieser Preisklasse setzen auf Fiberglas- statt Carbon-Oberflächen und richten sich klar an Einsteiger, die zunächst ohne großes Risiko in die eigene Ausrüstung investieren wollen.',
+      'Erwarte in dieser Preisklasse keine maximale Schlagkraft, sondern vor allem Fehlertoleranz und ein angenehmes, leichtes Handling. Wer nach den ersten Saisons mehr Power braucht, kann später gezielt in ein teureres Carbon-Modell aufsteigen, ohne beim Einstieg schon zu viel investiert zu haben.',
+    ],
+    filter: (r) => r.priceValue <= 100,
+  },
 ];
 
 export function getBestlistBySlug(slug: string): Bestlist | undefined {
