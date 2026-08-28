@@ -303,6 +303,37 @@ export const posts: Post[] = [
       '<h2>Fazit: Padel ist zugänglicher, als viele denken</h2><p>Mit einer realistischen Erstinvestition von 120 bis 280 Euro für die Ausrüstung und laufenden Kosten von wenigen Euro pro Spieleinheit ist Padel für die meisten Budgets gut erreichbar. Wer sich zunächst Material ausleiht und erst nach den ersten Sessions in eigene Ausrüstung investiert, minimiert das finanzielle Risiko zusätzlich. Die größte Stellschraube bleibt die Platzmiete, hier lohnt sich ein Vergleich zwischen Vereinsmitgliedschaft und Einzelbuchung, abhängig davon, wie oft du tatsächlich spielst.</p>',
     ],
   },
+  {
+    slug: 'padel-schlaeger-gewicht-balance-haerte-erklaert',
+    title: 'Padel-Schläger: Gewicht, Balance und Härte richtig verstehen',
+    recommendedRacketIds: ['2', '14'],
+    excerpt:
+      'Warum wiegen die meisten Padel-Schläger zwischen 350 und 375 Gramm? Was bedeutet grifflastig oder kopflastig? Wir erklären dir Gewicht, Balance und Härte, damit du beim Kauf die richtige Wahl triffst.',
+    category: 'Kaufberatung',
+    author: {
+      name: 'Redaktion Padel-Pilot',
+      role: 'Padel-Redaktion',
+      bio: 'Wir testen und erklären Padel seit 2024. Unser Ziel: kompakt, verständlich und ohne Marketing-Blabla, damit du schneller auf dem Court stehst.',
+    },
+    date: '28. August 2026',
+    readTime: '7 Min.',
+    image: 'https://i.imgur.com/3XxvTnm.jpeg',
+    imageAlt: 'Padel-Schläger auf dem Court, im Hintergrund die Waage für den Gewichtsvergleich',
+    keyTakeaways: [
+      'Die meisten Padel-Schläger wiegen zwischen 350 und 375 Gramm, schwerere Modelle liefern mehr Power, leichtere mehr Handling',
+      'Die Balance (grifflastig, ausgewogen, kopflastig) beeinflusst das Spielgefühl oft stärker als das reine Gesamtgewicht',
+      'Härtere Kerne wie Hard-EVA liefern mehr Power, weichere Soft-EVA-Kerne mehr Komfort und Kontrolle',
+      'Einsteiger sollten auf ein geringeres Gewicht und einen weicheren Kern setzen, um den Unterarm zu schonen',
+    ],
+    content: [
+      'Beim Schlägerkauf schauen die meisten Einsteiger zuerst auf die Kopfform, Rund, Tropfen oder Diamant. Genauso wichtig für das tatsächliche Spielgefühl sind aber drei technische Werte, die auf den ersten Blick unscheinbar wirken: Gewicht, Balance und Härte. Wir erklären dir, worauf diese Angaben hindeuten und wie du sie für deine eigene Kaufentscheidung nutzt.',
+      '<h2>Gewicht: Warum wenige Gramm einen großen Unterschied machen</h2><p>Die meisten Padel-Schläger bewegen sich in einem erstaunlich engen Fenster zwischen 350 und 375 Gramm. Das wirkt auf den ersten Blick nach wenig Spielraum, macht sich auf dem Court aber deutlich bemerkbar. Ein Schläger mit 350 Gramm lässt sich am Netz spürbar schneller ausrichten und ermüdet den Arm über lange Matches weniger. Ein Modell mit 370 Gramm oder mehr bringt dafür bei Smashes und Volleys mehr Eigengewicht in den Schlag, was sich in zusätzlicher Durchschlagskraft auszahlt.</p><p>Als grobe Faustregel gilt: Wer noch an der Grundtechnik arbeitet oder zu Armproblemen neigt, ist mit einem leichteren Schläger unter 360 Gramm meist besser bedient. Fortgeschrittene und Offensivspieler mit stabiler Technik können vom zusätzlichen Gewicht schwererer Modelle profitieren.</p>',
+      '<h2>Balance: Grifflastig, ausgewogen oder kopflastig?</h2><p>Die Balance beschreibt, wo sich der Schwerpunkt des Schlägers befindet, und beeinflusst das Spielgefühl oft noch stärker als das reine Gesamtgewicht. Man unterscheidet drei Grundtypen:</p><ul><li><strong>Grifflastig (niedrige Balance):</strong> Der Schwerpunkt liegt näher am Griff. Der Schläger fühlt sich leichter an, lässt sich am Netz schneller drehen und schont den Unterarm. Typisch für runde Kontroll-Schläger.</li><li><strong>Ausgewogen (mittlere Balance):</strong> Der Schwerpunkt liegt in der Mitte des Schlägers. Diese Balance findet sich häufig bei Tropfenform-Modellen und bietet einen Kompromiss zwischen Wendigkeit und Schlagkraft.</li><li><strong>Kopflastig (hohe Balance):</strong> Der Schwerpunkt wandert Richtung Schlägerkopf. Das erzeugt bei Smashes einen deutlich größeren Hebel und damit mehr Power, macht den Schläger aber am Netz spürbar träger und fordert mehr Kraft aus dem Unterarm.</li></ul><p>Diamantförmige Power-Schläger sind fast immer kopflastig ausgelegt, während runde Kontroll-Schläger meist grifflastig gebaut sind, was sich auch in unserer <a href="/bestenliste/beste-padelschlaeger-kontrolle">Bestenliste für Kontrolle</a> und unserer <a href="/bestenliste/beste-padelschlaeger-power">Bestenliste für Power-Schläger</a> widerspiegelt.</p>',
+      '<h2>Härte: Wie der Kern das Spielgefühl bestimmt</h2><p>Die dritte oft unterschätzte Eigenschaft ist die Härte des Kerns. Padel-Schläger nutzen fast ausschließlich EVA-Schaum in unterschiedlichen Dichten, wobei zwei Grundrichtungen den Markt prägen:</p><ul><li><strong>Weicher Kern (Soft-EVA):</strong> Nimmt den Ball länger auf der Schlagfläche auf, was ein komfortableres, gedämpftes Spielgefühl erzeugt. Ideal für Einsteiger und Spieler mit empfindlichem Unterarm, da Vibrationen deutlich besser abgefedert werden.</li><li><strong>Harter Kern (Hard-EVA):</strong> Gibt den Ball schneller und direkter wieder ab, was mehr Energie und damit mehr Power in den Schlag bringt. Verlangt dafür aber auch eine sauberere Trefftechnik, da Fehler direkter durchschlagen.</li></ul><p>Die Härte wirkt dabei eng mit dem Gewicht und der Balance zusammen. Ein leichter, grifflastiger Schläger mit weichem Kern, wie ihn viele Modelle in unserer <a href="/bestenliste/beste-padelschlaeger-anfaenger">Bestenliste für Anfänger</a> zeigen, ergibt in Summe den größten Komfort für Einsteiger. Ein schwererer, kopflastiger Schläger mit hartem Kern liefert dagegen maximale Schlagkraft für erfahrene Offensivspieler.</p>',
+      '<h2>Wie du die drei Werte für deinen Kauf zusammenbringst</h2><p>Statt die drei Eigenschaften isoliert zu betrachten, lohnt es sich, sie gemeinsam auf deinen Spielstil und dein Niveau abzustimmen. Ein praktischer Ansatz: Überlege zuerst, ob du eher Kontrolle oder Power priorisierst, das grenzt die passende Kopfform bereits ein. Prüfe danach das Gewicht im Verhältnis zu deiner eigenen Armkraft und Spieldauer. Schau dir zuletzt die Kernhärte an, besonders wenn du bereits zu Armschmerzen oder einem Tennisarm neigst.</p><p>Wer regelmäßig unter Ellenbogen- oder Unterarmschmerzen leidet, sollte diese drei Werte besonders bewusst wählen, da sie direkten Einfluss auf die Belastung des Unterarms haben. Weitere praktische Tipps dazu findest du in unserem Ratgeber zu <a href="/ratgeber/padel-overgrip-griffstaerke-anpassen-guide">Overgrip und Griffstärke</a>.</p>',
+      '<h2>Fazit: Drei Werte, ein rundes Gesamtbild</h2><p>Gewicht, Balance und Härte wirken nie isoliert, sondern immer im Zusammenspiel mit der Kopfform deines Schlägers. Wer alle vier Faktoren gemeinsam betrachtet, statt sich nur auf einen einzelnen Wert zu konzentrieren, trifft eine deutlich fundiertere Kaufentscheidung, unabhängig davon, ob du gerade erst anfängst oder schon lange auf dem Court stehst.</p>',
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
