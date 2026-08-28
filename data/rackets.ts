@@ -15,6 +15,7 @@ export interface Racket {
   shape: RacketShape;
   weight: string;
   level: RacketLevel;
+  hardness: RacketHardness;
   score: number;
   price: string;
   priceValue: number;
