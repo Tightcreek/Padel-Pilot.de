@@ -16,6 +16,18 @@ const levelStyles: Record<Racket['level'], string> = {
   Profi: 'text-rose-700 dark:text-rose-400',
 };
 
+const hardnessStyles: Record<Racket['hardness'], string> = {
+  weich: 'text-sky-700 dark:text-sky-400',
+  mittel: 'text-amber-700 dark:text-amber-400',
+  hart: 'text-rose-700 dark:text-rose-400',
+};
+
+const hardnessLabels: Record<Racket['hardness'], string> = {
+  weich: 'Weich',
+  mittel: 'Mittel',
+  hart: 'Hart',
+};
+
 type SortKey = 'score' | 'priceValue';
 type SortDirection = 'asc' | 'desc';
 
@@ -54,6 +66,9 @@ export function RacketComparisonTable({ rackets }: RacketComparisonTableProps) {
             </th>
             <th scope="col" className="px-4 py-4 text-xs font-semibold uppercase tracking-wider text-muted-foreground sm:px-5">
               Form
+            </th>
+            <th scope="col" className="px-4 py-4 text-xs font-semibold uppercase tracking-wider text-muted-foreground sm:px-5">
+              Härte
             </th>
             <th scope="col" className="px-4 py-4 text-xs font-semibold uppercase tracking-wider text-muted-foreground sm:px-5">
               Niveau
@@ -117,6 +132,9 @@ export function RacketComparisonTable({ rackets }: RacketComparisonTableProps) {
               </td>
 
               <td className="px-4 py-4 text-sm sm:px-5">{racket.shape}</td>
+              <td className={`px-4 py-4 text-sm font-medium sm:px-5 ${hardnessStyles[racket.hardness]}`}>
+                {hardnessLabels[racket.hardness]}
+              </td>
               <td className={`px-4 py-4 text-sm font-medium sm:px-5 ${levelStyles[racket.level]}`}>
                 {racket.level}
               </td>
