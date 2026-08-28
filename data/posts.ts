@@ -334,6 +334,37 @@ export const posts: Post[] = [
       '<h2>Fazit: Drei Werte, ein rundes Gesamtbild</h2><p>Gewicht, Balance und Härte wirken nie isoliert, sondern immer im Zusammenspiel mit der Kopfform deines Schlägers. Wer alle vier Faktoren gemeinsam betrachtet, statt sich nur auf einen einzelnen Wert zu konzentrieren, trifft eine deutlich fundiertere Kaufentscheidung, unabhängig davon, ob du gerade erst anfängst oder schon lange auf dem Court stehst.</p>',
     ],
   },
+  {
+    slug: 'padel-schlaeger-gegen-tennisarm-armschonend',
+    title: 'Padel-Schläger gegen Tennisarm: So spielst du armschonend',
+    recommendedRacketIds: ['2', '7', '10'],
+    excerpt:
+      'Schmerzen im Ellenbogen nach dem Padeln? Wir erklären, warum der Tennisarm im Padel so häufig vorkommt, welche Schlägereigenschaften wirklich armschonend sind und worauf du beim Kauf achten solltest.',
+    category: 'Ausrüstung',
+    author: {
+      name: 'Redaktion Padel-Pilot',
+      role: 'Padel-Redaktion',
+      bio: 'Wir testen und erklären Padel seit 2024. Unser Ziel: kompakt, verständlich und ohne Marketing-Blabla, damit du schneller auf dem Court stehst.',
+    },
+    date: '25. August 2026',
+    readTime: '6 Min.',
+    image: 'https://images.pexels.com/photos/32896996/pexels-photo-32896996.jpeg',
+    imageAlt: 'Spieler hält sich den schmerzenden Ellenbogen nach einer Padel-Session',
+    keyTakeaways: [
+      'Der Tennisarm (laterale Epicondylitis) zählt zu den häufigsten Beschwerden im Padel, eine Studie fand ihn bei fast 30 Prozent der befragten Amateurspieler',
+      'Harte Kerne, kopflastige Balance, hohes Gewicht und Diamantform übertragen Vibrationen am stärksten in den Ellenbogen',
+      'Armschonend sind weiche EVA-Kerne, grifflastige Balance, geringeres Gewicht und runde oder Tropfenform-Kopfformen',
+      'Neben der Schlägerwahl spielen Grifftechnik, Aufwärmen und ein lockerer statt verkrampfter Griff eine ebenso große Rolle',
+    ],
+    content: [
+      'Kaum eine Beschwerde wird unter Padel-Spielern so häufig diskutiert wie der Tennisarm. Der Name ist dabei etwas irreführend, denn medizinisch korrekt heißt das Problem laterale Epicondylitis, eine Reizung der Sehnenansätze am äußeren Ellenbogen. Eine Untersuchung unter Amateurspielern in einem Padel-Club fand bei fast 30 Prozent der Getesteten Anzeichen dieser Beschwerde, ein bemerkenswert hoher Wert im Vergleich zur Allgemeinbevölkerung, wo nur 1 bis 3 Prozent betroffen sind.',
+      '<h2>Warum der Tennisarm im Padel so häufig auftritt</h2><p>Padel kombiniert eine hohe Schlagfrequenz mit vielen kurzen, knackigen Bewegungen, ganz anders als die weiten Ausholbewegungen im klassischen Tennis. Genau diese Wiederholung belastet die Sehnenansätze am Ellenbogen dauerhaft. Wissenschaftliche Untersuchungen nennen vor allem die wiederholten Belastungen des Ellenbogens bei bestimmten Schlägen wie der Rückhand als Risikofaktor. Besonders betroffen sind dabei häufig Einsteiger, deren Schlagtechnik noch nicht gefestigt ist, sowie Spieler, die nach einer längeren Pause zu intensiv wieder einsteigen.</p><p>Neben der Technik spielt aber auch die Ausrüstung eine entscheidende Rolle. Ein ungeeigneter Schläger kann die Belastung auf den Arm spürbar verstärken, unabhängig davon, wie sauber die eigene Schlagtechnik bereits ist.</p>',
+      '<h2>Diese Schlägereigenschaften belasten den Arm zusätzlich</h2><p>Vier technische Eigenschaften wirken sich besonders negativ auf die Armbelastung aus, und sie verstärken sich gegenseitig, wenn sie kombiniert auftreten:</p><ul><li><strong>Harter Kern:</strong> Ein steifer Hard-EVA-Kern gibt Vibrationen nahezu ungefiltert an den Arm weiter, statt sie im Material zu absorbieren.</li><li><strong>Kopflastige Balance:</strong> Ein hoher Schwerpunkt Richtung Schlägerkopf erzeugt bei jedem Treffer einen größeren Hebel, der sich direkt auf Handgelenk und Ellenbogen überträgt.</li><li><strong>Hohes Gewicht:</strong> Ein schwererer Schläger erfordert mehr Muskelarbeit bei jeder Bewegung, was die Sehnenansätze über eine lange Session zusätzlich ermüdet.</li><li><strong>Diamantform mit kleinem Sweet Spot:</strong> Treffer außerhalb der zentralen Zone erzeugen bei dieser Kopfform eine deutlich stärkere Torsion im Schläger, die sich ebenfalls im Arm bemerkbar macht.</li></ul>',
+      '<h2>Was einen Schläger wirklich armschonend macht</h2><p>Die Gegenmittel zu den oben genannten Risikofaktoren sind in der Praxis gut belegt und lassen sich gezielt beim Kauf berücksichtigen:</p><ul><li><strong>Weicher EVA-Kern (Soft-EVA):</strong> Nimmt einen großen Teil der Schlagenergie auf, bevor sie im Ellenbogen ankommt.</li><li><strong>Grifflastige, niedrige Balance:</strong> Reduziert die Hebelwirkung spürbar und macht den Schläger insgesamt handlicher.</li><li><strong>Geringeres Gesamtgewicht:</strong> Entlastet die Unterarmmuskulatur über lange Trainingseinheiten hinweg.</li><li><strong>Runde oder Tropfenform:</strong> Der größere, zentraler gelegene Sweet Spot verzeiht auch leicht dezentrale Treffer, ohne dass daraus eine starke Torsion entsteht.</li></ul><p>Mehrere unserer getesteten Modelle setzen genau auf diese Kombination. Der Nox ML10 Pro Cup etwa überzeugt mit seiner weichen Glasfaser-Oberfläche und dem HR3-EVA-Kern in unserem Test als besonders armschonend, während der Head Gravity Pro durch eine gezielte Vibrationsdämpfung an der Griffkappe ergänzend punktet. Wer gerade erst einsteigt, findet mit dem leichten, weichen Babolat Counter Origin ebenfalls eine armfreundliche Option. Einen vollständigen Überblick über besonders kontrollorientierte, grifflastige Modelle findest du außerdem in unserer <a href="/bestenliste/beste-padelschlaeger-kontrolle">Bestenliste für Kontrolle</a>.</p>',
+      '<h2>Mehr als nur der Schläger: Technik, Griff und Aufwärmen</h2><p>So wichtig die richtige Schlägerwahl ist, sie ersetzt keine saubere Technik und ausreichende Vorbereitung. Ein zu fester Griff am Schläger überträgt Vibrationen deutlich stärker in den Arm, während ein lockerer, entspannter Griff einen Teil der Energie natürlich abfedert. Ebenso wichtig ist der Körpereinsatz beim Schlag: Wer den Ball nur mit gestrecktem Arm und reiner Armkraft trifft, statt die Bewegung aus dem Körper heraus zu unterstützen, belastet den Ellenbogen unnötig stark.</p><p>Ein gutes Aufwärmprogramm für Handgelenk und Unterarm vor jedem Match sowie Dehnübungen danach reduzieren das Risiko zusätzlich. Auch die passende Griffstärke spielt eine wichtige Rolle dabei, wie viel Kraft du beim Halten des Schlägers tatsächlich aufwenden musst, mehr dazu erfährst du in unserem Ratgeber zu <a href="/ratgeber/padel-overgrip-griffstaerke-anpassen-guide">Overgrip und Griffstärke</a>.</p>',
+      '<h2>Fazit: Schlägerwahl und Technik zusammen denken</h2><p>Ein armschonender Schläger mit weichem Kern, grifflastiger Balance, geringerem Gewicht und runder oder Tropfenform kann die Belastung auf deinen Ellenbogen spürbar reduzieren, besonders wenn du bereits zu Beschwerden neigst. Er ersetzt aber keine saubere Schlagtechnik und ein ordentliches Aufwärmprogramm. Wer beide Seiten gemeinsam angeht, senkt das Risiko für einen Tennisarm im Padel deutlich, egal ob als Einsteiger oder erfahrener Spieler.</p>',
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
