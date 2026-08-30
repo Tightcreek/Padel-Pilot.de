@@ -893,6 +893,63 @@ export const rackets: Racket[] = [
       ],
     },
   },
+  {
+    id: '17',
+    brand: 'Head',
+    name: 'Coello Pro 2026',
+    badge: 'Signature-Schläger von Arturo Coello',
+    shape: 'Diamant',
+    weight: '370g',
+    level: 'Profi',
+    hardness: 'hart',
+    score: 8.7,
+    price: '140 €',
+    priceValue: 140,
+    affiliateUrl: 'https://amzn.to/3T86Xnf',
+    image:
+      'https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/4bb1dabf-db3e-5552-8689-8dca0136f15c/594dd933-586b-5f47-a120-80cec0c8f64d.jpg',
+    imageAlt: 'Head Coello Pro 2026 Padel-Schläger im Praxistest auf dem Court',
+    slug: 'head-coello-pro-2026',
+    teaser:
+      'Der Coello Pro 2026 ist Arturo Coellos Signature-Schläger und die aggressivste Diamantform im gesamten Head-Sortiment. Carbon-Hybrid-Fläche, Power-Foam-Kern und Auxetic-2.0-Technologie versprechen brachiale Angriffskraft bei einem für Diamant-Verhältnisse erstaunlich großen Sweet Spot. Im Testbericht erfährst du, ob der Schläger der aktuellen Weltranglisten-Nummer-1 auch auf Amateur-Courts überzeugt.',
+    pros: [
+      'Stärkste Power im gesamten Head-Sortiment, übertrifft in unabhängigen Tests sogar den Extreme Pro',
+      'Auxetic-2.0-Technologie in Herz und Griff vergrößert den Sweet Spot ungewöhnlich stark für einen reinen Power-Diamanten',
+      'Carbon-Fiberglas-Hybridfläche spielt sich komfortabler als reine Carbon-Konkurrenten',
+      'Sehr direktes, präzises Feedback am Netz bei Volleys und Bandejas',
+      'Signature-Modell der amtierenden Weltranglisten-Nummer-1 Arturo Coello',
+    ],
+    cons: [
+      'Deutliche Schwäche in der Defensive, tiefe Bälle in der Ecke sind mit dem hohen Gewicht und der Balance schwer zu erreichen',
+      'Neigt in gehetzten Abwehrsituationen dazu, den Ball zu hoch statt flach zu heben',
+      'Physisch anspruchsvoll über lange Matches, Schulter und Unterarm werden in mehreren Tests explizit als Belastung genannt',
+      'Deutlich trägeres Handling als Kontroll- oder Tropfenform-Schläger aus unserem Vergleich',
+      'Kein Schläger für Einsteiger oder Spieler mit unsicherer Grundtechnik',
+    ],
+    detailRatings: [
+      { label: 'Power', value: 9.6 },
+      { label: 'Kontrolle', value: 7.6 },
+      { label: 'Handling', value: 7.0 },
+    ],
+    review: {
+      intro: [
+        'Kaum ein Name prägt die aktuelle Padel-Weltspitze so sehr wie Arturo Coello, gemeinsam mit Agustín Tapia amtierender Weltranglisten-Erster und einer der dominantesten Spieler der Sportgeschichte. Mit dem Coello Pro 2026 bringt Head dessen persönliches Signature-Modell auf den Markt, eine Diamantform, die konsequent auf maximale Angriffskraft ausgelegt ist und laut mehreren unabhängigen Tests sogar den bisherigen Power-Champion Extreme Pro im eigenen Sortiment übertrifft.',
+        'Wir haben die verfügbaren Testdaten und Praxiserfahrungen mehrerer unabhängiger Quellen ausgewertet, mit besonderem Fokus darauf, wie sich die enorme Schlagkraft in der Praxis mit der defensiven Spielfähigkeit auf Amateur- und Fortgeschrittenen-Niveau verträgt.',
+      ],
+      feel: [
+        'Der Power-Foam-Kern in Kombination mit der Carbon-Hybridfläche aus Carbon- und Fiberglasgewebe gibt dem Schläger ein spielbareres Gefühl, als seine reinen Power-Werte vermuten lassen. Die Fläche spielt sich in mehreren Tests spürbar softer als reine Hochcarbon-Konkurrenten, was Fehltreffer etwas gnädiger behandelt.',
+        'Die verbaute Auxetic-2.0-Technologie im Herz und Griff des Rahmens ist dabei der entscheidende Unterschied zu klassischen Power-Diamanten. Sie vergrößert den effektiven Sweet Spot merklich, sodass auch leicht dezentrale Treffer nicht sofort im Nichts verschwinden, ein Effekt, den unabhängige Tests unisono als ungewöhnlich gut für diese Kopfform beschreiben.',
+      ],
+      powerVsControl: [
+        'Power: Hier holt der Coello Pro 2026 in unabhängigen Bewertungen durchgehend Bestnoten zwischen 9 und 10 von 10, teilweise die höchsten Werte im gesamten getesteten Feld. Zentral getroffene Smashes und Viboras entwickeln eine Durchschlagskraft, die dem Anspruch des Signature-Spielers vollauf gerecht wird.',
+        'Kontrolle: Am Netz und bei Volleys liefert der Schläger überraschend präzises Feedback für einen derart offensiven Diamanten. In der Defensive zeigt sich jedoch klar die Kehrseite, tiefe Bälle in den Ecken zu erreichen fällt mit dem hohen Gewicht und der ausgeprägten Kopflastigkeit deutlich schwerer als bei Kontrollschlägern, und der Ball wird in hektischen Abwehrsituationen häufiger zu hoch statt flach gespielt.',
+      ],
+      verdict: [
+        'Der Head Coello Pro 2026 ist ein technisch beeindruckender Power-Diamant, der seinem Anspruch als Waffe der aktuellen Weltranglisten-Nummer-1 gerecht wird. Die Kombination aus Auxetic-2.0-Sweet-Spot und roher Schlagkraft macht ihn zu einer der stärksten Offensiv-Optionen, die wir in unserem Vergleich abbilden.',
+        'Für ambitionierte Angriffsspieler mit gefestigter Technik und ausreichender Physis eine klare Empfehlung. Einsteiger, reine Kontrollspieler und alle mit empfindlichem Unterarm oder Schulter sollten aufgrund des hohen Gewichts und der ausgeprägten Kopflastigkeit eher zu einer runden oder Tropfenform aus unserem Vergleich greifen.',
+      ],
+    },
+  },
 ];
 
 export function getRacketBySlug(slug: string): Racket | undefined {
