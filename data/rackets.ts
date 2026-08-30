@@ -950,6 +950,62 @@ export const rackets: Racket[] = [
       ],
     },
   },
+  {
+    id: '18',
+    brand: 'RYZE',
+    name: 'Pegasus',
+    badge: 'Bestes Preis-Leistungs-Verhältnis unter den D2C-Marken',
+    shape: 'Tropfenform',
+    weight: '360g',
+    level: 'Anfänger',
+    hardness: 'mittel',
+    score: 8.2,
+    price: '109 €',
+    priceValue: 109,
+    affiliateUrl: 'https://amzn.to/4zR64QE',
+    image:
+      'https://cdn.shopify.com/s/files/1/0768/0032/8025/files/PHO_BACKGROUND_REMOVED.png?v=1783344517',
+    imageAlt: 'RYZE Pegasus Padel-Schläger aus 100 Prozent Kohlefaser im Praxistest',
+    slug: 'ryze-pegasus',
+    teaser:
+      'Der Pegasus ist der Vorzeige-Schläger der dänischen Direktvertriebsmarke RYZE und tritt mit einem ungewöhnlichen Versprechen an: ein Rahmen aus 100 Prozent Kohlefaser zum Preis eines einfachen Einsteigermodells. Tropfenform, mittlere Balance und ein weicher EVA-17-Kern sollen Power und Kontrolle vereinen. Im Testbericht erfährst du, ob die junge Marke ihr Versprechen im Vergleich zu etablierten Herstellern wirklich einlöst.',
+    pros: [
+      'Vollständiger Carbon-Rahmen in dieser Preisklasse ungewöhnlich, wirkt spürbar hochwertiger als typische Einsteiger-Konkurrenz',
+      'Sehr leichtes und wendiges Handling bei 360 Gramm, besonders am Netz und bei schnellen Volley-Duellen',
+      'EVA-17-Kern mit niedriger Dichte dämpft Vibrationen gut und schont Handgelenk und Ellenbogen',
+      'Kostenlose Schutzhülle im Lieferumfang enthalten',
+      'Durchgehend sehr positive Kundenbewertungen bei mehreren hundert Amazon-Rezensionen',
+    ],
+    cons: [
+      'Fehlende Durchschlagskraft im Vergleich zu reinen Power-Diamanten für ambitionierte Turnierspieler',
+      'RYZE ist als D2C-Marke deutlich weniger etabliert als Head, Bullpadel, Nox oder Babolat',
+      'Kein sofortiger Kraftschub bei Smashes, der Schläger verlangt saubere Technik statt roher Beschleunigung',
+      'Einzelne Herstellerangaben zur Kernhärte schwanken je nach Quelle leicht (EVA-15 versus EVA-17)',
+    ],
+    detailRatings: [
+      { label: 'Power', value: 7.4 },
+      { label: 'Kontrolle', value: 8.6 },
+      { label: 'Handling', value: 8.9 },
+    ],
+    review: {
+      intro: [
+        'RYZE ist eine junge, dänische Direktvertriebsmarke aus Hvidovre, die bewusst außerhalb des etablierten Kreises von Head, Bullpadel, Nox und Babolat operiert. Mit dem Pegasus tritt das Unternehmen mit einem klaren Versprechen an: ein Schläger aus vollständigem Carbon-Aufbau, der Power und Kontrolle vereint, zu einem Preis, der klar unterhalb vergleichbarer Markenmodelle liegt.',
+        'Wir haben die verfügbaren unabhängigen Testberichte und Praxiserfahrungen mehrerer Quellen ausgewertet, darunter ausführliche Sessions auf Courts in Großbritannien und Irland, mit besonderem Fokus darauf, ob der niedrige Preis auf Kosten der Spielqualität geht.',
+      ],
+      feel: [
+        'Der Rahmen besteht laut Hersteller aus mehreren Lagen 1K-Carbon, was dem Schläger ein spürbar direkteres und knackigeres Feedback gibt als bei vielen Einsteiger-Modellen mit reinem Fiberglas-Aufbau. Der Kontakt zwischen Schläger und Ball wird in unabhängigen Tests durchgehend als klar und präzise beschrieben, nicht gedämpft oder schwammig.',
+        'Der EVA-17-Schaumkern mit niedriger Dichte hält den Ball einen kurzen Moment länger auf der Schlagfläche, was Kontrolle und Komfort begünstigt. Bei harten Blöcken und in der Abwehr federt der Kern Vibrationen zuverlässig ab, was besonders Spielern mit empfindlichem Handgelenk oder Ellenbogen zugutekommt.',
+      ],
+      powerVsControl: [
+        'Power: Der Pegasus liefert progressive statt explosive Power. Es gibt keinen sofortigen Kraftschub allein durch Schwung, stattdessen wird technisch saubere Ausführung mit einem satten, tiefen Ball belohnt. Für reine Turnier-Power-Spieler bleibt das hinter spezialisierten Diamant-Schlägern zurück.',
+        'Kontrolle: Hier liegt die klare Stärke des Pegasus. Die Tropfenform mit mittlerer Balance macht das Racket am Netz sehr wendig, Volleys lassen sich präzise platzieren und in Ecken dirigieren. Der großzügige Sweet Spot verzeiht auch leicht unsaubere Treffer, was ihn besonders für Einsteiger und Aufsteiger zugänglich macht.',
+      ],
+      verdict: [
+        'Der RYZE Pegasus beweist, dass ein vollständiger Carbon-Aufbau nicht zwangsläufig einen Markenpreis kosten muss. Für Einsteiger und fortgeschrittene Freizeitspieler, die Wert auf Kontrolle, Komfort und ein wendiges Handling legen, ist er eine der überzeugendsten Optionen in seiner Preisklasse.',
+        'Ambitionierte Turnierspieler, die maximale Durchschlagskraft suchen, finden in unserem Vergleich spezialisiertere Power-Diamanten. Wer aber ein solides, gut verarbeitetes Allround-Racket ohne Premium-Preisschild sucht, macht mit dem Pegasus kaum etwas falsch.',
+      ],
+    },
+  },
 ];
 
 export function getRacketBySlug(slug: string): Racket | undefined {
