@@ -1006,6 +1006,62 @@ export const rackets: Racket[] = [
       ],
     },
   },
+  {
+    id: '19',
+    brand: 'Dunlop',
+    name: 'Nanomax Pro',
+    badge: 'Etablierte Traditionsmarke für Einsteiger',
+    shape: 'Tropfenform',
+    weight: '365g',
+    level: 'Anfänger',
+    hardness: 'mittel',
+    score: 7.8,
+    price: '69 €',
+    priceValue: 69,
+    affiliateUrl: 'https://amzn.to/4xtLUKK',
+    image:
+      'https://contents.mediadecathlon.com/m25834497/k$6eb0226473279922fec690496635df6e/picture.jpg',
+    imageAlt: 'Dunlop Nanomax Pro Padel-Schläger im Praxistest auf dem Court',
+    slug: 'dunlop-nanomax-pro',
+    teaser:
+      'Der Nanomax Pro ist Dunlops leistungsorientiertester Einsteiger-Schläger und positioniert sich als Entwicklungsmodell für Spieler, die über den reinen Komfort des Nanomax Lite hinauswachsen wollen. Hybrid-Tropfenform, Graphit-Rahmen und ein Pro-EVA-Kern versprechen mehr Stabilität und Direktheit bei weiterhin hoher Fehlertoleranz. Im Testbericht erfährst du, wie sich die traditionsreiche Marke gegen günstige D2C-Konkurrenz schlägt.',
+    pros: [
+      'Sehr großer, fehlerverzeihender Sweet Spot durch die Hybrid-Tropfenform',
+      'Pro-EVA-Kern schont Arm und Gelenke gut, bleibt dabei direkter als das weichere Lite-Modell der Serie',
+      'Ausgewogene Balance macht den Schläger vielseitig und von der ersten Session an leicht zu handhaben',
+      'Raue Extra-Grip-Oberfläche fördert Spin schon in frühen Trainingsphasen',
+      'Bekannte, seit über 20 Jahren im Racketsport etablierte Traditionsmarke statt einer unbekannten D2C-Marke',
+    ],
+    cons: [
+      'Fehlt spürbar Endgeschwindigkeit bei intensiven Smashes, die weichere Fläche kostet Power gegenüber Carbon-Modellen',
+      'Fortgeschrittene Turnierspieler mit Fokus auf Kraftübertragung werden mit dem Schläger nicht glücklich',
+      'Herstellerangaben zu Form und Oberflächenmaterial variieren je nach Verkaufsregion leicht',
+      'Klar als Einstiegs- und Entwicklungsschläger positioniert, kein Racket für die langfristige Laufbahn ambitionierter Spieler',
+    ],
+    detailRatings: [
+      { label: 'Power', value: 6.4 },
+      { label: 'Kontrolle', value: 8.1 },
+      { label: 'Handling', value: 8.2 },
+    ],
+    review: {
+      intro: [
+        'Dunlop bringt über 20 Jahre Erfahrung aus dem klassischen Racketsport mit und positioniert die Nanomax-Serie bewusst als Einstiegsprogramm für Spieler, die eine zuverlässige Basis suchen, ohne sich sofort auf ein teures Markenmodell festzulegen. Der Nanomax Pro ist dabei die leistungsorientiertere der beiden Nanomax-Varianten, gedacht für alle, die bereits etwas regelmäßiger spielen und mehr Stabilität suchen als beim komfortorientierten Nanomax Lite.',
+        'Wir haben die verfügbaren unabhängigen Produktdaten und Expertenbewertungen mehrerer Fachhändler ausgewertet, mit besonderem Fokus darauf, wie sich der Schläger gegen günstige D2C-Konkurrenz und teurere Markenmodelle in unserem Vergleich schlägt.',
+      ],
+      feel: [
+        'Der Graphit-Rahmen bleibt leicht und robust, ohne die Steifigkeit reiner Hochcarbon-Konstruktionen zu erreichen. Die Schlagfläche arbeitet dadurch etwas flexibler und hält den Ball einen Moment länger, was gerade Einsteigern mehr Zeit zur Korrektur bei unsauberen Treffpunkten gibt.',
+        'Der Pro-EVA-Kern setzt bewusst auf mehr Direktheit als das Soft-EVA-Material des Lite-Modells, absorbiert dabei aber weiterhin ausreichend Vibration, um Handgelenk und Ellenbogen zu schonen. Die raue Extra-Grip-Oberfläche nimmt Ball und Spin zuverlässig auf, was erste Topspin- und Slice-Versuche schon in frühen Trainingsphasen erleichtert.',
+      ],
+      powerVsControl: [
+        'Power: Hier zeigt sich die klare Grenze des Schlägers. Bei intensiven Smashes fehlt gegenüber steiferen Carbon-Modellen spürbar die letzte Endgeschwindigkeit, die weichere Fläche schluckt einen Teil der Energie.',
+        'Kontrolle: Das ist die Stärke des Nanomax Pro. Der großzügige Sweet Spot der Hybridform verzeiht auch Treffer am Rahmenrand deutlich besser als bei Diamant-Schlägern, und Gewicht sowie Balance liegen von Anfang an gut in der Hand, was schnelles Erlernen der Grundtechnik unterstützt.',
+      ],
+      verdict: [
+        'Der Dunlop Nanomax Pro ist eine solide Wahl für alle, die ernsthaft mit dem Padelspielen beginnen und dabei auf Kontrolle, Komfort und einen nachsichtigen Sweet Spot setzen, verpackt in der Verlässlichkeit einer etablierten Traditionsmarke statt einer unbekannten D2C-Alternative.',
+        'Sobald das eigene Spiel wächst und mehr Kraftübertragung gefragt ist, wird man den Schläger irgendwann zugunsten steiferer Carbon-Modelle aus unserem Vergleich ablösen wollen. Für die ersten Saisons ist er aber eine ehrliche, unaufgeregte Empfehlung.',
+      ],
+    },
+  },
 ];
 
 export function getRacketBySlug(slug: string): Racket | undefined {
