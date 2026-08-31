@@ -1231,6 +1231,62 @@ export const rackets: Racket[] = [
       ],
     },
   },
+  {
+    id: '23',
+    brand: 'Nox',
+    name: 'Future Hybrid 12K Alum',
+    badge: 'All-Court-Allrounder der NFA-Serie',
+    shape: 'Tropfenform',
+    weight: '367g',
+    level: 'Fortgeschritten',
+    hardness: 'hart',
+    score: 8.1,
+    price: '129 €',
+    priceValue: 129,
+    affiliateUrl: 'https://amzn.to/4y9Kyop',
+    image:
+      'https://contents.mediadecathlon.com/m34230565/k$02b621a527f460a99bb855862852d100/picture.jpg',
+    imageAlt: 'Nox Future Hybrid 12K Alum Padel-Schläger im Praxistest auf dem Court',
+    slug: 'nox-future-hybrid-12k-alum',
+    teaser:
+      'Der Future Hybrid 12K Alum ist Nox Antwort auf Spieler, die sich nicht zwischen Angriff und Verteidigung entscheiden wollen. Die aluminisierte 12K-Carbon-Fläche mit rauer 3D-Spin-Textur trifft auf einen harten EV50-Hochdichtekern und eine mittige Balance. Im Testbericht erfährst du, ob dieser All-Court-Allrounder aus der NFA-Serie tatsächlich beide Spielstile gleich gut bedient.',
+    pros: [
+      'Außergewöhnlich starker, präziser Spin dank aluminisierter 12K-Carbon-Fläche mit rauer 3D-Textur',
+      'Sehr ausgewogenes Profil zwischen Angriff und Verteidigung, in unabhängigen Tests liegen alle drei Spielstil-Werte nur 0,04 Punkte auseinander',
+      'Solide Kontrolle als stärkste Einzeleigenschaft, mit großzügigem Sweet Spot für eine Tropfenform dieser Kategorie',
+      'Dynamic Composite Structure verringert Rissbildung zwischen Rahmen und Fläche bei aggressiven Schlägen',
+      'Hochwertige Verarbeitung inklusive Schutzhülle im Lieferumfang',
+    ],
+    cons: [
+      'Harter EV50-Kern in Kombination mit der steifen Carbon-Fläche dämpft Vibrationen deutlich weniger als weichere Kerne, Comfort-Wert fällt in beiden unabhängigen Tests am niedrigsten aus',
+      'Handling am Netz bewegt sich nur im mittleren Bereich, für sehr schnelle Reflexvolleys nicht die wendigste Wahl',
+      'Mit 360 bis 375 Gramm kein Leichtgewicht, verlangt eine bereits austrainierte Schlagtechnik',
+      'Nicht geeignet für Einsteiger oder Spieler mit empfindlichem Ellenbogen, mehrere Quellen warnen explizit vor der harten Schaumdichte',
+    ],
+    detailRatings: [
+      { label: 'Power', value: 7.9 },
+      { label: 'Kontrolle', value: 8.2 },
+      { label: 'Handling', value: 7.3 },
+    ],
+    review: {
+      intro: [
+        'Innerhalb von Nox NFA-Serie 2025 positioniert sich der Future Hybrid 12K Alum bewusst als Allrounder, der weder reiner Angreifer noch reiner Verteidiger sein will. Anders als viele Modelle, die sich "Hybrid" nennen und trotzdem klar in eine Richtung tendieren, zeigen unabhängige Datenanalysen hier ein bemerkenswert ausgeglichenes Profil zwischen Offensive und Defensive.',
+        'Wir haben zwei unabhängige, methodisch sehr detaillierte Testquellen mit granularer Parameter-Bewertung ausgewertet, mit besonderem Fokus darauf, ob das Versprechen der Vielseitigkeit in der Praxis wirklich eingehalten wird oder ob am Ende doch ein Kompromiss auf Kosten einer Disziplin entsteht.',
+      ],
+      feel: [
+        'Die aluminisierte Carbon-Alum-12K-Fläche sorgt für ein präzises statt steifes Gefühl im Treffpunkt. Sie reduziert unerwünschten Flex beim Aufprall, ohne das harte, unangenehme Feedback dickerer reiner Carbon-Paneele zu erzeugen. Die raue 3D-Spin-Textur mit Sandfinish greift den Ball beim Slice und Topspin bemerkenswert griffig, was sich vor allem bei Bandeja und Vibora aus dem Hinterfeld bemerkbar macht.',
+        'Der EV50-Hochdichtekern erzeugt einen reaktiven, aber medium-harten Ballausgang. Das bedeutet: Kraft wird effizient übertragen, aber Vibrationen werden kaum absorbiert. Spieler mit empfindlichem Unterarm spüren diesen Unterschied über lange Trainingseinheiten deutlich.',
+      ],
+      powerVsControl: [
+        'Power: Mit Werten zwischen 7,8 und 8,0 von 10 liefert der Future Hybrid solide, aber keine dominante Schlagkraft. Er kann Druck aufbauen, ist aber keine reine Smash-Waffe wie ein spezialisierter Power-Diamant.',
+        'Kontrolle: Das ist die eigentliche Stärke des Schlägers und wird in beiden unabhängigen Tests als höchster Einzelwert im gesamten Profil hervorgehoben. Die Tropfenform mit mittiger Balance und der großzügige Sweet Spot erlauben präzise, lange Aufbauschläge und verzeihen auch leicht dezentrale Treffer besser, als es das Gewicht vermuten lässt.',
+      ],
+      verdict: [
+        'Der Nox Future Hybrid 12K Alum ist ein technisch überzeugender All-Court-Schläger für fortgeschrittene bis erfahrene Spieler, die zwischen Netzangriff und Grundlinienverteidigung wechseln, ohne dabei auf präzise Ballkontrolle und starken Spin verzichten zu wollen.',
+        'Wer vor allem auf maximalen Armkomfort oder blitzschnelles Netzhandling angewiesen ist, findet in unserem Vergleich geeignetere Alternativen wie den Nox ML10 Pro Cup. Für technisch gefestigte Allrounder mit robustem Unterarm bleibt der Future Hybrid 12K Alum jedoch eine der überzeugendsten Optionen seiner Kategorie.',
+      ],
+    },
+  },
 ];
 
 export function getRacketBySlug(slug: string): Racket | undefined {
