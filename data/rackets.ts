@@ -1119,6 +1119,62 @@ export const rackets: Racket[] = [
       ],
     },
   },
+  {
+    id: '21',
+    brand: 'Head',
+    name: 'Evo Extreme 2025',
+    badge: 'Power-orientierte Testschwester des Evo Speed',
+    shape: 'Tropfenform',
+    weight: '350g',
+    level: 'Anfänger',
+    hardness: 'weich',
+    score: 7.9,
+    price: '62 €',
+    priceValue: 62,
+    affiliateUrl: 'https://amzn.to/45YYtlm',
+    image:
+      'https://contents.mediadecathlon.com/m26988439/k$135f0388cd6736a3ed0ef0356e89ae06/picture.jpg',
+    imageAlt: 'Head Evo Extreme 2025 Padel-Schläger im Praxistest auf dem Court',
+    slug: 'head-evo-extreme-2025',
+    teaser:
+      'Der Evo Extreme ist die kopflastigere Testschwester des beliebten Evo Speed und gibt Einsteigern mehr Wucht bei Überkopfschlägen mit auf den Weg. Gleiches Gewicht von 350 Gramm, gleiche Tropfenform und derselbe weiche Soft-Foam-Kern, aber eine höhere Balance für mehr Tiefe im Angriff. Im Testbericht erfährst du, ob sich der Wechsel von Handling zu Power für Neueinsteiger wirklich lohnt.',
+    pros: [
+      'Sehr geringes Gewicht von 350 Gramm sorgt für ermüdungsfreies Spielen über lange Trainingseinheiten',
+      'Höhere, kopflastige Balance verleiht Überkopfschlägen und Smashes mehr Tiefe als bei neutral ausbalancierten Einsteiger-Modellen',
+      'Weicher Soft-Foam-Kern in Kombination mit der Fiberglas-Fläche dämpft Vibrationen zuverlässig und schont den ungeübten Unterarm',
+      'Großzügiger Sweet Spot dank Tropfenform verzeiht auch unsaubere Treffer gut',
+      'Sehr attraktives Preis-Leistungs-Verhältnis für ein Modell aus Heads etabliertem Einsteiger-Segment',
+    ],
+    cons: [
+      'Klar geringere Power als der Modellname vermuten lässt, in unabhängigen Tests bewegt sich der Power-Wert nur im mittleren Bereich',
+      'Glatte, komplett rough-freie Fiberfläche liefert wenig Spin-Grip im Vergleich zu Modellen mit rauer 3D-Oberfläche',
+      'Die höhere Balance macht das Handling am Netz träger als beim eng verwandten Evo Speed mit niedrigerer Balance',
+      'Explizit auf Einsteiger zugeschnitten, wird nach den ersten Saisons schnell zum limitierenden Faktor',
+    ],
+    detailRatings: [
+      { label: 'Power', value: 7.0 },
+      { label: 'Kontrolle', value: 7.8 },
+      { label: 'Handling', value: 7.5 },
+    ],
+    review: {
+      intro: [
+        'Der Evo Extreme bildet gemeinsam mit dem in unserem Vergleich bereits vertretenen Evo Speed das Einsteiger-Duo aus Heads Modelljahr 2025. Beide teilen sich Gewicht, Tropfenform und Kernmaterial, unterscheiden sich aber deutlich in einem entscheidenden Punkt: der Balance. Während der Evo Speed auf maximale Handlichkeit setzt, verschiebt der Evo Extreme den Schwerpunkt Richtung Kopf, um Einsteigern schon früh mehr Tiefe bei Angriffsschlägen zu ermöglichen.',
+        'Wir haben die verfügbaren unabhängigen Testberichte mehrerer Fachportale ausgewertet, mit besonderem Fokus darauf, ob der Wechsel zu einer höheren Balance bei einem expliziten Einsteiger-Schläger tatsächlich einen spürbaren Vorteil bringt oder das Handling zu stark beeinträchtigt.',
+      ],
+      feel: [
+        'Der weiche Soft-Foam-Kern nimmt den Ball spürbar sanft auf und gibt ihn ohne harte Vibrationen wieder ab, ein Komfort-Niveau, das in unabhängigen Tests wiederholt als klare Stärke hervorgehoben wird. Die glatte Fiberglas-Oberfläche ohne raue 3D-Struktur sorgt für einen direkten, gut vorhersehbaren Ballkontakt, wenn auch mit Einbußen beim Spin.',
+        'Am Netz macht sich die höhere Balance von 270 Millimetern bemerkbar. Schnelle Reflexvolleys benötigen etwas mehr Vorbereitungszeit als bei neutral ausbalancierten Modellen, dafür entwickeln Überkopfschläge spürbar mehr Tiefe und Durchschlagskraft, ein Kompromiss, der gezielt für angehende Angreifer gedacht ist.',
+      ],
+      powerVsControl: [
+        'Power: Trotz des Namens "Extreme" bewegt sich die tatsächliche Schlagkraft in unabhängigen Tests nur im mittleren Bereich. Der Unterschied zum Evo Speed ist spürbar, aber moderat, von einer echten Power-Waffe ist der Schläger weit entfernt.',
+        'Kontrolle: Hier liefert der Evo Extreme solide, wenn auch nicht herausragende Werte. Der großzügige Sweet Spot der Tropfenform verzeiht Fehltreffer zuverlässig, was gerade in den ersten Trainingsmonaten wichtiger ist als maximale Präzision.',
+      ],
+      verdict: [
+        'Der Head Evo Extreme 2025 ist ein solider, komfortabler Einsteiger-Schläger für alle, die von Anfang an etwas mehr Tiefe bei Überkopfschlägen suchen als der handlichere Evo Speed bietet. Das geringe Gewicht und der weiche Kern machen ihn zu einem angenehmen Begleiter für die ersten Saisons.',
+        'Wer maximale Wendigkeit am Netz priorisiert, ist mit dem eng verwandten Evo Speed besser bedient. Nach den ersten ein bis zwei Jahren werden die meisten Spieler ohnehin zu einem leistungsstärkeren Modell aus unserem Vergleich wechseln wollen.',
+      ],
+    },
+  },
 ];
 
 export function getRacketBySlug(slug: string): Racket | undefined {
