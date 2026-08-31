@@ -1175,6 +1175,62 @@ export const rackets: Racket[] = [
       ],
     },
   },
+  {
+    id: '22',
+    brand: 'Head',
+    name: 'Vibe 2025',
+    badge: 'Vielseitiger Allrounder für Einsteiger und Aufsteiger',
+    shape: 'Tropfenform',
+    weight: '350g',
+    level: 'Anfänger',
+    hardness: 'weich',
+    score: 8.0,
+    price: '85 €',
+    priceValue: 85,
+    affiliateUrl: 'https://amzn.to/46xPDuY',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjBXB6D7Ss2OqRI-UkvlEwGL5A206AvH9JRYnHlIcp4WJfF6UvvsfurQQ&s=10',
+    imageAlt: 'Head Vibe 2025 Padel-Schläger im Praxistest auf dem Court',
+    slug: 'head-vibe-2025',
+    teaser:
+      'Der Vibe ist Heads klassischer Einstiegs-Allrounder mit übergroßer Tropfenform und weicher Fiberglas-Fläche. Bei nur 350 Gramm und ausgewogener Balance verspricht er eine gute Mischung aus Kontrolle und Power, die sowohl blutigen Anfängern als auch leicht fortgeschrittenen Aufsteigern entgegenkommt. Im Testbericht erfährst du, warum dieses Modell seit Jahren zu Heads meistverkauften Einsteiger-Schlägern zählt.',
+    pros: [
+      'Sehr geringes Gewicht von 350 Gramm schont Handgelenk, Ellenbogen und Schulter über lange Trainingseinheiten',
+      'Übergroße Tropfenform mit sehr großem Sweet Spot verzeiht auch deutlich dezentrale Treffer',
+      'Weiche Fiberglas-Fläche sorgt für einen sanften, komfortablen Ballkontakt ohne harte Vibrationen',
+      'Ausgewogene, mittlere Balance macht den Schläger sowohl am Netz als auch im Aufbauspiel gut handhabbar',
+      'Attraktiver Einstiegspreis bei einer etablierten, bekannten Marke statt einer unbekannten Noname-Alternative',
+    ],
+    cons: [
+      'Fehlt spürbar Durchschlagskraft im Vergleich zu Carbon-Modellen bei intensiven Smashes',
+      'Je nach Farbvariante und Modelljahr schwanken Herstellerangaben zu Kern und Einstufung leicht, ein Blick auf die genaue Produktseite lohnt sich vor dem Kauf',
+      'Für ambitionierte Fortgeschrittene mit Fokus auf Power fehlt auf Dauer das Leistungspotenzial',
+      'Glatte Oberfläche liefert weniger Spin-Grip als Modelle mit rauer 3D-Struktur',
+    ],
+    detailRatings: [
+      { label: 'Power', value: 6.8 },
+      { label: 'Kontrolle', value: 7.6 },
+      { label: 'Handling', value: 8.1 },
+    ],
+    review: {
+      intro: [
+        'Die Vibe-Serie gehört seit Jahren zu Heads verlässlichsten Allroundern im Einsteiger- und unteren Aufsteiger-Segment. Statt auf eine einzelne Zielgruppe zu setzen, positioniert Head den Vibe bewusst breit: fehlerverzeihend genug für die ersten Trainingsstunden, aber mit genug Substanz, um auch nach den ersten Saisons noch mitzuhalten.',
+        'Wir haben die verfügbaren unabhängigen Produktdaten und Bewertungen mehrerer deutscher Fachportale ausgewertet, mit besonderem Fokus darauf, wie sich das Versprechen eines echten Allrounders in der Praxis zwischen Einsteiger- und Fortgeschrittenen-Anspruch schlägt.',
+      ],
+      feel: [
+        'Die weiche Fiberglas-Schlagfläche nimmt den Ball sanft auf und gibt ihn ohne harte Vibrationen wieder ab, ein Spielgefühl, das unabhängige Quellen wiederholt als besonders armschonend und einsteigerfreundlich hervorheben. Die übergroße Tropfenform sorgt zusätzlich für einen der größten Sweet Spots in dieser Preisklasse.',
+        'Die ausgewogene, mittlere Balance macht sich sowohl am Netz als auch beim Aufbauspiel aus der Defensive positiv bemerkbar. Der Schläger wirkt nie extrem kopflastig oder extrem grifflastig, sondern bewegt sich bewusst in der Mitte, was ihn zu einem angenehm neutralen Werkzeug macht, das keine großen Überraschungen bereithält.',
+      ],
+      powerVsControl: [
+        'Power: Hier zeigt sich die klare Grenze eines Einsteiger-Allrounders. Gegenüber Carbon-Modellen mit steiferer Fläche fehlt bei harten Smashes spürbar die letzte Durchschlagskraft.',
+        'Kontrolle: Das ist die Stärke des Vibe. Der großzügige Sweet Spot und die weiche Fläche ermöglichen ein berechenbares, gut kontrollierbares Spiel, das gerade beim Erlernen der Grundtechnik enorm hilfreich ist.',
+      ],
+      verdict: [
+        'Der Head Vibe 2025 ist ein solider, vielseitiger Allrounder, der Einsteigern einen komfortablen Zugang zum Sport ermöglicht und dabei auch für leicht fortgeschrittene Aufsteiger noch genug Substanz bietet, um nicht sofort an Grenzen zu stoßen.',
+        'Ambitionierte Spieler mit klarem Fokus auf maximale Power sollten eher zu einem der Carbon-Diamanten aus unserem Vergleich greifen. Für alle anderen, die Wert auf Komfort, Fehlertoleranz und ein bekanntes Markenprodukt zu einem fairen Preis legen, ist der Vibe eine ehrliche Empfehlung.',
+      ],
+    },
+  },
 ];
 
 export function getRacketBySlug(slug: string): Racket | undefined {
