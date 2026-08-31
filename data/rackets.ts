@@ -1062,6 +1062,63 @@ export const rackets: Racket[] = [
       ],
     },
   },
+  {
+    id: '20',
+    brand: 'Bullpadel',
+    name: 'Vertex 04 Comfort',
+    badge: 'Signature-Schläger von Martín Di Nenno',
+    shape: 'Diamant',
+    weight: '365g',
+    level: 'Fortgeschritten',
+    hardness: 'mittel',
+    score: 7.9,
+    price: '95 €',
+    priceValue: 95,
+    affiliateUrl: 'https://amzn.to/4xoKvFk',
+    image:
+      'https://contents.mediadecathlon.com/m14282944/k$4f783fa41a4427148ce9c44051fdc941/picture.jpg',
+    imageAlt: 'Bullpadel Vertex 04 Comfort Padel-Schläger im Praxistest auf dem Court',
+    slug: 'bullpadel-vertex-04-comfort',
+    teaser:
+      'Der Vertex 04 Comfort ist Martín Di Nennos Signature-Schläger und die zugänglichere Variante innerhalb der Vertex-04-Familie. Die Fibrix-HybridFiber-Fläche aus Carbon und Fiberglas nimmt der Diamantform einen Teil ihrer Härte, ohne auf die charakteristische Power der Serie zu verzichten. Im Testbericht erfährst du, für wen sich dieser Kompromiss aus Schlagkraft und Armkomfort wirklich lohnt.',
+    pros: [
+      'Fibrix-HybridFiber-Fläche aus Carbon und Fiberglas macht den Ballkontakt spielbarer als bei der harten Standard-Vertex-04',
+      'Dual-Density-MultiEva-Kern dämpft Vibrationen bei dezentralen Treffern spürbar besser als reine Wettkampfkerne',
+      'CustomWeight-System erlaubt Feinjustierung von bis zu 22 Gramm und verschiebt den Balancepunkt um bis zu 1 Zentimeter',
+      'Kräftiger, gut kontrollierbarer Spin dank rauer TOPSPIN-Oberfläche bei Vibora und Kick-Smash',
+      'Signature-Modell von Martín Di Nenno, aktuell Weltranglisten-Platz 11 im Herren-Padel',
+    ],
+    cons: [
+      'Kopflastige Balance macht Blöcke auf Hüfthöhe und schnelle Volley-Duelle spürbar träger',
+      'Kleiner, hoch angesetzter Sweet Spot bestraft dezentrale Bandeja-Treffer mit kurzem, kraftlosem Ballausgang',
+      'Bei langen Ballwechseln und Verteidigung aus dem Rückfeld verliert der Lob mit fortschreitender Spieldauer an Tiefe',
+      'In unabhängigen Tests deutlich hinter den stärksten Bullpadel-Modellen unseres Vergleichs wie Pearl 26 oder Hack 04 platziert',
+      'Nutzerbewertungen fallen gemischter aus als bei anderen Modellen der Vertex-Reihe',
+    ],
+    detailRatings: [
+      { label: 'Power', value: 8.6 },
+      { label: 'Kontrolle', value: 7.3 },
+      { label: 'Handling', value: 7.0 },
+    ],
+    review: {
+      intro: [
+        'Innerhalb der Vertex-04-Familie positioniert Bullpadel den Comfort bewusst als die zugänglichere Alternative zur reinen Wettkampfversion. Das Signature-Modell von Martín Di Nenno, aktuell Weltranglisten-Platz 11 und einer der konstantesten Spieler der Tour, soll dieselbe Power-DNA der Vertex-Reihe liefern, dabei aber weniger kompromisslos hart im Aufprall sein als der Standard-Diamant.',
+        'Wir haben die verfügbaren unabhängigen Testdaten aus mehreren Quellen mit insgesamt über 60 Einzelbewertungen ausgewertet, mit besonderem Fokus darauf, ob der Komfort-Anspruch tatsächlich spürbar wird, ohne dass die charakteristische Vertex-Power darunter leidet.',
+      ],
+      feel: [
+        'Die Fibrix-HybridFiber-Fläche kombiniert Carbon mit Fiberglas, was dem Schläger im Vergleich zur reinen Carbon-Fläche des Standard-Vertex-04 einen spürbar lebendigeren, weniger trügerisch harten Ballausgang verleiht. Der zweischichtige MultiEva-Kern mit dichterer Außen- und weicherer Innenschicht sorgt für einen knackigen Treffpunkt bei zentralen Treffern, federt dezentrale Bandeja-Kontakte aber deutlich besser ab als ein einschichtiger Wettkampfkern.',
+        'Am Netz zeigt sich klar der Charakter der Diamantform. Beim Smash by 3 konzentriert die kopflastige Balance die Masse oben im Kopf und schickt den Ball trocken und mit wenig Energieverlust auf die Reise. Bei Hüfthoch-Blöcken und schnellen Reflexvolleys kommt der Schlägerkopf dagegen spürbar später an, wenn man nicht rechtzeitig vorbereitet ist.',
+      ],
+      powerVsControl: [
+        'Power: Der Vertex 04 Comfort liefert solide bis gute Werte für einen Diamant-Schläger seiner Preisklasse. Auf flachen, gut platzierten Smäshen zeigt sich das Modell von seiner besten Seite, der Ballausgang bleibt bemerkenswert hoch für dieses Profil.',
+        'Kontrolle: Hier zeigt sich klar der Kompromisscharakter. Der kleine, hoch angesetzte Sweet Spot verzeiht dezentrale Treffer bei der Bandeja kaum, der Ball landet dann eher kurz und kraftlos. Wer sauber und zentral trifft, wird belohnt, unsaubere Treffer bestraft die Diamantform konsequent.',
+      ],
+      verdict: [
+        'Der Bullpadel Vertex 04 Comfort ist ein solider Signature-Schläger für fortgeschrittene Netzspieler, die von der harten Standard-Vertex-04 kommen und etwas mehr Armkomfort suchen, ohne auf die grundsätzliche Power-Ausrichtung der Serie zu verzichten. Das CustomWeight-System macht ihn zudem angenehm anpassbar an den eigenen Spielstil.',
+        'Im direkten Vergleich mit den stärksten Modellen unseres Testfelds wie dem Bullpadel Pearl 26 oder dem Hack 04 bleibt er aber spürbar zurück, besonders in Kontrolle und Handling. Spieler, die hauptsächlich aus der Defensive agieren oder Wert auf maximale Fehlertoleranz legen, sollten eher zu einer runden oder Tropfenform aus unserem Vergleich greifen.',
+      ],
+    },
+  },
 ];
 
 export function getRacketBySlug(slug: string): Racket | undefined {
