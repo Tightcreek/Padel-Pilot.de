@@ -1287,6 +1287,62 @@ export const rackets: Racket[] = [
       ],
     },
   },
+  {
+    id: '24',
+    brand: 'adidas',
+    name: 'Metalbone Carbon CTRL 3.3',
+    badge: 'Kontroll-Schwester des Power-Flaggschiffs',
+    shape: 'Rund',
+    weight: '360g',
+    level: 'Fortgeschritten',
+    hardness: 'weich',
+    score: 8.4,
+    price: '129 €',
+    priceValue: 129,
+    affiliateUrl: 'https://amzn.to/4x5cCZo',
+    image:
+      'https://contents.mediadecathlon.com/m14560542/k$e44e4cc9f12dafb58190c35b1e30100a/picture.jpg',
+    imageAlt: 'adidas Metalbone Carbon CTRL 3.3 Padel-Schläger im Praxistest auf dem Court',
+    slug: 'adidas-metalbone-carbon-ctrl-3-3',
+    teaser:
+      'Der Metalbone Carbon CTRL 3.3 ist die runde Kontroll-Schwester von adidas Power-Flaggschiff Metalbone. Während die Diamant-Variante auf reine Schlagkraft setzt, dreht die CTRL-Linie das Konzept um: gleiche Premium-Materialien, aber runde Form, niedrige Balance und ein weicher Kontroll-Kern. Im Testbericht erfährst du, ob adidas den Spagat zwischen Power-DNA und echter Kontrolle überzeugend hinbekommt.',
+    pros: [
+      'Sehr großer, verzeihender Sweet Spot dank runder Form, ideal für defensives Spiel und sauberes Stellungsspiel',
+      'Niedrige, grifflastige Balance ermöglicht schnelle Reaktionen und präzise Volleys am Netz',
+      '6K-Carbon-Fläche mit Spin-Blade-Finish liefert trotz Kontroll-Fokus noch ordentlichen Spin',
+      'Weight & Balance System erlaubt individuelle Feinjustierung von Gewicht und Schwerpunkt',
+      'Mit rund 353 bis 360 Gramm angenehm leicht und dadurch besonders gelenkschonend',
+    ],
+    cons: [
+      'Deutlich weniger Schlaghärte als die Diamant-Variante der Metalbone-Serie, kein Schläger für reine Power-Spieler',
+      'Für Einsteiger trotz großem Sweet Spot nicht die erste Empfehlung, da das Gesamtprofil klar auf Fortgeschrittene zugeschnitten ist',
+      'Älterer Jahrgang (2024) im Vergleich zu den neuesten CTRL-Generationen 3.4 und 3.5 im adidas-Sortiment',
+      'Das Weight & Balance System braucht etwas Eingewöhnungszeit, um die passende Konfiguration zu finden',
+    ],
+    detailRatings: [
+      { label: 'Power', value: 7.2 },
+      { label: 'Kontrolle', value: 9.1 },
+      { label: 'Handling', value: 8.6 },
+    ],
+    review: {
+      intro: [
+        'Neben dem kopflastigen Power-Diamanten, den wir bereits in unserem Vergleich führen, hat adidas mit der CTRL-Linie ein bewusstes Gegenstück innerhalb der Metalbone-Familie geschaffen. Der Metalbone Carbon CTRL 3.3 übernimmt die hochwertigen Materialien der Serie, dreht das Gesamtkonzept aber komplett um: runde Form statt Diamant, niedrige statt hoher Balance, Kontrolle statt roher Schlagkraft im Zentrum.',
+        'Wir haben die verfügbaren unabhängigen Testdaten mehrerer deutscher Fachportale ausgewertet, mit besonderem Fokus darauf, ob die Premium-Materialien der Metalbone-Serie auch in der kontrollorientierten Variante ihren Mehrwert zeigen oder ob am Ende ein gewöhnlicher Kontrollschläger mit teurem Markennamen übrig bleibt.',
+      ],
+      feel: [
+        'Die 6K-Carbon-Fläche mit Spin-Blade-Decal-Finish gibt dem Schläger ein direktes, aber nicht hartes Feedback. In Kombination mit dem EVA-Soft-Performance-Kern entsteht ein weiches, gut kontrollierbares Spielgefühl, das dezentrale Treffer erstaunlich gnädig behandelt, ein deutlicher Kontrast zur harten Diamant-Version derselben Serie.',
+        'Am Netz zeigt sich der klare Vorteil der niedrigen, grifflastigen Balance. Reflexvolleys und schnelle Handgelenksbewegungen gelingen spürbar leichter als bei kopflastigen Modellen, was den Schläger besonders für Spieler interessant macht, die ihre Punkte über Positionierung statt über rohe Kraft gewinnen.',
+      ],
+      powerVsControl: [
+        'Power: Hier zeigt sich der bewusste Kompromiss der CTRL-Linie. Gegenüber dem Diamant-Metalbone fehlt spürbar die Durchschlagskraft bei Smashes, das ist aber kein Konstruktionsfehler, sondern die klare Design-Absicht dieses Modells.',
+        'Kontrolle: Das ist die eindeutige Stärke und in praktisch allen unabhängigen Quellen der am höchsten bewertete Einzelwert. Der große Sweet Spot der runden Form verzeiht Mishits zuverlässig, was präzises, planvolles Spiel aus der Defensive ermöglicht.',
+      ],
+      verdict: [
+        'Der adidas Metalbone Carbon CTRL 3.3 ist eine überzeugende Wahl für fortgeschrittene Spieler, die von einem Einsteiger-Schläger kommen und mehr Präzision suchen, ohne dabei auf die hochwertige Materialqualität einer Premium-Marke zu verzichten. Die Kombination aus großem Sweet Spot und wendiger Balance macht ihn zu einer der solideren Kontroll-Optionen in unserem Vergleich.',
+        'Wer maximale Schlagkraft sucht, findet in der Diamant-Variante der Metalbone-Serie oder anderen Power-Modellen unseres Vergleichs die passendere Wahl. Für kontrollorientierte Aufsteiger und defensive Taktiker bleibt der CTRL 3.3 jedoch eine überzeugende, wenn auch nicht mehr ganz taufrische Empfehlung.',
+      ],
+    },
+  },
 ];
 
 export function getRacketBySlug(slug: string): Racket | undefined {
