@@ -397,6 +397,37 @@ export const posts: Post[] = [
       '<h2>Fazit: Eigenschaften zählen, nicht das Etikett</h2><p>Ein guter Padel-Schläger für Damen zeichnet sich durch geringeres Gewicht, einen großzügigen Sweet Spot und eine komfortable, meist niedrige bis mittlere Balance aus. Diese Eigenschaften machen den Einstieg leichter und schonen Handgelenk und Arm über lange Spielzeiten. Wichtiger als das Etikett "Damen" auf der Verpackung ist am Ende, dass Gewicht, Form und Balance zu deinem eigenen Spielstil und Kraftlevel passen, unabhängig davon, wie der Schläger vermarktet wird.</p>',
     ],
   },
+  {
+    slug: 'padel-indoor-vs-outdoor-unterschiede',
+    title: 'Padel Indoor vs. Outdoor: Die wichtigsten Unterschiede für dein Spiel',
+    excerpt:
+      'Wind, Ballverhalten, Belag und Taktik: Wir erklären dir, was sich zwischen Indoor- und Outdoor-Padel wirklich unterscheidet und worauf du beim Wechsel zwischen beiden Court-Typen achten solltest.',
+    category: 'Einstieg',
+    author: {
+      name: 'Redaktion Padel-Pilot',
+      role: 'Padel-Redaktion',
+      bio: 'Wir testen und erklären Padel seit 2024. Unser Ziel: kompakt, verständlich und ohne Marketing-Blabla, damit du schneller auf dem Court stehst.',
+    },
+    date: '5. September 2026',
+    readTime: '6 Min.',
+    image: 'https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/454cfd13-3650-5e01-8b58-4e2b22a2f2e0/ff65e6a8-7fa7-5800-a68d-40c87b06ce82.jpg',
+    imageAlt: 'Indoor Padel-Court mit blauem Belag und Glaswänden unter Hallendach',
+    keyTakeaways: [
+      'Indoor-Padel bietet konstante Bedingungen ohne Wind, was ein technischeres, vorhersehbareres Spiel ermöglicht',
+      'Outdoor-Padel wird stark von Wind, Sonne und Feuchtigkeit beeinflusst, was mehr taktische Anpassung erfordert',
+      'Indoor-Beläge sind meist etwas dichter gewebt und benötigen weniger Sand als Outdoor-Kunstrasen',
+      'In Deutschland sind laut aktuellen Marktdaten bereits deutlich mehr als die Hälfte aller Courts überdacht oder komplett Indoor',
+    ],
+    content: [
+      'Wer regelmäßig Padel spielt, merkt schnell: Eine Halle und ein Freiluft-Court fühlen sich nicht nur unterschiedlich an, sie verändern tatsächlich dein Spiel. Da der deutsche Padel-Markt gerade eine regelrechte Hallenbau-Welle erlebt und Indoor-Courts mittlerweile die Mehrheit der Anlagen ausmachen, lohnt sich ein genauer Blick auf die Unterschiede.',
+      '<h2>Der größte Unterschied: Wind und Wetter</h2><p>Der entscheidende Faktor beim Outdoor-Padel ist der Wind. Er kann die Flugbahn des Balls spürbar verändern, wodurch du deine Technik und Schlagwahl ständig anpassen musst. Auch Feuchtigkeit macht den Ball schwerer und verringert den Absprung, während starke Hitze das gesamte Spiel beschleunigt und die Ausdauer schneller aufzehrt.</p><p>Beim Indoor-Padel entfällt dieser Unsicherheitsfaktor komplett. Ohne Wind folgt der Ball einer deutlich vorhersehbareren Flugbahn, was ein technischeres und präziseres Spiel begünstigt. Genau deshalb bevorzugen viele ambitionierte Spieler die Halle zum gezielten Techniktraining, während Outdoor-Sessions eher die taktische Anpassungsfähigkeit schulen.</p>',
+      '<h2>Ballverhalten und Wandabpraller</h2><p>Auf Outdoor-Courts werden Wandabpraller durch Wind und wechselnde Bedingungen deutlich unvorhersehbarer. Das erfordert schnellere Reaktionen und mehr Erfahrung im Lesen des Balls. Indoor-Courts bieten dagegen konstante, gleichmäßige Abpraller von den Glaswänden, was gerade Einsteigern hilft, das Gefühl für die charakteristische Padel-Bandenspiel-Dynamik überhaupt erst zu entwickeln.</p><p>Auch die Ballgeschwindigkeit selbst unterscheidet sich: Outdoor kann sie durch Wind und Temperatur stark variieren, Indoor bleibt sie über die gesamte Session hinweg deutlich stabiler.</p>',
+      '<h2>Der Belag: Mehr Unterschiede, als man denkt</h2><p>Auch der Bodenbelag selbst unterscheidet sich technisch zwischen beiden Court-Typen. Outdoor-Kunstrasen muss UV-beständig sein und Frost, Regen und Temperaturschwankungen ohne Verbleichen oder Absterben überstehen. Dadurch wird meist mehr Sand eingefüllt, in der Regel um die 15 Kilogramm pro Quadratmeter, was den Belag griffiger, aber auch etwas höher macht.</p><p>Indoor-Beläge sind oft dichter gewebt und kommen mit weniger Sand aus, etwa 5 bis 8 Kilogramm pro Quadratmeter, da sie keinen Witterungseinflüssen ausgesetzt sind. Das macht sie in der Herstellung tendenziell teurer, dafür aber auch langlebiger, da UV-Strahlung und Frost als Verschleißfaktoren wegfallen.</p>',
+      '<h2>Taktik: Technisches Spiel vs. Anpassungsfähigkeit</h2><p>Die unterschiedlichen Bedingungen wirken sich direkt auf deinen Spielstil aus. Indoor-Padel begünstigt ein technisch anspruchsvolleres, präzisionsorientiertes Spiel, da äußere Störfaktoren wegfallen und du dich voll auf Platzierung und Timing konzentrieren kannst. Viele Spieler berichten, dass ihre Trefferquote und Konstanz in der Halle merklich höher ausfällt.</p><p>Outdoor-Padel dagegen fordert ständige taktische Anpassung. Du musst lernen, mit Wind zu spielen statt gegen ihn, Sonnenstand bei Aufschlägen zu berücksichtigen und deine Schlagauswahl an wechselnde Bedingungen anzupassen. Das macht Outdoor-Padel physisch und mental variabler, aber auch fordernder für Einsteiger.</p>',
+      '<h2>Was bedeutet das für deine Ausrüstung?</h2><p>Auf Indoor-Courts, wo kein Wind stört, funktionieren präzisionsorientierte Schläger mit Fokus auf Kontrolle besonders gut, da du die stabilen Bedingungen optimal ausnutzen kannst. Mehr dazu, welche Schlägerform sich für welchen Spielstil eignet, erfährst du in unserem Ratgeber zu <a href="/ratgeber/padel-schlaegerformen-vergleich-diamant-tropfen-rund">Schlägerformen im Vergleich</a>.</p><p>Bei Outdoor-Sessions lohnt sich zudem ein Blick auf die klimatischen Bedingungen: Bei hoher Luftfeuchtigkeit oder starkem Schwitzen wird ein guter Grip am Griff noch wichtiger, unsere Tipps dazu findest du im Ratgeber zu <a href="/ratgeber/padel-overgrip-griffstaerke-anpassen-guide">Overgrip und Griffstärke</a>.</p>',
+      '<h2>Fazit: Beide Varianten ergänzen sich</h2><p>Weder Indoor- noch Outdoor-Padel ist grundsätzlich "besser", beide bringen unterschiedliche Anforderungen und Vorteile mit sich. Indoor-Courts eignen sich hervorragend zum gezielten Techniktraining und für wetterunabhängiges Spielen das ganze Jahr über. Outdoor-Courts bieten dagegen ein natürlicheres Spielerlebnis und schulen deine Anpassungsfähigkeit unter wechselnden Bedingungen. Wer beide Varianten regelmäßig spielt, profitiert am meisten: Die Halle schärft deine Technik, der Freiluft-Court hält dich taktisch flexibel.</p>',
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
