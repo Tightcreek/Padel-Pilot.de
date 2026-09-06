@@ -475,7 +475,7 @@ export const posts: Post[] = [
     },
     date: '6. September 2026',
     readTime: '5 Min.',
-    image: 'https://images.pexels.com/photos/18883859/pexels-photo-18883859.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    image: 'https://imgur.com/geJ5FxD',
     imageAlt: 'Head Gravity Pro und Babolat Technical Viper Padelschläger im direkten Vergleich',
     keyTakeaways: [
       'Der Head Gravity Pro ist der klare Kontrollschläger: rund, grifflastig, riesiger Sweet Spot, ideal für Taktiker und Grundlinienspieler',
