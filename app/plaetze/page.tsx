@@ -45,11 +45,11 @@ export default function PlaetzePage() {
                 <Link
                   key={city.id}
                   href={`/plaetze/${city.slug}`}
-                  className="group relative flex flex-col overflow-hidden rounded-2xl border border-border bg-card transition-all duration-300 hover:-translate-y-1 hover:border-neon-500/60 hover:shadow-xl hover:shadow-neon-500/10"
+                  className="group relative flex flex-col overflow-hidden rounded-2xl border border-border bg-gradient-to-b from-neon/[0.06] via-card to-card transition-all duration-300 hover:-translate-y-1 hover:border-neon-500/60 hover:from-neon/[0.1] hover:shadow-xl hover:shadow-neon-500/10"
                 >
                   {/* Farbiger Kopfbereich */}
-                  <div className="relative overflow-hidden bg-gradient-to-br from-neon/15 via-neon/5 to-transparent p-6 pb-5">
-                    <div className="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-neon/10 blur-2xl transition-all duration-300 group-hover:bg-neon/20" />
+                  <div className="relative overflow-hidden bg-gradient-to-br from-neon/25 via-neon/8 to-transparent p-6 pb-5 transition-all duration-300 group-hover:from-neon/35">
+                    <div className="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-neon/15 blur-2xl transition-all duration-300 group-hover:bg-neon/25" />
 
                     <div className="relative flex items-start justify-between">
                       <div className="flex items-center gap-2.5">
@@ -72,7 +72,7 @@ export default function PlaetzePage() {
                   </div>
 
                   {/* Court-Statistik */}
-                  <div className="flex flex-1 flex-col justify-between p-6 pt-5">
+                  <div className="relative flex flex-1 flex-col justify-between p-6 pt-5">
                     <div className="flex items-baseline gap-2">
                       <span className="font-display text-4xl font-bold tracking-tight">
                         {stats.total}
