@@ -14,6 +14,29 @@ export function generateStaticParams() {
   return posts.map((p) => ({ slug: p.slug }));
 }
 
+const GERMAN_MONTHS: Record<string, string> = {
+  januar: '01',
+  februar: '02',
+  märz: '03',
+  april: '04',
+  mai: '05',
+  juni: '06',
+  juli: '07',
+  august: '08',
+  september: '09',
+  oktober: '10',
+  november: '11',
+  dezember: '12',
+};
+
+function toIsoDate(germanDate: string): string {
+  const match = germanDate.match(/(\d{1,2})\.\s*(\w+)\s*(\d{4})/);
+  if (!match) return germanDate;
+  const [, day, monthName, year] = match;
+  const month = GERMAN_MONTHS[monthName.toLowerCase()] ?? '01';
+  return `${year}-${month}-${day.padStart(2, '0')}`;
+}
+
 export async function generateMetadata({
   params,
 }: {
@@ -34,7 +57,7 @@ export async function generateMetadata({
       type: 'article',
       locale: 'de_DE',
       authors: [post.author.name],
-      publishedTime: post.date,
+      publishedTime: toIsoDate(post.date),
     },
     twitter: {
       card: 'summary_large_image',
@@ -48,22 +71,25 @@ export async function generateMetadata({
 }
 
 function buildArticleJsonLd(post: NonNullable<ReturnType<typeof getPostBySlug>>) {
+  const isoDate = toIsoDate(post.date);
   return {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: post.title,
     description: post.excerpt,
     image: post.image,
-    datePublished: post.date,
-    dateModified: post.date,
+    datePublished: isoDate,
+    dateModified: isoDate,
     author: {
-      '@type': 'Person',
+      '@type': 'Organization',
       name: post.author.name,
       description: post.author.bio,
+      url: 'https://www.padel-pilot.de',
     },
     publisher: {
       '@type': 'Organization',
       name: 'Padel-Pilot.de',
+      url: 'https://www.padel-pilot.de',
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
