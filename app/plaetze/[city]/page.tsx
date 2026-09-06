@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { MapPin, Building2, Sun, ExternalLink, ArrowRight } from 'lucide-react';
+import { MapPin, Building2, Sun, ExternalLink, ArrowRight, Award } from 'lucide-react';
 import { Header } from '@/components/header';
 import { Footer } from '@/components/footer';
 import {
@@ -34,15 +34,6 @@ export function generateMetadata({ params }: CityPageProps): Metadata {
       canonical: `https://www.padel-pilot.de/plaetze/${city.slug}`,
     },
   };
-}
-
-function formatCourtLine(venue: PadelVenue) {
-  const parts: string[] = [];
-  if (venue.courts.total !== null) parts.push(`${venue.courts.total} Courts gesamt`);
-  if (venue.courts.indoor !== null) parts.push(`${venue.courts.indoor} Indoor`);
-  if (venue.courts.outdoor !== null) parts.push(`${venue.courts.outdoor} Outdoor`);
-  if (venue.courts.singleCourts) parts.push(`${venue.courts.singleCourts} Single-Court`);
-  return parts.join(' · ') || 'Court-Anzahl unbekannt';
 }
 
 function formatAmenities(venue: PadelVenue) {
@@ -242,72 +233,117 @@ export default function CityPage({ params }: CityPageProps) {
             Sortiert nach Court-Kapazität, Ausstattung und Datenaktualität.
           </p>
 
-          <ol className="mt-6 space-y-5">
+          <ol className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {top5.map((venue, index) => {
               const amenities = formatAmenities(venue);
 
               return (
-                <li
-                  key={venue.id}
-                  className="rounded-xl border border-border bg-card p-6"
-                >
-                  <div className="flex flex-wrap items-start justify-between gap-3">
-                    <h3 className="font-display text-xl font-bold tracking-tight">
-                      <Link
-                        href={`/plaetze/${city!.slug}/${venue.slug}`}
-                        className="hover:text-neon-600 dark:hover:text-neon-400"
-                      >
-                        {index + 1}. {venue.name}
-                      </Link>
-                    </h3>
-                    <span className="rounded-full bg-secondary px-3 py-1 text-xs font-medium text-muted-foreground">
-                      {venue.address.district ?? venue.address.city}
-                    </span>
-                  </div>
+                <li key={venue.id} className="list-none">
+                  <Link
+                    href={`/plaetze/${city!.slug}/${venue.slug}`}
+                    className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-border bg-gradient-to-b from-neon/[0.06] via-card to-card transition-all duration-300 hover:-translate-y-1 hover:border-neon-500/60 hover:from-neon/[0.1] hover:shadow-xl hover:shadow-neon-500/10"
+                  >
+                    {/* Gradient-Kopfbereich mit Rang-Badge */}
+                    <div className="relative overflow-hidden bg-gradient-to-br from-neon/25 via-neon/8 to-transparent p-6 pb-5 transition-all duration-300 group-hover:from-neon/35">
+                      <div className="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-neon/15 blur-2xl transition-all duration-300 group-hover:bg-neon/25" />
 
-                  <ul className="mt-3 space-y-1.5 text-sm text-muted-foreground">
-                    <li>
-                      <strong className="text-foreground">Adresse:</strong> {venue.address.street},{' '}
-                      {venue.address.postalCode} {venue.address.city}
-                    </li>
-                    <li>
-                      <strong className="text-foreground">Courts:</strong> {formatCourtLine(venue)}
-                    </li>
-                    <li>
-                      <strong className="text-foreground">Preise:</strong> {formatPrice(venue)}
-                    </li>
-                    {amenities.length > 0 && (
-                      <li>
-                        <strong className="text-foreground">Ausstattung:</strong>{' '}
-                        {amenities.join(', ')}
-                      </li>
-                    )}
-                  </ul>
+                      <div className="relative flex items-start justify-between gap-3">
+                        <div className="flex items-start gap-2.5">
+                          <span className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-xl bg-neon text-sm font-bold text-neon-foreground shadow-sm">
+                            {index === 0 ? <Award className="h-4.5 w-4.5" /> : index + 1}
+                          </span>
+                          <div>
+                            <h3 className="font-display text-lg font-bold leading-tight tracking-tight">
+                              {venue.name}
+                            </h3>
+                            <p className="mt-0.5 text-xs text-muted-foreground">
+                              {venue.address.district ?? venue.address.city}
+                            </p>
+                          </div>
+                        </div>
 
-                  {venue.editorial.shortDescription && (
-                    <p className="mt-3 text-sm text-muted-foreground">
-                      {venue.editorial.shortDescription}
-                    </p>
-                  )}
+                        <ArrowRight className="mt-1.5 h-4 w-4 flex-shrink-0 text-muted-foreground transition-all duration-300 group-hover:translate-x-1 group-hover:text-neon-600 dark:group-hover:text-neon-400" />
+                      </div>
+                    </div>
 
-                  <div className="mt-4 flex flex-wrap gap-3">
-                    <Link
-                      href={`/plaetze/${city!.slug}/${venue.slug}`}
-                      className="inline-flex items-center gap-1 text-sm font-medium text-neon-600 hover:underline dark:text-neon-400"
-                    >
-                      Details ansehen <ArrowRight className="h-3.5 w-3.5" />
-                    </Link>
-                    {venue.bookingUrl && (
-                      <a
-                        href={venue.bookingUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1 text-sm font-medium text-muted-foreground hover:text-foreground"
-                      >
-                        Buchen <ExternalLink className="h-3.5 w-3.5" />
-                      </a>
-                    )}
-                  </div>
+                    {/* Content */}
+                    <div className="relative flex flex-1 flex-col justify-between p-6 pt-5">
+                      <div>
+                        <div className="flex items-baseline gap-2">
+                          <span className="font-display text-3xl font-bold tracking-tight">
+                            {venue.courts.total ?? '–'}
+                          </span>
+                          <span className="text-sm font-medium text-muted-foreground">Courts</span>
+                        </div>
+
+                        <div className="mt-3 flex flex-wrap gap-2">
+                          {(venue.courts.indoor ?? 0) > 0 && (
+                            <span className="inline-flex items-center gap-1.5 rounded-full bg-secondary px-3 py-1 text-xs font-medium text-muted-foreground">
+                              <Building2 className="h-3 w-3" />
+                              {venue.courts.indoor} Indoor
+                            </span>
+                          )}
+                          {(venue.courts.outdoor ?? 0) > 0 && (
+                            <span className="inline-flex items-center gap-1.5 rounded-full bg-secondary px-3 py-1 text-xs font-medium text-muted-foreground">
+                              <Sun className="h-3 w-3" />
+                              {venue.courts.outdoor} Outdoor
+                            </span>
+                          )}
+                          {venue.courts.singleCourts && (
+                            <span className="inline-flex items-center gap-1.5 rounded-full bg-secondary px-3 py-1 text-xs font-medium text-muted-foreground">
+                              {venue.courts.singleCourts} Single
+                            </span>
+                          )}
+                        </div>
+
+                        <p className="mt-3 text-sm text-muted-foreground">{formatPrice(venue)}</p>
+
+                        {amenities.length > 0 && (
+                          <div className="mt-3 flex flex-wrap gap-1.5">
+                            {amenities.slice(0, 4).map((label) => (
+                              <span
+                                key={label}
+                                className="rounded-md bg-secondary/70 px-2 py-0.5 text-[11px] font-medium text-muted-foreground"
+                              >
+                                {label}
+                              </span>
+                            ))}
+                            {amenities.length > 4 && (
+                              <span className="rounded-md bg-secondary/70 px-2 py-0.5 text-[11px] font-medium text-muted-foreground">
+                                +{amenities.length - 4}
+                              </span>
+                            )}
+                          </div>
+                        )}
+
+                        {venue.editorial.shortDescription && (
+                          <p className="mt-3 text-xs leading-relaxed text-muted-foreground">
+                            {venue.editorial.shortDescription}
+                          </p>
+                        )}
+                      </div>
+
+                      <div className="mt-5 flex items-center justify-between gap-3 border-t border-border pt-4">
+                        <span className="inline-flex items-center gap-1 text-xs font-semibold text-neon-600 opacity-0 transition-opacity duration-300 group-hover:opacity-100 dark:text-neon-400">
+                          Details ansehen <ArrowRight className="h-3 w-3" />
+                        </span>
+
+                        {venue.bookingUrl && (
+                          <span
+                            role="link"
+                            onClick={(event) => {
+                              event.preventDefault();
+                              event.stopPropagation();
+                              window.open(venue.bookingUrl!, '_blank', 'noopener,noreferrer');
+                            }}
+                            className="inline-flex items-center gap-1.5 rounded-lg bg-neon px-3.5 py-1.5 text-xs font-semibold text-neon-foreground transition-transform hover:scale-[1.03]"
+                          >
+                            Buchen <ExternalLink className="h-3 w-3" />
+                          </span>
+                        )}
+                      </div>
+                    </div>
+                  </Link>
                 </li>
               );
             })}
