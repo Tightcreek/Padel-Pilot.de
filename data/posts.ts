@@ -493,6 +493,38 @@ export const posts: Post[] = [
       '<h2>Fazit: Keine Frage der Qualität, sondern des Spielstils</h2><p>Beide Schläger erreichen in unserem Test nahezu identische Gesamtnoten (9,3 zu 9,2 von 10) und kosten mit 159 beziehungsweise 139 Euro ähnlich viel. Die Entscheidung zwischen ihnen ist damit fast ausschließlich eine Frage des eigenen Spielstils, nicht der objektiven Qualität. Wer sich zwischen Kontrolle und Power noch nicht sicher ist, findet einen ausführlicheren Überblick über alle drei Kopfformen in unserem Ratgeber zu <a href="/ratgeber/padel-schlaegerformen-vergleich-diamant-tropfen-rund">Padel-Schlägerformen im Vergleich</a>.</p>',
     ],
   },
+  {
+    slug: 'babolat-counter-origin-vs-nox-x-one',
+    title: 'Babolat Counter Origin vs. Nox X-One: Welcher Einsteiger-Schläger ist besser?',
+    recommendedRacketIds: ['7', '14'],
+    excerpt:
+      'Die zwei meistgesuchten Einsteiger-Schläger 2026 im direkten Vergleich: Wir stellen den Babolat Counter Origin gegen den Nox X-One und zeigen dir, welcher für deinen Padel-Start die bessere Wahl ist.',
+    category: 'Vergleich',
+    author: {
+      name: 'Redaktion Padel-Pilot',
+      role: 'Padel-Redaktion',
+      bio: 'Wir testen und erklären Padel seit 2024. Unser Ziel: kompakt, verständlich und ohne Marketing-Blabla, damit du schneller auf dem Court stehst.',
+    },
+    date: '6. September 2026',
+    readTime: '5 Min.',
+    image: 'https://i.imgur.com/xacOWU1.jpeg',
+    imageAlt: 'Babolat Counter Origin und Nox X-One Padelschläger im direkten Vergleich für Einsteiger',
+    keyTakeaways: [
+      'Beide Schläger sind runde Einsteiger-Modelle mit großem Sweet Spot und richten sich klar an Anfänger',
+      'Der Nox X-One erzielt in fast allen Kategorien minimal höhere Werte und die bessere Gesamtnote (8,4 statt 8,3)',
+      'Der Babolat Counter Origin ist mit 355 Gramm leichter und rund 10 Euro teurer als der X-One',
+      'Für die meisten Einsteiger ist der Unterschied in der Praxis kaum spürbar, beide sind eine sichere Wahl',
+    ],
+    content: [
+      'Der Babolat Counter Origin und der Nox X-One sind die zwei meistgesuchten Einsteiger-Schläger in unserem gesamten Vergleich, und das aus gutem Grund: Beide verfolgen dieselbe Philosophie von maximaler Fehlertoleranz zu einem fairen Preis. Die Tabelle zeigt dir die Unterschiede auf einen Blick, im Anschluss ordnen wir sie für deine Kaufentscheidung ein.',
+      '<h2>Kurzvergleich: Alle Kennzahlen auf einen Blick</h2><table><thead><tr><th>Kriterium</th><th>Babolat Counter Origin</th><th>Nox X-One</th></tr></thead><tbody><tr><td>Kopfform</td><td>Rund</td><td>Rund</td></tr><tr><td>Gewicht</td><td>355 g</td><td>365 g</td></tr><tr><td>Balance</td><td>Grifflastig, ausgewogen</td><td>Ausgewogen</td></tr><tr><td>Sweet Spot</td><td>Riesig, zentral</td><td>Riesig, zentral</td></tr><tr><td>Power (0-10)</td><td>5,6</td><td>6,2</td></tr><tr><td>Kontrolle (0-10)</td><td>8,8</td><td>8,9</td></tr><tr><td>Handling (0-10)</td><td>9,0</td><td>9,1</td></tr><tr><td>Spielniveau</td><td>Anfänger</td><td>Anfänger</td></tr><tr><td>Preis</td><td>ca. 99 €</td><td>ca. 89 €</td></tr><tr><td>Testnote</td><td>8,3 / 10</td><td>8,4 / 10</td></tr><tr><td>Ideal für</td><td>Einsteiger, die besonders leichtes Gewicht priorisieren</td><td>Einsteiger, die ein kleines Plus an Power wollen</td></tr></tbody></table>',
+      '<h2>Gewicht: Der Counter Origin mit dem Leichtbau-Vorteil</h2><p>Mit 355 Gramm ist der Babolat Counter Origin der leichtere der beiden Schläger und liegt 10 Gramm unter dem Nox X-One. Für Einsteiger, die noch keine trainierte Schlagtechnik mitbringen, kann dieser Unterschied das Handling in den ersten Trainingsstunden spürbar erleichtern und die Ermüdung über eine längere Session reduzieren.</p>',
+      '<h2>Power und Kontrolle: Der X-One mit einem kleinen Vorsprung</h2><p>In den Detailbewertungen liegt der Nox X-One in allen drei Kategorien knapp vorne: 6,2 statt 5,6 bei der Power, 8,9 statt 8,8 bei der Kontrolle und 9,1 statt 9,0 beim Handling. Die Unterschiede sind allerdings so gering, dass sie für die allermeisten Einsteiger in der Praxis kaum wahrnehmbar sind. Beide Schläger teilen sich zudem dieselbe Kernstärke: einen großzügigen, verzeihenden Sweet Spot, der auch unsaubere Treffer noch kontrolliert ins Feld bringt.</p>',
+      '<h2>Preis: Der X-One als günstigere Option</h2><p>Mit rund 89 Euro ist der Nox X-One etwa 10 Euro günstiger als der Babolat Counter Origin. Zusammen mit den minimal besseren Testwerten macht ihn das für preissensible Einsteiger zur naheliegenderen Wahl, auch wenn der Unterschied insgesamt gering ausfällt.</p>',
+      '<h2>Für wen eignet sich welcher Schläger?</h2><p>Der Babolat Counter Origin ist die richtige Wahl, wenn dir ein möglichst geringes Gewicht wichtig ist, etwa weil du noch wenig Armkraft hast oder besonders lange Trainingseinheiten planst. Der Hybridrahmen aus Carbon und Glasfaser dämpft dabei Vibrationen zuverlässig, was ihn zusätzlich zu einer komfortablen, armschonenden Wahl macht.</p><p>Der Nox X-One eignet sich für Einsteiger, die von Anfang an ein kleines Plus an Schlagkraft mitnehmen wollen, ohne dabei auf die Fehlertoleranz eines Einsteiger-Schlägers zu verzichten. Die durchgängig positiven Kundenbewertungen bei mehreren Händlern bestätigen zudem, dass er in der Praxis hält, was die Testwerte versprechen.</p>',
+      '<h2>Fazit: Zwei fast gleichwertige Einsteiger-Schläger</h2><p>Mit 8,3 zu 8,4 von 10 liegen beide Schläger so dicht beieinander, dass die Entscheidung am Ende von Nebenkriterien wie Gewicht oder Preis abhängt, nicht von einem klaren Qualitätsunterschied. Für einen vollständigen Überblick über die passende Ausrüstung zum Padel-Start lohnt sich zusätzlich ein Blick in unseren Ratgeber zu <a href="/ratgeber/padel-ausruestung-einsteiger-komplett-set">Padel-Ausrüstung für Einsteiger</a>.</p>',
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
