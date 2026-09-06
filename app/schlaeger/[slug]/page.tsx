@@ -69,25 +69,20 @@ function buildJsonLd(racket: ReturnType<typeof getRacketBySlug> extends infer T 
       '@type': 'Brand',
       name: racket.brand,
     },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: racket.score,
-      bestRating: 10,
-      ratingCount: 47,
-      reviewCount: 1,
-    },
     review: {
       '@type': 'Review',
       reviewBody: racket.review.verdict.join(' '),
       author: {
         '@type': 'Organization',
         name: 'Padel-Pilot.de',
+        url: 'https://www.padel-pilot.de',
       },
       publisher: {
         '@type': 'Organization',
         name: 'Padel-Pilot.de',
+        url: 'https://www.padel-pilot.de',
       },
-      datePublished: '2026-01-15',
+      datePublished: '2026-08-28',
       reviewRating: {
         '@type': 'Rating',
         ratingValue: racket.score,
@@ -100,6 +95,7 @@ function buildJsonLd(racket: ReturnType<typeof getRacketBySlug> extends infer T 
       price: racket.priceValue,
       priceCurrency: 'EUR',
       availability: 'https://schema.org/InStock',
+      url: racket.affiliateUrl,
     },
   };
 }
