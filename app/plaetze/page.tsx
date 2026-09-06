@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { MapPin, Building2, Sun, ArrowRight } from 'lucide-react';
+import { Building2, Sun, ArrowRight } from 'lucide-react';
 import { Header } from '@/components/header';
 import { Footer } from '@/components/footer';
+import { PlaceSearch } from '@/components/place-search';
 import { atlasCities, getCityCourtStats, getKnownStartingPrices } from '@/data/places';
 
 export const metadata: Metadata = {
@@ -15,40 +16,18 @@ export const metadata: Metadata = {
 };
 
 export default function PlaetzePage() {
-  const totalVenues = atlasCities.reduce((sum, city) => sum + city.venues.length, 0);
-  const totalCourts = atlasCities.reduce((sum, city) => {
-    const stats = getCityCourtStats(city.venues);
-    return sum + stats.total;
-  }, 0);
-
   return (
     <>
       <Header />
       <main className="mx-auto max-w-7xl container-px py-12 lg:py-16">
-        <header className="max-w-3xl">
-          <p className="mb-3 inline-flex items-center gap-1.5 rounded-full bg-neon/10 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-neon-600 dark:text-neon-400">
-            <MapPin className="h-3.5 w-3.5" />
-            Padel-Court-Atlas
-          </p>
+        <PlaceSearch />
 
-          <h1 className="font-display text-3xl font-bold tracking-tight sm:text-4xl">
-            Padel-Courts finden
-          </h1>
-
-          <p className="mt-4 text-lg text-muted-foreground">
-            Wir haben aktuell <strong className="text-foreground">{totalVenues} Padel-Anlagen</strong> mit
-            zusammen <strong className="text-foreground">{totalCourts} Courts</strong> im DACH-Raum
-            recherchiert und verifiziert. Wähle deine Stadt, um Adressen, Preise, Ausstattung und
-            Buchungslinks zu sehen.
-          </p>
-        </header>
-
-        <section className="mt-10" aria-labelledby="cities-heading">
-          <h2 id="cities-heading" className="sr-only">
-            Verfügbare Städte
+        <section className="mt-14" aria-labelledby="cities-heading">
+          <h2 id="cities-heading" className="font-display text-2xl font-bold tracking-tight">
+            Alle Städte im Überblick
           </h2>
 
-          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {atlasCities.map((city) => {
               const stats = getCityCourtStats(city.venues);
               const prices = getKnownStartingPrices(city.venues);
