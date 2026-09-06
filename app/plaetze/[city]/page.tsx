@@ -239,10 +239,13 @@ export default function CityPage({ params }: CityPageProps) {
 
               return (
                 <li key={venue.id} className="list-none">
-                  <Link
-                    href={`/plaetze/${city!.slug}/${venue.slug}`}
-                    className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-border bg-gradient-to-b from-neon/[0.06] via-card to-card transition-all duration-300 hover:-translate-y-1 hover:border-neon-500/60 hover:from-neon/[0.1] hover:shadow-xl hover:shadow-neon-500/10"
-                  >
+                  <div className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-border bg-gradient-to-b from-neon/[0.06] via-card to-card transition-all duration-300 hover:-translate-y-1 hover:border-neon-500/60 hover:from-neon/[0.1] hover:shadow-xl hover:shadow-neon-500/10">
+                    <Link
+                      href={`/plaetze/${city!.slug}/${venue.slug}`}
+                      className="absolute inset-0 z-0"
+                      aria-label={`Details zu ${venue.name} ansehen`}
+                    />
+
                     {/* Gradient-Kopfbereich mit Rang-Badge */}
                     <div className="relative overflow-hidden bg-gradient-to-br from-neon/25 via-neon/8 to-transparent p-6 pb-5 transition-all duration-300 group-hover:from-neon/35">
                       <div className="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-neon/15 blur-2xl transition-all duration-300 group-hover:bg-neon/25" />
@@ -262,7 +265,7 @@ export default function CityPage({ params }: CityPageProps) {
                           </div>
                         </div>
 
-                        <ArrowRight className="mt-1.5 h-4 w-4 flex-shrink-0 text-muted-foreground transition-all duration-300 group-hover:translate-x-1 group-hover:text-neon-600 dark:group-hover:text-neon-400" />
+                        <ArrowRight className="pointer-events-none relative z-10 mt-1.5 h-4 w-4 flex-shrink-0 text-muted-foreground transition-all duration-300 group-hover:translate-x-1 group-hover:text-neon-600 dark:group-hover:text-neon-400" />
                       </div>
                     </div>
 
@@ -324,26 +327,23 @@ export default function CityPage({ params }: CityPageProps) {
                       </div>
 
                       <div className="mt-5 flex items-center justify-between gap-3 border-t border-border pt-4">
-                        <span className="inline-flex items-center gap-1 text-xs font-semibold text-neon-600 opacity-0 transition-opacity duration-300 group-hover:opacity-100 dark:text-neon-400">
+                        <span className="pointer-events-none inline-flex items-center gap-1 text-xs font-semibold text-neon-600 opacity-0 transition-opacity duration-300 group-hover:opacity-100 dark:text-neon-400">
                           Details ansehen <ArrowRight className="h-3 w-3" />
                         </span>
 
                         {venue.bookingUrl && (
-                          <span
-                            role="link"
-                            onClick={(event) => {
-                              event.preventDefault();
-                              event.stopPropagation();
-                              window.open(venue.bookingUrl!, '_blank', 'noopener,noreferrer');
-                            }}
-                            className="inline-flex items-center gap-1.5 rounded-lg bg-neon px-3.5 py-1.5 text-xs font-semibold text-neon-foreground transition-transform hover:scale-[1.03]"
+                          <a
+                            href={venue.bookingUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="relative z-10 inline-flex items-center gap-1.5 rounded-lg bg-neon px-3.5 py-1.5 text-xs font-semibold text-neon-foreground transition-transform hover:scale-[1.03]"
                           >
                             Buchen <ExternalLink className="h-3 w-3" />
-                          </span>
+                          </a>
                         )}
                       </div>
                     </div>
-                  </Link>
+                  </div>
                 </li>
               );
             })}
