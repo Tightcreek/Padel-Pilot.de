@@ -6,7 +6,7 @@ export function Footer() {
   return (
     <footer className="bg-background">
       <div className="mx-auto max-w-7xl container-px py-12">
-        <div className="grid grid-cols-2 gap-8 md:grid-cols-5">
+        <div className="grid grid-cols-2 gap-8 md:grid-cols-6">
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2.5">
               <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-neon text-neon-foreground">
@@ -29,6 +29,16 @@ export function Footer() {
               <li><Link href="/bestenliste" className="text-muted-foreground hover:text-foreground">Bestenliste</Link></li>
               <li><Link href="/kaufberatung" className="text-muted-foreground hover:text-foreground">Kaufberatung</Link></li>
               <li><Link href="/ratgeber" className="text-muted-foreground hover:text-foreground">Ratgeber</Link></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+              Plätze
+            </h3>
+            <ul className="mt-3 space-y-2 text-sm">
+              <li><Link href="/plaetze" className="text-muted-foreground hover:text-foreground">Alle Städte</Link></li>
+              <li><Link href="/plaetze/muenchen" className="text-muted-foreground hover:text-foreground">München</Link></li>
             </ul>
           </div>
 
