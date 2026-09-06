@@ -11,6 +11,7 @@ const navLinks = [
   { label: 'Bälle-Tests', href: '/baelle' },
   { label: 'Kaufberatung', href: '/kaufberatung' },
   { label: 'Ratgeber', href: '/ratgeber' },
+  { label: 'Plätze', href: '/plaetze' },
 ];
 
 export function Header() {
