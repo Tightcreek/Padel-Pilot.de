@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Compass } from 'lucide-react';
 import { bestlists } from '@/data/bestlists';
+import { atlasCities } from '@/data/places';
 
 export function Footer() {
   return (
@@ -38,7 +39,16 @@ export function Footer() {
             </h3>
             <ul className="mt-3 space-y-2 text-sm">
               <li><Link href="/plaetze" className="text-muted-foreground hover:text-foreground">Alle Städte</Link></li>
-              <li><Link href="/plaetze/muenchen" className="text-muted-foreground hover:text-foreground">München</Link></li>
+              {atlasCities.map((city) => (
+                <li key={city.id}>
+                  <Link
+                    href={`/plaetze/${city.slug}`}
+                    className="text-muted-foreground hover:text-foreground"
+                  >
+                    {city.name}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
