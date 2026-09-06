@@ -1343,6 +1343,60 @@ export const rackets: Racket[] = [
       ],
     },
   },
+  {
+    id: '25',
+    brand: 'Royal Padel',
+    name: 'M27 Poly 2026',
+    badge: 'Armschonendster Kontrollschläger',
+    shape: 'Rund',
+    weight: '365-380g',
+    level: 'Fortgeschritten',
+    hardness: 'weich',
+    score: 9.1,
+    price: '262 €',
+    priceValue: 262,
+    affiliateUrl: 'https://amzn.to/4697etc',
+    image: 'https://contents.mediadecathlon.com/m37786489/k$235f26f346b6591870222a15d1217c53/picture.jpg',
+    imageAlt: 'Royal Padel M27 Poly 2026 Padel-Schläger auf dem Court',
+    slug: 'royal-padel-m27-poly-2026',
+    teaser:
+      'Der M27 Poly 2026 ist Royal Padels Antwort auf die Frage, wie viel Komfort ein Kontrollschläger bieten kann, ohne an Präzision zu verlieren. Die Kombination aus rundem Kopf, weichem Polyethylen-Kern und dediziertem Shock-Absorption-System macht ihn zu einem der aktuell armschonendsten Modelle für Spieler mit empfindlichem Ellenbogen.',
+    pros: [
+      'Shock-Absorption-System filtert Vibrationen gezielt heraus, bevor sie den Ellenbogen erreichen',
+      'Riesiger, zentrierter Sweet Spot dank runder Kopfform verzeiht auch unsaubere Treffer zuverlässig',
+      'Weicher Polyethylen-Kern gibt Bällen ein federndes, aber kontrolliertes Feedback ohne harte Stöße im Arm',
+      'Kopfleichte bis neutrale Balance macht den Schläger am Netz auffällig wendig und reaktionsschnell',
+      'Volles 3K-Carbon-Geflecht sorgt trotz weichem Kern für hohe Stabilität und Langlebigkeit',
+    ],
+    cons: [
+      'Bei reinen Smashes und flachen Angriffsbällen fehlt gegenüber kopflastigen Power-Schlägern spürbar Wumms',
+      'Sehr weiches Touch-Gefühl kann bei aggressiven Netzvolleys weniger Durchschlagskraft vermitteln',
+      'Mit Straßenpreisen um 262 Euro kein Einsteigerschläger im klassischen Sinn',
+    ],
+    detailRatings: [
+      { label: 'Power', value: 7.4 },
+      { label: 'Kontrolle', value: 9.6 },
+      { label: 'Handling', value: 8.9 },
+    ],
+    review: {
+      intro: [
+        'Royal Padel positioniert den M27 Poly seit Jahren als Kontroll-Flaggschiff der Marke, und die 2026er-Auflage geht beim Thema Armschonung noch einen Schritt weiter. Runde Kopfform, ein spürbar weicher Polyethylen-Kern und ein eigenständiges Shock-Absorption-System richten sich gezielt an Spieler, die lange Ballwechsel lieben, aber Rücksicht auf Ellenbogen und Handgelenk nehmen müssen.',
+        'Wir haben die verfügbaren unabhängigen Testdaten mehrerer internationaler Fachportale ausgewertet, mit besonderem Fokus darauf, ob das Shock-Absorption-System auch in der Praxis einen spürbaren Unterschied zu klassischen Kontrollschlägern macht oder ob am Ende nur ein weiterer Marketing-Begriff für einen ohnehin weichen Kern übrig bleibt.',
+      ],
+      feel: [
+        'Schon beim ersten Ballkontakt fällt die außergewöhnlich weiche, aber dennoch kontrollierte Rückmeldung auf. Der Polyethylen-Kern lässt den Ball minimal länger auf der Schlagfläche verweilen, was Vibrationen spürbar abfängt, bevor sie in den Unterarm wandern. Das verbaute Shock-Absorption-System setzt genau hier an und filtert speziell die hochfrequenten Stoßwellen heraus, die bei Off-Center-Treffern und langen Verteidigungsduellen entstehen.',
+        'Am Netz überrascht der Schläger mit erfreulicher Wendigkeit. Die kopfleichte bis neutrale Balance sorgt dafür, dass sich der Kopf schnell schließen lässt, ohne dass man dafür viel Kraft aus dem Handgelenk holen muss. Für Spieler mit Tennisarm-Vorbelastung oder generell empfindlichen Sehnenansätzen gehört der M27 Poly 2026 damit zu den komfortabelsten Modellen, die wir aktuell kennen.',
+      ],
+      powerVsControl: [
+        'Power: Hier zeigt sich der bewusste Kompromiss. Mit einem Power-Wert von rund 7,4 von 10 punktet der M27 Poly klar nicht als Schmetterwaffe. Wer auf reine Wucht bei Smashes setzt, muss selbst deutlich mehr Schwung und Körpereinsatz investieren, da der weiche Kern und die kopfleichte Balance keinen zusätzlichen Hebel liefern.',
+        'Kontrolle: Die eigentliche Domäne des Schlägers. Mit Bestwerten nahe 9,6 von 10 gehört die Kontrolle zur absoluten Spitzenklasse seiner Kategorie. Lobs, Chiquitas und platzierte Bandejas lassen sich dank des riesigen, zentrierten Sweet Spots außergewöhnlich fein dosieren, selbst bei nicht perfekt getroffenen Bällen bleibt die Richtung erstaunlich verlässlich.',
+      ],
+      verdict: [
+        'Der Royal Padel M27 Poly 2026 ist einer der derzeit überzeugendsten Kontrollschläger für Spieler, die Wert auf Armschonung legen, ohne auf Präzision zu verzichten. Das dedizierte Shock-Absorption-System und der weiche Polyethylen-Kern machen ihn zu einer der besten Optionen für alle mit Tennisarm-Historie oder empfindlichen Gelenken.',
+        'Wer dagegen primär über harte Smashes und flache Angriffsschläge punktet, findet in kopflastigeren Diamant-Modellen mehr rohe Schlagkraft. Für taktische Grundlinienspieler und Doppelpartner, die lange Ballwechsel und präzises Platzieren lieben, gehört der M27 Poly 2026 aber zu den derzeit rundesten Gesamtpaketen auf dem Markt.',
+      ],
+    },
+  },
 ];
 
 export function getRacketBySlug(slug: string): Racket | undefined {
