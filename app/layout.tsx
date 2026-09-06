@@ -39,6 +39,25 @@ export const metadata: Metadata = {
   },
 };
 
+const organizationJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Padel-Pilot.de',
+  alternateName: 'Padel Pilot',
+  url: 'https://www.padel-pilot.de',
+  logo: 'https://www.padel-pilot.de/icon.svg',
+  description:
+    'Unabhängige Padel-Schläger-Tests, Kaufberatung und Ratgeber. Wir vergleichen Form, Gewicht, Balance und Preis-Leistung der besten Modelle 2026.',
+  foundingDate: '2024',
+  knowsAbout: [
+    'Padel-Schläger',
+    'Padel-Bälle',
+    'Padel-Ausrüstung',
+    'Padel-Regeln',
+    'Padel-Turniere',
+  ],
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -46,6 +65,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="de" suppressHydrationWarning>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
+      </head>
       <body
         className={`${inter.variable} ${spaceGrotesk.variable} font-sans`}
       >
