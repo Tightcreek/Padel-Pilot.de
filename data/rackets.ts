@@ -1397,6 +1397,60 @@ export const rackets: Racket[] = [
       ],
     },
   },
+  {
+    id: '26',
+    brand: 'Siux',
+    name: 'Diablo Go 4',
+    badge: 'Preis-Leistungs-Sieger 2026',
+    shape: 'Tropfenform',
+    weight: '355-375g',
+    level: 'Fortgeschritten',
+    hardness: 'mittel',
+    score: 8.6,
+    price: '85 €',
+    priceValue: 85,
+    affiliateUrl: 'https://amzn.to/4qWtGPP',
+    image: 'https://contents.mediadecathlon.com/m23971720/k$fda5123870ff9327cbb9f7aa68a07d38/picture.jpg',
+    imageAlt: 'Siux Diablo Go 4 Padel-Schläger im Praxistest auf dem Court',
+    slug: 'siux-diablo-go-4',
+    teaser:
+      'Der Diablo Go 4 ist Siux' + String.fromCharCode(39) + ' Antwort auf die Frage, wie viel Schläger man für unter 100 Euro bekommen kann. Die hybride Tropfenform mit mittlerer Balance und aluminisierter 3K-Carbon-Fläche liefert einen großzügigen Sweet Spot und ausgewogenes Spielgefühl, ganz ohne die Premium-Preisschilder der Konkurrenz. Mehrere unabhängige Tests küren ihn zum Preis-Leistungs-Sieger seiner Klasse.',
+    pros: [
+      'Herausragendes Preis-Leistungs-Verhältnis, in mehreren unabhängigen Tests als Preis-Leistungs-Sieger 2026 ausgezeichnet',
+      'Großzügiger, verzeihender Sweet Spot dank hybrider Tropfenform mit mittlerer Balance',
+      'Aluminisierte 3K-Carbon-Fläche (3K Alumesh) mit sandgestrahltem Finish für ordentlichen Spin',
+      'Ausgewogener EVA-Kern mittlerer Dichte dämpft Vibrationen spürbar gut',
+      'Vielseitig einsetzbar für den Übergang von Einsteiger- zu Fortgeschrittenen-Niveau',
+    ],
+    cons: [
+      'Reicht bei reinen Power-Schlägen nicht an spezialisierte Diamant-Modelle der Premium-Klasse heran',
+      'Gewichtsangaben schwanken je nach Quelle spürbar (355 bis 375 Gramm), Fertigungstoleranz beachten',
+      'Für Spieler mit bereits sehr fortgeschrittener Technik fehlt im direkten Vergleich zu Premium-Tropfenformen etwas Finesse',
+    ],
+    detailRatings: [
+      { label: 'Power', value: 7.0 },
+      { label: 'Kontrolle', value: 8.6 },
+      { label: 'Handling', value: 8.5 },
+    ],
+    review: {
+      intro: [
+        'Nicht jeder gute Schläger muss über 150 Euro kosten. Mit dem Diablo Go 4 zeigt Siux, dass eine durchdachte Materialwahl auch im günstigeren Preissegment für ein rundes Gesamtpaket sorgen kann. Die hybride Tropfenform mit mittlerer Balance positioniert das Modell klar zwischen reinen Einsteiger-Rundköpfen und den kopflastigeren Power-Diamanten der Oberklasse.',
+        'Wir haben mehrere unabhängige deutsche und internationale Testquellen ausgewertet, die den Diablo Go 4 unisono als eines der stärksten Preis-Leistungs-Modelle des Jahres einstufen, mit Bestwertungen von bis zu 95 Prozent bei gleichzeitig sehr moderatem Straßenpreis.',
+      ],
+      feel: [
+        'Die aluminisierte 3K-Alumesh-Fläche gibt dem Ball ein direktes, aber nicht hartes Feedback. Die sandgestrahlte Oberfläche greift beim Slice und Topspin ordentlich, ohne dabei so aggressiv zu wirken wie die rauen 3D-Texturen mancher Premium-Diamanten. Der EVA-Kern mittlerer Dichte fängt harte Bälle komfortabel ab und macht den Schläger auch über lange Trainingseinheiten angenehm spielbar.',
+        'Am Netz profitiert der Diablo Go 4 von seinem moderaten Gewicht zwischen 355 und 375 Gramm und der mittleren Balance. Volleys lassen sich zügig ausrichten, ohne dass sich der Kopf schwer anfühlt, ein Vorteil gerade für Spieler, die noch am Übergang von der Grundlinie ans Netz arbeiten.',
+      ],
+      powerVsControl: [
+        'Power: Hier bewegt sich der Diablo Go 4 im soliden Mittelfeld. Für einen kompromisslosen Schmetterball fehlt im Vergleich zu spezialisierten Power-Diamanten spürbar der letzte Punch, was aber angesichts der Preisklasse kein Kritikpunkt ist.',
+        'Kontrolle: Das ist die klare Stärke des Schlägers. Der großzügige Sweet Spot der hybriden Tropfenform verzeiht auch dezentrale Treffer zuverlässig, was gerade beim Aufbauspiel von der Grundlinie und bei platzierten Lobs zum Tragen kommt.',
+      ],
+      verdict: [
+        'Der Siux Diablo Go 4 ist der Beweis, dass ein rundes, ausgewogenes Spielgefühl nicht zwingend einen dreistelligen Preis voraussetzt. Für Aufsteiger, die von einem reinen Einsteiger-Rundkopf kommen und mehr Vielseitigkeit suchen, ohne gleich in ein Premium-Modell zu investieren, gehört er zu den überzeugendsten Optionen unter 100 Euro.',
+        'Wer bereits eine gefestigte Technik hat und gezielt maximale Schlagkraft sucht, findet in unserem Vergleich mit kopflastigeren Diamant-Modellen die passendere Wahl. Für alle anderen bleibt der Diablo Go 4 einer der besten Preis-Leistungs-Tipps unseres gesamten Testfelds.',
+      ],
+    },
+  },
 ];
 
 export function getRacketBySlug(slug: string): Racket | undefined {
