@@ -247,7 +247,7 @@ export default function CityPage({ params }: CityPageProps) {
                     />
 
                     {/* Gradient-Kopfbereich mit Rang-Badge */}
-                    <div className="relative overflow-hidden bg-gradient-to-br from-neon/25 via-neon/8 to-transparent p-6 pb-5 transition-all duration-300 group-hover:from-neon/35">
+                    <div className="pointer-events-none relative overflow-hidden bg-gradient-to-br from-neon/25 via-neon/8 to-transparent p-6 pb-5 transition-all duration-300 group-hover:from-neon/35">
                       <div className="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-neon/15 blur-2xl transition-all duration-300 group-hover:bg-neon/25" />
 
                       <div className="relative flex items-start justify-between gap-3">
@@ -270,7 +270,7 @@ export default function CityPage({ params }: CityPageProps) {
                     </div>
 
                     {/* Content */}
-                    <div className="relative flex flex-1 flex-col justify-between p-6 pt-5">
+                    <div className="pointer-events-none relative flex flex-1 flex-col justify-between p-6 pt-5">
                       <div>
                         <div className="flex items-baseline gap-2">
                           <span className="font-display text-3xl font-bold tracking-tight">
@@ -336,7 +336,7 @@ export default function CityPage({ params }: CityPageProps) {
                             href={venue.bookingUrl}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="relative z-10 inline-flex items-center gap-1.5 rounded-lg bg-neon px-3.5 py-1.5 text-xs font-semibold text-neon-foreground transition-transform hover:scale-[1.03]"
+                            className="pointer-events-auto relative z-10 inline-flex items-center gap-1.5 rounded-lg bg-neon px-3.5 py-1.5 text-xs font-semibold text-neon-foreground transition-transform hover:scale-[1.03]"
                           >
                             Buchen <ExternalLink className="h-3 w-3" />
                           </a>
